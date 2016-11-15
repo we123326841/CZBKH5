@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+
+    function gongyueshu(a) {
+        var amount = 0;
+        for (var i =1; i <=a;i++){
+            if(a%i == 0){
+                amount++
+            }
+        }
+
+        return amount;
+    }
+
+
+    function  iszishu(a) {
+        if (gongyueshu(a) == 2){
+            return true
+        }else {
+            return false;
+        }
+
+    }
+
+
+    alert(iszishu(5));
+</script>
+</body>
+</html>

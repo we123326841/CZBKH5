@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var hao = parseInt(prompt("请问您加几号汽油呢"));
+    var sheng = parseInt(prompt("请问您要加多少升呢"));
+    var price;
+    if (hao == 92){
+        if(sheng > 20){
+            price = sheng*5.9;
+        }else{
+            price = sheng*6;
+        }
+    }else if(hao == 97){
+        if (sheng > 30){
+            price = sheng*6.95;
+        }else{
+            price = sheng*7;
+        }
+    }else {
+        alert("都他妈选的不对");
+    }
+
+    alert("价格是"+price)
+</script>
+</body>
+</html>

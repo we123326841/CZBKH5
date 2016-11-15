@@ -35,13 +35,23 @@
             top: 50px;
         }
 
+        .div22{
+            height: 40px;
+            width: 40px;
+            background-color: #5dfcff;
+        }
     </style>
 </head>
 <body>
 <div class="div1"></div>
-<div class="div2"></div>
+<div class="div2"><div class="div22"></div></div>
 <div class="div3"></div>
 <input class="txt" type="text" />
 <input class="btn" type="button" value="按钮列"/>
+<script>
+    var arr = [1,2,3,4,5];
+    arr.del(arr[1]);
+    console.log(arr);
+</script>
 </body>
 </html>
