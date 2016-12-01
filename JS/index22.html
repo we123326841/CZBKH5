@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #box{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<button id="btn">gaibian</button>
+<img src="../images/bg.png" id="imgyo">
+<script type="text/javascript">
+     var box = document.getElementById("box");
+
+    var btn = document.getElementById("btn");
+     var imayo = document.getElementById("imgyo");
+    btn.onclick = function () {
+        box.style.height = "1000px";
+    }
+    
+    imayo.onmouseover = function () {
+        this.src = "../images/satisfie.png";
+    }
+
+    imayo.onmouseout = function () {
+        this.src = "../images/bg.png";
+    }
+</script>
+</body>
+</html>

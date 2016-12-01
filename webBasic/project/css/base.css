@@ -51,118 +51,174 @@ s,i,em{font-style:normal;text-decoration:none;}
     display:none
 }
 
+
 /*头部导航开始*/
-.shortcut {
+
+.shortcut{
     height: 30px;
     line-height: 30px;
-    background-color: #f1f1f1;
+    background: #f1f1f1;
 }
-.dt,
-.shortcut .fore
-{
-    padding:0 20px 0 10px;
-    position: relative;
-}
-.dt i,
-.fore i
-{
-    font: 400 15px/15px "宋体";
-    position: absolute;
-    top:13px;
-    right:3px;
-    height: 7px;
-    overflow: hidden;
-    width: 15px;
-}
-.dt s,
-.fore s{
-    position: absolute;
-    top: -8px;
-    left: 0;
-}
-.fr li {
+
+.leftcut{
     float: left;
-    padding: 0 10px;
+
 }
-.fr .line {
+
+.rightcut{
+    float: right;
+}
+
+
+.rightcut ul li{
+    float: left;
+    padding: 0px 10px;
+}
+
+.rightcut ul .line{
     width: 1px;
     height: 12px;
     background-color: #ddd;
     margin-top: 9px;
-    padding:0;
+    padding: 0px;
 }
-.shortcut .tel-jd{
-    padding:0 20px 0 25px;
+
+.shortcut .leftcut .td{
+    padding: 0 25px 0 10px;
+    position: relative;
+    line-height: 30px;
+    height: 30px;
 }
-.tel{
+
+.td i{
+    font: 400 15px/15px "宋体"; /*字体大小/行高*/
     position: absolute;
+    /*top: 7px;*/
+    top: 13px;
+    right: 3px;
+    height: 7px;
     width: 15px;
-    height: 20px;
-    background: url(../images/sprite.png) no-repeat;
-    left: 5px;
-    top:5px;
+    overflow: hidden;
 }
-/*顶部end*/
-/*topbanner start*/
-.topbanner {
-    background-color: #8A25C6;
-}
-.close-banner {
+
+
+.td i s{
     position: absolute;
-    right:0;
-    top:5px;
-    width: 19px;
-    height: 19px;
-    background: url(../images/close.png) no-repeat;
+    left: 0;
+    top: -8px;
 }
-.close-banner:hover {
-    background-position:bottom;
-}
-.tp{
-    position: relative;
-}
+/*头部导航开始*/
+/*.shortcut {*/
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    /*background-color: #f1f1f1;*/
+/*}*/
+/*.dt,*/
+/*.shortcut .fore*/
+/*{*/
+    /*padding:0 20px 0 10px;*/
+    /*position: relative;*/
+/*}*/
+/*.dt i,*/
+/*.fore i*/
+/*{*/
+    /*font: 400 15px/15px "宋体";*/
+    /*position: absolute;*/
+    /*top:13px;*/
+    /*right:3px;*/
+    /*height: 7px;*/
+    /*overflow: hidden;*/
+    /*width: 15px;*/
+/*}*/
+/*.dt s,*/
+/*.fore s{*/
+    /*position: absolute;*/
+    /*top: -8px;*/
+    /*left: 0;*/
+/*}*/
+/*.fr li {*/
+    /*float: left;*/
+    /*padding: 0 10px;*/
+/*}*/
+/*.fr .line {*/
+    /*width: 1px;*/
+    /*height: 12px;*/
+    /*background-color: #ddd;*/
+    /*margin-top: 9px;*/
+    /*padding:0;*/
+/*}*/
+/*.shortcut .tel-jd{*/
+    /*padding:0 20px 0 25px;*/
+/*}*/
+/*.tel{*/
+    /*position: absolute;*/
+    /*width: 15px;*/
+    /*height: 20px;*/
+    /*background: url(../images/sprite.png) no-repeat;*/
+    /*left: 5px;*/
+    /*top:5px;*/
+/*}*/
+/*!*顶部end*!*/
+/*!*topbanner start*!*/
+/*.topbanner {*/
+    /*background-color: #8A25C6;*/
+/*}*/
+/*.close-banner {*/
+    /*position: absolute;*/
+    /*right:0;*/
+    /*top:5px;*/
+    /*width: 19px;*/
+    /*height: 19px;*/
+    /*background: url(../images/close.png) no-repeat;*/
+/*}*/
+/*.close-banner:hover {*/
+    /*background-position:bottom;*/
+/*}*/
+/*.tp{*/
+    /*position: relative;*/
+/*}*/
 
-/*topbanner end*/
+/*!*topbanner end*!*/
 
-.logo {
-    width: 360px;
-    height: 75px;
-    background-color: pink;
-    float:left;
-    padding-top: 25px;
-    background: url(../images/logo.png) no-repeat 0 25px;
-    position: relative;
-}
-.jd-a{
-    display: block;
-    width: 270px;
-    height: 60px;
-    text-indent:-2000em;
-}
-.db11 {
-    position: absolute;
-    width: 180px;
-    height: 80px;
-    background-color: pink;
-    top: 10px;
-    left: 168px;
-}
+/*.logo {*/
+    /*width: 360px;*/
+    /*height: 75px;*/
+    /*background-color: pink;*/
+    /*float:left;*/
+    /*padding-top: 25px;*/
+    /*background: url(../images/logo.png) no-repeat 0 25px;*/
+    /*position: relative;*/
+/*}*/
+/*.jd-a{*/
+    /*display: block;*/
+    /*width: 270px;*/
+    /*height: 60px;*/
+    /*text-indent:-2000em;*/
+/*}*/
+/*.db11 {*/
+    /*position: absolute;*/
+    /*width: 180px;*/
+    /*height: 80px;*/
+    /*background-color: pink;*/
+    /*top: 10px;*/
+    /*left: 168px;*/
+/*}*/
 
 
-.search {
-    width: 538px;
-    height: 75px;
-    background-color: purple;
-    float: left;
-    padding-top: 25px;
-}
-.car {
-    width: 139px;
-    height: 34px;
-    background-color: blue;
-    float: right;
-    margin:25px 65px 0 0 ;
-}
+/*.search {*/
+    /*width: 538px;*/
+    /*height: 75px;*/
+    /*background-color: purple;*/
+    /*float: left;*/
+    /*padding-top: 25px;*/
+/*}*/
+/*.car {*/
+    /*width: 139px;*/
+    /*height: 34px;*/
+    /*background-color: blue;*/
+    /*float: right;*/
+    /*margin:25px 65px 0 0 ;*/
+/*}*/
 
 
 

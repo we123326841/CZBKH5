@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浩哥写的京东</title>
+    <link rel="stylesheet" href="jdbase.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="../favicon.ico">
+    <script>
+        window.onload= function () {
+            var jd_delete = document.getElementById("jd-delete");
+            var banner_jd = document.getElementById("banner-jd");
+            jd_delete.onclick = function () {
+                banner_jd.style.display = "none";
+            }
+
+            var mask = document.getElementById("mask");
+            var chacha = document.getElementById("chacha");
+            var login = document.getElementById("login");
+            var please = document.getElementById("please-login");
+
+            please.onclick = function () {
+                mask.style.display = "block";
+                login.style.display = "block";
+
+            }
+
+            chacha.onclick = function () {
+                mask.style.display = "none";
+                login.style.display = 'none';
+            }
+
+
+
+
+
+        }
+    </script>
+</head>
+<body>
+<div id="mask" class="mask-all"></div>
+<div id="login" class="login-all"><span id="chacha">×</span></div>
+<div class="curshot">
+    <div class="center-inner">
+        <div class="leftshot">
+            <div class="lleft">送至: 北京<i><s>◇</s></i></div>
+        </div>
+        <div class="rightshot">
+
+            <ul class="first-ul">
+                <li><a href="javascript:;" id="please-login">你好,请登录</a> <a href="#" class="col-red">免费注册</a></li>
+                <li class="line"></li>
+                <li>我的订单</li>
+                <li class="line"></li>
+                <li class="jt">我的京东<i><s>◇</s></i></li>
+                <li class="line"></li>
+                <li>京东会员</li>
+                <li class="line"></li>
+                <li>企业采购</li>
+                <li class="line"></li>
+                <li class="jt li-tel">
+                    <div class="tel"></div>
+                    手机京东<i><s>◇</s></i></li>
+                <li class="line"></li>
+                <li class="jt">关注京东<i><s>◇</s></i></li>
+                <li class="line"></li>
+                <li class="jt">客户服务<i><s>◇</s></i></li>
+                <li class="line"></li>
+                <li class="jt">网站导航<i><s>◇</s></i></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<div class="banner" id="banner-jd">
+    <div class="rl center-inner">
+        <img src="project/images/topbanner.jpg">
+        <a href="javascript:;" class="banner-a" id="jd-delete"></a>
+    </div>
+</div>
+
+
+
+<div class="center-inner clearfix">
+    <div class="anima-icon">
+        <a href="http://www.jd.com" class="dlla" title="咚咚" target="_blank">京东</a>
+        <div class="db11">
+            <a href="#"><img src="project/images/dong.gif" alt=""></a>
+        </div>
+    </div>
+
+    <div class="search">
+        <input type="text" class="text-input" value="Justin 帅">
+        <button class="button-type">搜索</button>
+    </div>
+    <div class="cat">俺的购物车
+        <span class="icon1"></span>
+        <span class="icon2">></span>
+        <span class="icon3">8</span>
+    </div>
+    <div class="hotword">
+        <a href="#" class="col-red">11月11天</a>
+        <a href="#">11.11秒杀</a>
+        <a href="#">买2免1</a>
+        <a href="#">Note5 黑</a>
+        <a href="#">12期免息</a>
+        <a href="#">智能科技</a>
+        <a href="#">清仓</a>
+        <a href="#">国际服饰</a>
+        <a href="#">优惠券</a>
+
+
+    </div>
+
+</div>
+
+<div class="jd-nav">
+    <div class="center-inner">
+        <div class="dropdown">
+            <div class="dt"><a  href="#">全部商品分类</a></div>
+            <div class="dd">
+                <div class="item"><h1>家用电器</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+                <div class="item"><h1>手机、数码、京东通信</h1><span>></span></div>
+            </div>
+        </div>
+        <div class="navitems">
+            <ul>
+                <li><a href="#">服装城</a></li>
+                <li><a href="#">美妆馆</a></li>
+                <li><a href="#">超市</a></li>
+                <li><a href="#">全球购</a></li>
+                <li><a href="#">闪购</a></li>
+                <li class="new"><a href="#">团购</a></li>
+                <li><a href="#">拍卖</a></li>
+                <li><a href="#">金融</a></li>
+                <li><a href="#">智能</a></li>
+            </ul>
+        </div>
+        <div class="bike"><a href="#"></a></div>
+    </div>
+</div>
+
+<div class="banner604">
+    <a href="#"></a>
+</div>
+
+<div class="main center-inner clearfix">
+    <div class="slider">
+        <a HREF="#"><img src="project/images/slider1.jpg"></a>
+        <ul class="slider-circle">
+            <li class="circle">1</li>
+            <li class="circle">2</li>
+            <li class="circle">3</li>
+            <li class="circle current">4</li>
+            <li class="circle">5</li>
+            <li class="circle">6</li>
+        </ul>
+        <div class="arrow">
+           <a href="javascript:;"><</a>
+            <a href="javascript:;" class="a-right">></a>
+        </div>
+    </div>
+    <div class="news">
+        <div class="news-top">
+            <div class="dt">
+                <h1>京东快报</h1>
+                <a href="#">更多 ></a>
+            </div>
+            <div class="dd">
+                <ul>
+                    <li><a href="#">[特惠]1元秒杀</a></li>
+                    <li><a href="#">[公告]母婴类APP[京东宝宝]上线</a></li>
+                    <li><a href="#">[特惠]美的品牌日 App嗨购大放"价"!</a></li>
+                    <li><a href="#">[公告]京东深入蒙牛生产基地进行质检</a></li>
+                    <li><a href="#">[特惠]白条购家电24期免息!</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="news-bottow">
+            <div class="dt"> <h1>京东快报</h1></div>
+            <div class="dd">
+                <ul>
+                    <li><a href="#"><i></i><span>话费</span></a></li>
+                    <li><a href="#"><i class="second-i"></i><span>话费</span></a></li>
+                    <li><a href="#"><i></i><span>话费</span></a></li>
+                    <li><a href="#"><i></i><span>话费</span></a></li>
+                    <li><a href="#"><i></i><span>话费</span></a></li>
+                    <li><a href="#"><i></i><span>话费</span></a></li>
+                    <li><a href="#"><i></i><span>话费</span></a></li>
+                    <li><a href="#"><i></i><span>话费</span></a></li>
+                    <li><a href="#"><i></i><span>话费</span></a></li>
+                    <li><a href="#"><i></i><span>话费</span></a></li>
+                    <li><a href="#"><i></i><span>话费</span></a></li>
+                    <li><a href="#"><i></i><span>话费</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--活动 night-->
+<div class="night center-inner clearfix">
+    <div class="night-left">
+        <img src="project/images/night.jpg">
+    </div>
+    <div class="night-right">
+        <ul>
+            <li><img src="project/images/1.jpg" alt=""></li>
+            <li><img src="project/images/2.jpg" alt=""></li>
+            <li><img src="project/images/3.jpg" alt=""></li>
+            <li><img src="project/images/4.jpg" alt=""></li>
+        </ul>
+    </div>
+</div>
+
+
+<!--底部-->
+<div class="jd-footer">
+    <div class="service clearfix">
+        <div class="slogen">
+            <span class="slogen0 slogen1"><img src="project/images/slogen1.png" alt=""></span>
+            <span class="slogen0 slogen2"><img src="project/images/slogen2.png" alt=""></span>
+            <span class="slogen0 slogen3"><img src="project/images/slogen3.png" alt=""></span>
+            <span class="slogen0 slogen4"><img src="project/images/slogen4.png" alt=""></span>
+        </div>
+        <!--<div class="center-inner"></div>-->
+        <div class="center-inner shopping">
+            <dl>
+                <dt>购物指南</dt>
+                <dd><a href="#">购物流程</a></dd>
+                <dd><a href="#">会员介绍</a></dd>
+                <dd><a href="#">生活旅行/团购</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+                <dd><a href="#">大家电</a></dd>
+                <dd><a href="#">联系客服</a></dd>
+            </dl>
+            <dl>
+                <dt>购物指南</dt>
+                <dd><a href="#">购物流程</a></dd>
+                <dd><a href="#">会员介绍</a></dd>
+                <dd><a href="#">生活旅行/团购</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+                <dd><a href="#">大家电</a></dd>
+                <dd><a href="#">联系客服</a></dd>
+            </dl>
+            <dl>
+                <dt>购物指南</dt>
+                <dd><a href="#">购物流程</a></dd>
+                <dd><a href="#">会员介绍</a></dd>
+                <dd><a href="#">生活旅行/团购</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+                <dd><a href="#">大家电</a></dd>
+                <dd><a href="#">联系客服</a></dd>
+            </dl>
+            <dl>
+                <dt>购物指南</dt>
+                <dd><a href="#">购物流程</a></dd>
+                <dd><a href="#">会员介绍</a></dd>
+                <dd><a href="#">生活旅行/团购</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+                <dd><a href="#">大家电</a></dd>
+                <dd><a href="#">联系客服</a></dd>
+            </dl>
+            <dl>
+                <dt>购物指南</dt>
+                <dd><a href="#">购物流程</a></dd>
+                <dd><a href="#">会员介绍</a></dd>
+                <dd><a href="#">生活旅行/团购</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+                <dd><a href="#">大家电</a></dd>
+                <dd><a href="#">联系客服</a></dd>
+            </dl>
+
+            <div class="converge">
+                <div class="dt">京东自营覆盖区县</div>
+                <div class="dd"><p>京东已向全国2357个区县提供自营配送服务,支持货到付款、POS机刷卡和售后上门服务</p>
+                    <p class="p2"><a href="#">查看详情</a></p></div>
+            </div>
+        </div>
+    </div>
+    <div class="center-inner wagain">
+        <div class="links">
+            <a>关于我们</a>|<a>联系我们</a>|<a>商家入驻</a>|<a>营销中心</a>|<a>手机京东</a>|<a>友情链接</a>|<a>销售联盟</a>|<a>京东社区</a>|<a>京东公益</a>|<a>English site</a>|<a>Contact us</a>
+        </div>
+        <div class="copyright">
+            北京市公安局朝阳分局备案编号110105014669  |  京ICP证070359号  |  互联网药品信息服务资格证编号(京)-经营性-2014-0008  |  新出发京零 字第大120007号<br />
+            音像制品经营许可证苏宿批005号  |  出版物经营许可证编号新出发(苏)批字第N-012号  |  互联网出版许可证编号新出网证(京)字150号<br />
+            网络文化经营许可证京网文[2014]2148-348号  违法和不良信息举报电话：4006561155  Copyright © 2004-2015  京东JD.com 版权所有<br />
+            京东旗下网站：360TOP  拍拍网  网银在线
+        </div>
+        <div class="message">
+            <a href="#"><img src="project/images/mess.png" alt=""></a><a href="#"><img src="project/images/mess2.png" alt=""></a><a href="#"><img
+                src="project/images/mess3.png" alt=""></a><a
+                href="#"><img src="project/images/mess4.png" alt=""></a><a href="#"><img src="project/images/mess5.png" alt=""></a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

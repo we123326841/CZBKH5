@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: url("../images/1.jpg") no-repeat;
+            background-image: url("../images/2.jpg");
+
+        }
+
+        div{
+            background-color: rgba(255,255,255,.3);
+            height: 150px;
+            text-align: center;
+            padding-top: 50px;
+            /*line-height: 200px;*/
+        }
+
+        img{
+            cursor: pointer;
+            width: 150px;
+        }
+
+
+    </style>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            console.log("pp");
+                var img1 = document.getElementById("img1");
+                var img2 = document.getElementById("img2");
+                var img3 = document.getElementById("img3");
+                img1.onclick = function () {
+                    document.body.style.background = "url(\"../images/1.jpg\")";
+                }
+            img2.onclick = function () {
+                document.body.style.background = "url(\"../images/2.jpg\")";
+            }
+            img3.onclick = function () {
+                document.body.style.background = "url(\"../images/3.jpg\")";
+            }
+        }
+    </script>
+</head>
+<body>
+<div><img src="../images/1.jpg" alt="" id="img1"><img src="../images/2.jpg" alt="" id="img2"><img src="../images/3.jpg" alt="" id="img3"></div>
+<script>
+    console.log("jj");
+</script>
+</body>
+</html>

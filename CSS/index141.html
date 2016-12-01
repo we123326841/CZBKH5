@@ -8,38 +8,35 @@
             margin: 0px;
             padding: 0px;
         }
-
         li{
-            margin-right: 2px;
             float: left;
-            height: 20px;
+            display: block;
+            height: 30px;
             width: 100px;
-            background-color: #ff53d4;
-            text-align: center;
+            background-color: #1b78f6;
+            margin-right: 10px;
         }
 
-
-        .div1{
-            overflow: hidden;
-            margin-bottom: 10px;
-            _zoom: 1;
+        .clearfix:before,.clearfix:after {
+            content:"";
+            display:table;
+        }
+        .clearfix:after{clear:both;}
+        .clearfix{
+            *zoom:1;/*IE/7/6*/
         }
     </style>
 </head>
 <body>
-
-
-<div class="div1">
-    <ul>
+<div>
+    <ul class="clearfix">
         <li>1</li>
         <li>2</li>
         <li>3</li>
         <li>4</li>
     </ul>
 </div>
-
-
-<div class="div2">
+<div>
     <ul>
         <li>5</li>
         <li>6</li>
