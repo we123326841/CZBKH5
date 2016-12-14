@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: #8A25C6;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+
+
+            function getclass(className,id) {
+
+            if (document.getElementsByClassName){
+                if (id){
+                    var ids = document.getElementById(id);
+                    return ids.getElementsByClassName("demo");
+                }else {
+                    return document.getElementsByClassName("demo");
+                }
+
+
+
+            }
+//            alert(document.getElementsByClassName("demo").length);
+                var arr = [];
+                var eles;
+                if(id){
+                    var idss = document.getElementById(id);
+                  eles  = idss.getElementsByTagName("*");
+                }else {
+                    eles = document.getElementsByTagName("*");
+                }
+
+                alert(eles.length);
+                for (var i = 0 ; i<eles.length;i++){
+                    var les = eles[i].className.split(" ");
+                    for(var j = 0 ; j < les.length ; j++ ){
+
+                        if(les[j] == className){
+                            arr.push(eles[i]);
+                        }
+                    }
+
+//                    if(eles[i].className == className){
+//                        arr.push(eles[i]);
+//                    }
+                }
+
+                return arr;
+            }
+
+
+             var demos = getclass("demo","ji");
+
+            for(var i = 0 ; i< demos.length ; i++){
+                demos[i].style.backgroundColor = "red";
+            }
+
+//             var ll = document.getElementsByTagName("div");
+//            ll[0].innerHTML = s;
+
+        }
+    </script>
+</head>
+<body>
+<div></div>
+<div></div>
+<div class="demo"></div>
+<div></div>
+<div></div>
+<div class="demo"></div>
+<div></div>
+<div class="demo"></div>
+<div></div>
+<div class="test demo"></div>
+<div id="ji">
+    <div></div>
+    <div></div>
+    <div class="demo"></div>
+    <div></div>
+    <div></div>
+    <div class="demo"></div>
+    <div></div>
+    <div class="demo"></div>
+    <div></div>
+    <div class="test demo"></div>
+</div>
+</body>
+</html>

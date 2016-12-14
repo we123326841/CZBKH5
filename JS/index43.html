@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        window.onload = function () {
+
+
+            var btns = document.getElementsByTagName("button");
+
+            btns[0].onclick = function () {
+              all(true);
+            }
+
+//            btns[1].onclick = function () {
+//               all(false);
+//            }
+
+            btns[1].onclick = all;
+
+            btns[2].onclick = function () {
+               all();
+            }
+
+        }
+
+
+        function all(flag) {
+            console.log(arguments.length);
+            console.log(flag);
+            var checkes = document.getElementById("ulid").getElementsByTagName("input");
+            for (var i = 0; i < checkes.length; i++) {
+                typeof (flag) == "undefined" ? (checkes[i].checked = !checkes[i].checked) : (checkes[i].checked = flag);
+
+            }
+        }
+
+
+
+
+
+    </script>
+</head>
+<body>
+<div class="top">
+    <button>全选</button>
+    <button>全不选</button>
+    <button>反选</button>
+</div>
+<div class="bottow">
+    <ul id="ulid">
+        <li>内容:<input type="checkbox"></li>
+        <li>内容:<input type="checkbox"></li>
+        <li>内容:<input type="checkbox"></li>
+        <li>内容:<input type="checkbox"></li>
+        <li>内容:<input type="checkbox"></li>
+        <li>内容:<input type="checkbox"></li>
+        <li>内容:<input type="checkbox"></li>
+        <li>内容:<input type="checkbox"></li>
+        <li>内容:<input type="checkbox"></li>
+    </ul>
+</div>
+</body>
+</html>

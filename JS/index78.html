@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="file" id="file"><span></span>
+</body>
+<script>
+    var file = document.getElementById("file");
+
+    file.onchange = function () {
+        var str = this.value;
+//        alert(str);
+       var houzui = str.substr(str.lastIndexOf("."));
+
+        var upStr = houzui.toUpperCase();
+        if (upStr == ".PNG"||upStr == ".JPG"){
+            this.nextSibling.innerHTML = "格式正确";
+        }else{
+            this.nextSibling.innerHTML = "格式错误";
+        }
+    }
+</script>
+</html>

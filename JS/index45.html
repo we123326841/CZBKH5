@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #topid{
+        height: 30px;
+        width: 400px;
+        border: 1px solid #666666;
+    }
+    
+    .current {
+        background-color: #8A25C6;
+    }
+    
+    .bottow div{
+        height: 400px;
+        width: 400px;
+        background-color: pink;
+        display: none;
+    }
+
+     .bottow .show {
+        display: block;
+    }
+</style>
+
+<script>
+    window.onload = function () {
+        var btns = document.getElementById("topid").getElementsByTagName("button");
+        var divs = document.getElementById("divs").getElementsByTagName("div");
+
+
+        for(var i = 0 ; i<btns.length ; i++ ){
+
+            btns[i].index = i;
+            btns[i].onclick = function () {
+                for(var j = 0 ; j < btns.length; j++){
+                    btns[j].className = "";
+                    divs[j].className = "";
+                }
+
+                this.className = "current";
+                divs[this.index].className = "show";
+
+
+            }
+        }
+    }
+</script>
+<body>
+<div class="top" id="topid">
+    <button>测试1</button>
+    <button>测试2</button>
+    <button>测试3</button>
+    <button>测试4</button>
+    <button>测试5</button>
+    <div class="bottow" id="divs">
+        <div class="div1">盒子1</div>
+        <div class="div1">盒子2</div>
+        <div class="div1">盒子3</div>
+        <div class="div1">盒子4</div>
+        <div class="div1">盒子5</div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .current{
+            background-color: #9e0f18;
+        }
+    </style>
+
+
+    <script>
+        window.onload = function () {
+
+            var btns = document.getElementsByTagName("button");
+
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].mm = i;
+                btns[i].onclick = function () {
+                    alert(this.mm);
+                    for (var j = 0; j < btns.length; j++) {
+                        btns[j].className = "";
+                    }
+
+                    this.className = "current";
+                }
+
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+<button>排他思想</button>
+<button>排他思想</button>
+<button>排他思想</button>
+<button>排他思想</button>
+<button>排他思想</button>
+<button>排他思想</button>
+<button>排他思想</button>
+
+</body>
+</html>

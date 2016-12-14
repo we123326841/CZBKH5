@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function demo1() {
+        alert("demo1");
+    }
+
+    demo1();
+    var demo11 = demo1;
+
+    demo11();
+
+    var demo2 = function () {
+        alert("demo2");
+    }
+
+    demo2();
+
+    var demo22 = demo2;
+
+    demo22();
+
+    var demo3 = new Function("var a = 1; var b = 2 ; alert(a + b)");
+    demo3();
+
+    var demo33 = demo3;
+
+    demo33();
+</script>
+</body>
+</html>

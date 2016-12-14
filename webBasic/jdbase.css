@@ -117,7 +117,7 @@ s,i,em{font-style:normal;text-decoration:none;}
     padding: 0px 20px 0px 10px;
 }
 
-.center-inner .first-ul  i{
+.center-inner .first-ul  i , .center-inner .leftshot .lleft i{
     font: 400 15px/15px "宋体";
     height: 7px;
     position: absolute;

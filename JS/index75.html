@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="div1">what is your name</div>
+<div id="div2">my name is  Allen Wang</div>
+<button id="btn">合并</button><span id="spanid"></span>
+<script>
+    var str = "http://www.baidu.com";
+    console.log(encodeURIComponent(str));
+    var str1 = encodeURIComponent(str);
+    console.log(decodeURIComponent(str1));
+    function $(id) {
+        return document.getElementById(id);
+    }
+
+    $("btn").onclick = function () {
+        this.nextSibling.innerHTML = $("div1").innerHTML.concat($("div2").innerHTML);
+
+    }
+
+
+</script>
+</body>
+</html>

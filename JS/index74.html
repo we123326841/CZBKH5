@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="neirong">
+<input type="text" id="shuru">
+<button id="btn1">从头开始</button>
+<button id="btn2">从尾开始</button>
+<script>
+    function $(id) {
+        return document.getElementById(id);
+    }
+
+
+    $("btn1").onclick = function () {
+      alert($("neirong").value.indexOf($("shuru").value));
+    };
+
+    $("btn2").onclick = function () {
+        alert($("neirong").value.lastIndexOf($("shuru").value));
+    }
+</script>
+</body>
+</html>

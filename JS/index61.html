@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        .box{
+            width: 150px;
+            height: 180px;
+            background-color: deepskyblue;
+            text-align: center;
+        }
+
+        .p1{
+            font-size: 10px;
+            line-height: 60px;
+            color:#fff ;
+        }
+
+        .s1{
+            display: block;
+            height: 75px;
+            width: 75px;
+            background-color: yellowgreen;
+            line-height: 75px;
+            margin: 0px auto;
+            font-size: 40px;
+
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var arr = ["星期一","星期二","星期三","星期四","星期五","星期六"];
+            var date = new Date();
+
+            var did = document.getElementById("divid");
+            did.children[1].innerHTML = date.getDate();
+            did.children[0].innerHTML = date.getFullYear() +"年" + (date.getMonth() + 1) + "月" + date.getDate() + "日 " + arr[date.getDay()];
+
+        }
+    </script>
+</head>
+<body>
+<div class="box" id="divid">
+    <p class="p1" id="pid"></p>
+    <span class="s1" id="spanid"></span></div>
+</body>
+</html>

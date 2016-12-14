@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+    div{
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<body>
+<script>
+window.onload = function () {
+   var pp  = document.getElementsByTagName("p")[0];
+    pp.parentNode.style.backgroundColor = "red";
+   var hh =  pp.nextElementSibling || pp.nextSibling;
+//    console.log(hh);
+    hh.style.backgroundColor = "green";
+
+
+   var div1 = document.getElementsByTagName("div")[0];
+    var divchile = div1.childNodes;
+    alert(divchile.length);//13 是因为
+    alert(div1.children.length);
+
+    for (var i = 0; i<divchile.length ; i++){
+        if (divchile[i].nodeType == 1){
+            divchile[i].style.backgroundColor ="yellow";
+        }
+    }
+}
+
+</script>
+
+<div>
+    <p>你麻痹</p>
+    <p>你麻痹鸡巴</p>
+    <p>你麻痹</p>
+    <p>你麻痹</p>
+    <p>你麻痹</p>
+    <p>你麻痹</p>
+
+</div>
+</body>
+</html>

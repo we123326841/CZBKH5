@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: #36ab4c;
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
+
+    <script>
+
+        console.log("1")
+        function fn(myif) {
+           var ui= document.getElementById(myif);
+            ui.style.display = "block";
+        }
+    </script>
+</head>
+<body>
+<script>
+    console.log("1.1");
+</script>
+<button onclick="fn('box1')">按钮1</button>
+<button onclick="fn('box2')">按钮2</button>
+<button onclick="fn('box3')">按钮3</button>
+<button onclick="fn('box4')">按钮4</button>
+<div id="box1">1</div>
+<div id="box2">2</div>
+<div id="box3">3</div>
+<div id="box4">4</div>
+<script>
+    console.log("2");
+</script>
+</body>
+</html>

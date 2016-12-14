@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr = [0,20,40];
+
+    function avg(array) {
+       var length  = array.length;
+        var sum = 0;
+        for(var i = 0 ; i<length; i++ ){
+            sum += array[i];
+        }
+        return sum/length;
+    }
+
+    console.log(avg(arr));
+</script>
+</body>
+</html>

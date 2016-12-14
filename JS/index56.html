@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>点击列</button>
+<ul id="ulid">
+
+</ul>
+
+
+<script>
+    var btn = document.getElementsByTagName("button")[0];
+    var ulid = document.getElementById("ulid");
+    
+    btn.onclick = function () {
+        var li = document.createElement("li");
+        li.innerHTML = "还尼玛个批,还你卖个马屁";
+        ulid.appendChild(li);
+    }
+    
+</script>
+</body>
+</html>

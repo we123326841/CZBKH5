@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+
+    window.onload = function () {
+        var input = document.getElementsByTagName("input")[0];
+        var button = document.getElementsByTagName("button")[0];
+
+        button.onclick = function () {
+            var value = input.value;
+
+            switch (value){
+                case "苹果":
+                    alert("哈哈我是苹果");
+                    break;
+                case "栗子":
+                    alert("哈哈我是栗子");
+                    break;
+
+                case "鸡巴":
+                    alert("哈哈我是鸡巴");
+                    break;
+
+                case "蝻子":
+                    alert("哈哈我是蝻子");
+                    break;
+
+                case "毛":
+                    alert("哈哈我是毛");
+                    break;
+                default:
+                    alert("哎哟握草");
+            }
+        }
+    }
+</script>
+<body>
+<input type="text"/>
+<button>按钮</button>
+<script>
+    var sum = 0,sum2 = 0, sum3 = 0;
+    for (var i = 1 ; i<= 100; i++){
+        sum = sum + i;
+    }
+    console.log(sum);
+
+
+    var i = 1;
+    while(i <= 100){
+        sum2 += i;
+        i++;
+    }
+
+    console.log(sum2);
+
+    var i = 1;
+    do{
+        sum3 += i;
+        i++;
+    }while (i<=100)
+    console.log(sum3);
+
+
+
+
+
+</script>
+</body>
+</html>

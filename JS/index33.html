@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="txt" value="你麻痹" type="text">
+<button id="btn">按钮</button>
+<script>
+    function $(id) {
+        return document.getElementById(id);
+
+    }
+
+    var btn = $("btn");
+    var inp  = $("txt");
+    btn.onclick = function () {
+        alert(inp.value);
+    }
+</script>
+</body>
+</html>

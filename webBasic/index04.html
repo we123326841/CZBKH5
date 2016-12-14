@@ -191,7 +191,7 @@
         </div>
         <div class="news-bottow">
             <div class="dt"> <h1>京东快报</h1></div>
-            <div class="dd">
+            <div class="dd" id="ddid">
                 <ul>
                     <li><a href="#"><i></i><span>话费</span></a></li>
                     <li><a href="#"><i class="second-i"></i><span>话费</span></a></li>
@@ -208,6 +208,15 @@
                 </ul>
             </div>
         </div>
+        <script>
+            var is = document.getElementById("ddid").getElementsByTagName("i");
+            var length = is.length;
+
+            for(var i = 0 ; i < length ; i++){
+                is[i].style.backgroundPosition = "-25px " +(-25*i)+"px";
+            }
+        </script>
+
     </div>
 </div>
 

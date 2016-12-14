@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .box{
+            font-family: "Arial Rounded MT Bold", "宋体";
+            width: 350px;
+            height: 300px;
+            border: 1px solid gray;
+            padding-left: 10px;
+        }
+
+        h1{
+            color: #253c5c;
+            font:400 15px/20px "宋体";
+        }
+        .top{
+            font-size: 0px;
+            overflow: hidden;
+        }
+        .img{
+            float: left;
+            display: block;
+            width: 50px;
+            height: 50px;
+            background: url("images/astroIcon.png");
+        }
+        .yunshi{
+            padding-left: 20px;
+            float: left;
+
+        }
+        .divy{
+            padding-top: 5px;
+        }
+
+        .divy .content {
+            font-size: 15px;
+
+        }
+
+        .img1 , .img2 {
+            height: 13px;
+            width: 80px;
+            display: inline-block;
+            background: url("images/yunshi.png") no-repeat;
+        }
+
+        .img1 {
+            background-position: left top;
+        }
+
+        .img2{
+            background-position: left bottom;
+            width: 40px;
+        }
+
+
+    </style>
+    <script>
+
+        var xings = [10,5 ,8];
+        var xingzuos = ["我是白羊座","我是金牛座","我是摩羯座"];
+        window.onclick = function (){
+
+               var select = document.getElementsByTagName("select")[0];
+           var logo = document.getElementById("logo");
+
+           var logo_xing = document.getElementById("logo-xing");
+            var bottow_id = document.getElementById("bottow-id");
+        select.onchange = function () {
+            logo.style.backgroundPosition = "0 "+ (this.value*(-50)) + "px";
+            logo_xing.style.width = xings[this.value] * 8 + "px";
+            bottow_id.innerHTML = xingzuos[this.value];
+        }
+
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <h1>星座运势</h1>
+    <div class="top">
+        <span class="img" id="logo"></span>
+        <div class="yunshi"><select>
+            <option value="0">白羊座 03.21-04.19</option>
+            <option value="1">金牛座 03.21-04.19</option>
+            <option value="2">摩羯座 03.21-04.19</option>
+        </select>
+            <div class="divy">
+                <span class="content">今日运势:</span>
+                <span class="img1"><span class="img2" id="logo-xing"></span></span>
+            </div>
+        </div>
+    </div>
+    <div class="bottow" id="bottow-id">
+        这几天的财运都很强,但是危机总在不知不觉之中发生了,例如:因为太过于乐观而误判情势,导致投...[详细]
+    </div>
+</div>
+</body>
+</html>

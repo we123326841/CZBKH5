@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .box{
+            width: 500px;
+            margin: 100px auto;
+            overflow: hidden;
+            /*font-size: 0px;*/
+        }
+        input{
+            float: left;
+            outline-style: none;
+            height: 30px;
+            width: 100px;
+
+        }
+
+        span{
+            float: left;
+            display: inline-block;
+            height: 34px;
+            width: 271px;
+            /*background-color: #36ab4c;*/
+            padding-left: 25px;
+            line-height: 34px;
+            font-size: 14px;
+            background-color: rgb(238,238,238);
+            color: gray;
+
+        }
+
+        .wrong{
+            background: url("images/wrong.png") no-repeat 5px 10px;
+            background-color: rgb(255,222,205);
+            color: rgb(236,141,66);
+        }
+
+        .right{
+            background: url("images/right.png") no-repeat 5px 10px;
+            background-color: rgb(220,250,220);
+            color: rgb(94,176,76);
+        }
+        h1{
+            float: left;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            $("txt").focus();
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            $("txt").onfocus = function () {
+
+            }
+
+            $("txt").onmouseover = function () {
+                this.select();
+            }
+
+            $("txt").onblur = function () {
+                if(this.value == ""){
+                    $("content").innerHTML = "请输入的数字不能为空";
+                    $("content").className = "wrong";
+                } else if(isNaN(this.value)){
+                    $("content").innerHTML = "请输入数字";
+                    $("content").className = "wrong";
+                }else if (this.value>150 || this.value<0){
+                    $("content").innerHTML = "输入的数字超过了范围";
+                    $("content").className = "wrong";
+                }else{
+                    $("content").innerHTML = "通过!!!!!";
+                    $("content").className = "right jiba";
+                }
+            }
+        }
+    </script>
+
+</head>
+<body>
+<div class="box"><h1>语文</h1><input type="text" id="txt">
+    <span id="content">请输入分数</span>
+</div>
+</body>
+</html>

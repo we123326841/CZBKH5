@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .box{
+            width: 510px;
+            margin: 100px auto;
+            border: 1px solid gray;
+            padding: 30px 0px;
+        }
+
+        textarea{
+            outline-style: none;
+            width: 380px;
+            height: 130px;
+            resize: none;
+            margin-right: 10px;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        li{
+            border-bottom: 1px dashed gray;
+            height: 22px;
+            margin: 0px 60px 0px 30px;
+            line-height: 22px;
+        }
+
+        a{
+            float: right;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+           var textarea  = document.getElementsByTagName("textarea")[0];
+            var button = document.getElementsByTagName("button")[0];
+            var ul = document.createElement("ul");
+            var p = button.parentNode;
+            p.appendChild(ul);
+            button.onclick = function () {
+                if(textarea.value.length == 0 ){
+                    alert("请重新输入...");
+                    return;
+                }
+
+                var li = document.createElement("li");
+                li.innerHTML = textarea.value + "<a href='javascript:;'>删除</a>";
+                if(ul.children.length == 0){
+                    ul.appendChild(li);
+                }else {
+                    ul.insertBefore(li,ul.children[0]);
+                }
+                textarea.value = "";
+
+                var as = document.getElementsByTagName("a");
+                for(var i = 0; i<as.length ; i++){
+                    as[i].onclick = function () {
+                        ul.removeChild(this.parentNode);
+                    }
+                }
+
+
+
+
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    微博发布 <textarea></textarea><button>发布</button>
+    <!--<ul>-->
+        <!--<li>1</li>-->
+        <!--<li>2</li>-->
+        <!--<li></li>-->
+        <!--<li></li>-->
+    <!--</ul>-->
+</div>
+</body>
+</html>

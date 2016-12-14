@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul{
+            list-style: none;
+        }
+        .slider{
+            margin: 100px auto;
+            width: 730px;
+            height: 454px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .yuan span{
+            float: left;
+            width: 18px;
+            height: 18px;
+            background-color: pink;
+            border-radius: 9px;
+            text-align: center;
+            line-height: 18px;
+            margin-right: 10px;
+            cursor: pointer;
+
+        }
+
+        /*.yuan-ul li {*/
+            /*float: left;*/
+        /*}*/
+        
+        .yuan{
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -84px;
+        }
+        
+        /*.li-div{*/
+            /*float: left;*/
+        /*}*/
+    </style>
+
+    <script>
+        window.onload = function () {
+           var div = document.createElement("div");
+            div.setAttribute("class","yuan");
+            var divid = document.getElementById("divid");
+            divid.appendChild(div);
+            var ul = document.getElementById("ul");
+//            alert(ul.children.length);
+            for(var i = 0; i < ul.children.length ; i++){
+                 var span = document.createElement("span");
+                span.innerHTML = i+1;
+                div.appendChild(span);
+            }
+
+        }
+    </script>
+</head>
+<body>
+<div class="slider" id="divid">
+    <div class="img-box">
+        <ul id="ul">
+            <li><img src="images/11.jpg"></li>
+            <li><img src="images/22.jpg"></li>
+            <li><img src="images/33.jpg"></li>
+            <li><img src="images/44.jpg"></li>
+            <li><img src="images/55.jpg"></li>
+            <li><img src="images/66.jpg"></li>
+        </ul>
+    </div>
+    
+    <!--<div class="yuan">-->
+        <!--&lt;!&ndash;<ul class="yuan-ul">&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<li><span>1</span></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><span>2</span></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><span>3</span></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><span>4</span></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><span>5</span></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><span>6</span></li>&ndash;&gt;-->
+
+
+        <!--<span>1</span>-->
+        <!--<span>2</span>-->
+        <!--<span>3</span>-->
+        <!--<span>4</span>-->
+        <!--<span>5</span>-->
+        <!--<span>6</span>-->
+
+    <!--</div>-->
+</div>
+</body>
+</html>
