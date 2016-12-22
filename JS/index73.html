@@ -10,6 +10,7 @@
     var btn = document.getElementsByTagName("button")[0];
     var timer = 0;
     btn.onclick = function () {
+        clearInterval(timer);
         var p= 0;
    p = timer  = setInterval(function () {
             console.log(timer+","+p);

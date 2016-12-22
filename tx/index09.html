@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: #7aff9f;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="wi"></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div class="wi"></div>
+<div></div>
+<div></div>
+<div></div>
+</body>
+
+<script>
+    alert(getClass("wi").length);
+
+
+    function getClass(cl) {
+        if (document.getElementsByClassName){
+            alert("谷歌");
+            return document.getElementsByClassName(cl);
+        }
+        alert("非谷歌");
+        var arr= [];
+        var shus = document.getElementsByTagName("*");
+        for(var i= 0 ; i < shus.length ; i++){
+            if (shus[i].className ==  cl){
+                arr.push(shus[i]);
+            }
+        }
+
+        return arr;
+    }
+</script>
+</html>

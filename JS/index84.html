@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style type="text/css">
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    img{
+        vertical-align: middle;
+    }
+
+    div{
+        overflow: hidden;
+        margin: 100px auto;
+        width: 520px;
+        height: 280px;
+        border: 1px solid yellowgreen;
+        position: relative;
+    }
+
+    ul{
+     list-style: none;
+        width: 500%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    ul li{
+        float: left;
+    }
+
+    span{
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        opacity: 0.3;
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        top:50%;
+        margin-top: -15px;
+        display: none;
+    }
+
+    .left-arrow{
+        position: absolute;
+        left: 0px;
+
+    }
+
+    .right-arrow{
+        position: absolute;
+        right: 0px;
+
+
+    }
+
+
+</style>
+<body>
+<div>
+    <ul>
+        <li><img src="images/zuoyou/1.jpg"></li>
+        <li><img src="images/zuoyou/2.jpg"></li>
+        <li><img src="images/zuoyou/3.jpg"></li>
+        <li><img src="images/zuoyou/4.jpg"></li>
+        <li><img src="images/zuoyou/5.jpg"></li>
+    </ul>
+    <span class="left-arrow"><</span><span class="right-arrow">></span>
+</div>
+
+<script>
+     var spans = document.getElementsByTagName("span");
+     var ul = document.getElementsByTagName("ul")[0];
+    var div = document.getElementsByTagName("div")[0];
+     var leader = 0 , target = 0 ;
+     div.onmouseover = function () {
+         spans[0].style.display = "block";
+         spans[1].style.display = "block";
+     }
+     
+     div.onmouseout = function () {
+         spans[0].style.display = "none";
+         spans[1].style.display = "none";
+     }
+     
+    spans[0].onclick = function () {
+        target += 520;
+        if(target >=0){
+            target = 0;
+        }
+    }
+
+    spans[1].onclick = function () {
+        target -= 520;
+        if(target <= -2080){
+            target = -2080;
+        }
+    }
+
+
+    setInterval(function () {
+
+        leader = leader + (target - leader)/10;
+
+        ul.style.left = leader + "px";
+
+    },30);
+</script>
+</body>
+</html>

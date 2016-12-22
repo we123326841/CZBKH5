@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        img{
+            vertical-align: middle;
+        }
+
+        .box{
+            position: relative;
+            margin: 100px auto;
+            width: 350px;
+            height: 350px;
+            border: 1px solid lightgray;
+        }
+
+        .big{
+            overflow: hidden;
+            height: 450px;
+            width: 450px;
+            border: 1px solid lightgray;
+            position: absolute;
+            left: 360px;
+            top: 0px;
+            display: block;
+
+        }
+
+        .spani{
+            width: 100px;
+            height: 100px;
+            background-color: rgba(255,255,0,.4);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            cursor: move;
+            display: block;
+        }
+
+        .small{
+            overflow: hidden;
+            position: relative;
+        }
+
+        .imgbig{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box" id="box">
+    <div class="small">
+        <img src="images/001.jpg">
+        <span class="spani"></span>
+    </div>
+
+
+
+    <div class="big" id="big">
+        <img src="images/0001.jpg" class="imgbig" id="bigimg">
+    </div>
+</div>
+
+<script>
+    var box = document.getElementById("box");
+    var small = box.children[0];
+    var span1 = small.children[1];
+    var big = box.children[1];
+    var bigimg = document.getElementById("bigimg");
+    small.onmouseover = function () {
+        span1.style.display = "block";
+        big.style.display = "block";
+        console.log("什么鬼");
+    }
+
+    small.onmouseout = function () {
+        span1.style.display = "none";
+        big.style.display = "none";
+        console.log("什么鬼出去");
+    }
+
+    small.onmousemove = function (event) {
+        var x =event.clientX - this.offsetParent.offsetLeft - span1.offsetWidth/2;
+        var y =event.clientY - this.offsetParent.offsetTop  - span1.offsetHeight/2;
+        if(x < 0){
+            x = 0;
+        }else if(x > (this.offsetWidth - span1.offsetWidth)){
+            x  = this.offsetWidth - span1.offsetWidth;
+        }
+
+        if(y < 0){
+            y  = 0;
+        }else if(y > this.offsetHeight - span1.offsetHeight){
+            y = this.offsetHeight - span1.offsetHeight;
+        }
+        bigimg.style.left = -x*(800/350) + "px";
+        bigimg.style.top = -y*(800/350) + "px";
+        span1.style.left = x + "px";
+        span1.style.top = y + "px";
+    }
+</script>
+</body>
+</html>

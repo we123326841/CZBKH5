@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+
+            /*background-color: red;*/
+        }
+    </style>
+</head>
+<body>
+
+<div id="de"><img src="images/001.jpg"></div>
+<script>
+    var ded = document.getElementById("de");
+    ded.style.backgroundColor = "blue";
+    console.log(ded.offsetHeight);
+
+    window.onload = function () {
+        var ded = document.getElementById("de");
+        console.log("load=="+ded.offsetHeight);
+    }
+</script>
+</body>
+</html>
+
+<script>
+    var ded = document.getElementById("de");
+    console.log("ded=="+ded.offsetHeight);
+</script>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .par {
+            position: relative;
+            margin: 100px auto;
+            width: 400px;
+            height: 400px;
+            background-color: #7aff9f;
+        }
+
+        .chirld{
+            padding: 20px;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #8A25C6;
+            left: 10px;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="par" id="par">
+    <div class="chirld" id="chird" style="width: 200px; left: 300px;"></div>
+</div>
+
+<script>
+    var chird =document.getElementById("chird");
+    console.log(chird.style.left);
+    console.log(chird.style.width);
+    console.log(chird.offsetLeft );
+    console.log(chird.offsetWidth);
+//    chird.style.left = 32+"px";
+    chird.offsetWidth = 322;
+    console.log(chird.offsetWidth);
+
+    chird.offsetParent.style.backgroundColor = "red";
+</script>
+</body>
+</html>

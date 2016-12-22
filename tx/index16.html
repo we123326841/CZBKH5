@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body {
+            height: 3000px;
+        }
+    </style>
+</head>
+<body>
+<script>
+    function scroll() {
+        if (window.pageYOffset != null) {
+            alert("什么鬼1");
+            return {
+                left: window.pageXOffset,
+                right: window.pageYOffset
+            }
+        } else if (document.compatMode === "CSS1Compat") {
+            alert("什么鬼2");
+            return {
+                left: document.documentElement.scrollLeft,
+                right: document.documentElement.scrollTop
+            }
+        }
+        alert("什么鬼3");
+        return {
+            left: document.body.scrollLeft,
+            right: document.body.scrollTop
+
+        }
+    }
+
+
+    document.onclick = function () {
+        alert(scroll().right);
+    }
+</script>
+</body>
+</html>

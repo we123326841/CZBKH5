@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            height: 2000px;
+        }
+    </style>
+</head>
+
+<body>
+<script>
+    document.onclick = function (event) {
+        var event = event || window.event;
+        console.log(event.clientY);
+        console.log(event.pageY);
+        console.log(event.screenY);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #divid{
+            margin: 100px;
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+
+        }
+    </style>
+</head>
+<body>
+<div id="divid"></div>
+
+<script>
+    var divid = document.getElementById("divid");
+    divid.onmousemove = function (event) {
+        console.log("clientx=="+event.clientX+"offsetLeft=="+this.offsetLeft);
+        this.innerHTML ="x=="+(event.clientX - this.offsetLeft+",y=="+(event.clientY - this.offsetTop));
+
+    }
+</script>
+</body>
+</html>

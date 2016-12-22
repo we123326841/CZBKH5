@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box{
+            overflow: hidden;
+            margin: 100px auto;
+            width: 600px;
+            height:200px;
+            border: 1px solid #9e0f18;
+            position: relative;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        img{
+            vertical-align: middle;
+        }
+
+        ul li{
+
+            float: left;
+
+        }
+
+        ul{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 400%;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="scroll">
+    <ul id="ulid">
+        <li><img src="images/lunbo/01.jpg"></li>
+        <li><img src="images/lunbo/02.jpg"></li>
+        <li><img src="images/lunbo/03.jpg"></li>
+        <li><img src="images/lunbo/04.jpg"></li>
+        <li><img src="images/lunbo/01.jpg"></li>
+        <li><img src="images/lunbo/02.jpg"></li>
+    </ul>
+</div>
+
+<script>
+    var ul = document.getElementById("ulid");
+    var scroll = document.getElementById("scroll");
+    var timer = null;
+    var num = 0;
+   timer = setInterval(fun,20);
+
+    function fun() {
+        num--;
+
+        num<=-1200?num=0: num;
+        ul.style.left = num + "px";
+    }
+
+    scroll.onmouseover = function () {
+        clearInterval(timer);
+    }
+
+    scroll.onmouseout = function () {
+       timer = setInterval(fun,20);
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+            position: absolute;
+            top: 300px;
+            left: 0px;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+    </style>
+</head>
+<body>
+<div id="bOx" class="box"></div>
+
+<script>
+     var div = document.getElementById("bOx");
+    var timer = null;
+    var num = 0;
+    timer = setInterval(function () {
+            num++;
+        num>=500?clearInterval(timer):(div.style.left = num+"px");
+
+    },20);
+
+
+</script>
+</body>
+</html>

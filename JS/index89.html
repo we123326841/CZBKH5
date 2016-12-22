@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+        img{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        body{
+            height: 1000px;
+        }
+    </style>
+</head>
+<body>
+<!--277 207-->
+<img src="images/img.jpg" id="imgid">
+
+
+
+<script>
+
+
+    var leaderX = 0,leaderY = 0,targetX = 0, targetY = 0;
+    document.onclick = function (event) {
+        var event = event || window.event;
+        targetX = event.pageX;
+        targetY = event.pageY;
+        console.log(targetX+","+targetY);
+    }
+
+
+    setInterval(function () {
+        var img = document.getElementById("imgid");
+        leaderX = leaderX + (targetX - leaderX)/10;
+        leaderY = leaderY + (targetY - leaderY)/10;
+        img.style.left =  leaderX-img.offsetWidth/2 +"px";
+        img.style.top  =  leaderY-img.offsetHeight/2 + "px";
+    },10);
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: #7aff9f;
+        }
+    </style>
+</head>
+<body>
+<div id="idvid">
+
+</div>
+
+
+<script>
+    var div = document.getElementById("idvid");
+    div.onmouseover = function () {
+        console.log("呵呵");
+    }
+
+
+    div.onmouseout = function () {
+        console.log("出去");
+    }
+</script>
+</body>
+</html>

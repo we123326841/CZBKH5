@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .scroll{
+            margin: 100px auto;
+            height: 8px;
+            width: 500px;
+            background-color: gray;
+            position: relative;
+        }
+        
+        .bar{
+            top: -7px;
+            left: 0px;
+            position: absolute;
+            height: 22px;
+            width:10px;
+            background-color: blue;
+            cursor: pointer;
+        }
+
+        .mask{
+            position: absolute;
+            height: 8px;
+            background-color: blue;
+            left: 0px;
+            top: 0px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="scroll" id="divid">
+    <div class="bar"></div>
+    <div class="mask"></div>
+</div>
+
+<div id="showme">大大</div>
+
+<script>
+    var scroll = document.getElementById("divid");
+    var bar = divid.children[0];
+    var mask = divid.children[1];
+    var showme = document.getElementById("showme");
+
+    bar.onmousedown = function (event) {
+        var event  = event || window.event;
+        var leftVal = event.clientX - this.offsetLeft;
+//        console.log(this.offsetLeft);
+        document.onmousemove = function (event) {
+            bar.style.left = event.clientX - leftVal  + "px";
+            if(parseInt(bar.style.left)> (scroll.offsetWidth - bar.offsetWidth)){
+                bar.style.left = scroll.offsetWidth - bar.offsetWidth  + "px";
+            }else if (parseInt(bar.style.left) <= 0){
+                bar.style.left = "0px";
+            }
+            console.log("leftVal=="+event.clientY);
+//            window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();
+            window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();
+//            window.getSelection ? console.log("选中"): console.log("未选择");
+            mask.style.width = bar.style.left;
+            showme.innerHTML = "滑动到了"+ parseInt(parseInt(bar.style.left)/(scroll.offsetWidth - bar.offsetWidth )*100) +"%";
+
+        }
+    }
+
+
+    document.onmouseup = function (event) {
+        document.onmousemove = null;
+        console.log("太瘦");
+    }
+    //bug 抬起鼠标来 还是跟着鼠标跑
+            //选择文字也是move
+   // window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();
+    //window.getSelection 正常浏览器的方法  window.getSelection().removeAllRanges()正常浏览器  document.selection.empty();IE浏览器
+
+</script>
+</body>
+</html>

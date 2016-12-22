@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .nav, .titlebar {
+            height: 30px;
+            background-color: #036663;
+
+            color: white;
+            font: 700 14px/30px "sans-serif";
+
+        }
+
+        .nav span {
+            padding-left: 20px;
+        }
+
+        .box {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -180px;
+            margin-top: -150px;
+            width: 350px;
+            height: 250px;
+            border: 5px solid #eee;
+            box-shadow: 2px 2px 2px 2px #666;
+        }
+
+        .titlebar {
+            background-color: #7c9299;
+            padding-left: 10px;
+        }
+
+        .titlebar span {
+            float: right;
+            padding-right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="nav" id="nav"><span>注册信息</span></div>
+<div class="box" id="box">
+    <div class="titlebar" id="titlebar">
+        注册信息(可以拖拽) <span>[关闭]</span>
+    </div>
+
+    <div class="hd"></div>
+</div>
+<script>
+    //#036663  注册信息  #7c9299 注册信息(可以拖拽)  [关闭]
+
+    var cur = document.getElementById("titlebar");
+    var box = document.getElementById("box");
+
+    drag(cur, box);
+
+    function drag(current, move) {
+        current.onmousedown = function (event) {
+            var event = event || window.event;
+
+            var x = event.clientX - move.offsetLeft;
+            var y = event.clientY - move.offsetTop;
+            console.log("clientx==" + event.clientX + ",move.offsetLeft==" + move.offsetLeft);
+            document.onmousemove = function (event) {
+                var event = event || window.event;
+
+                move.style.left = event.clientX - x + 180 + "px";
+                move.style.top = event.clientY - y + 150 + "px";
+                console.log("clientx==" + event.clientX + ",move.style.left==" + move.style.left);
+
+
+                window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();
+            }
+        };
+
+        document.onmouseup = function () {
+            document.onmousemove = null;
+        };
+    }
+
+</script>
+</body>
+</html>

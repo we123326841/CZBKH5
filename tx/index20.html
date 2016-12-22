@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        ul {
+            height: 100%;
+            width: 100%;
+        }
+
+        ul li {
+            height: 100%;
+            width: 100%;
+        }
+
+        ol {
+            position: fixed;
+            left: 50px;
+            top: 0px;
+        }
+
+        ol li {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+        }
+    </style>
+    <script src="images/js17.js" type="text/javascript"></script>
+    <script>
+        window.onload = function () {
+            var colors = ["pink", "yellow", "orange", "blue", "green"];
+            var ulid = document.getElementById("ulid");
+            var olid = document.getElementById("olid");
+            var ullis = ulid.children;
+            var ollis = olid.children;
+            var leader = 0,target = 0;
+            for(var i = 0; i < ullis.length ; i++){
+                ullis[i].style.backgroundColor = colors[i];
+                ollis[i].index = i;
+                ollis[i].style.backgroundColor = colors[i];
+                ollis[i].onclick = function () {
+                    target = ullis[this.index].offsetTop;
+                    setInterval(function () {
+                        leader = leader + (target - leader)/10;
+                        window.scrollTo(0, leader);
+                    },100);
+
+                }
+            }
+        }
+
+    </script>
+</head>
+<body>
+<ul id="ulid">
+    <li>首页</li>
+    <li>关注</li>
+    <li>动态</li>
+    <li>风格</li>
+    <li>作品</li>
+</ul>
+
+<ol id="olid">
+    <li>首页</li>
+    <li>关注</li>
+    <li>动态</li>
+    <li>风格</li>
+    <li>作品</li>
+</ol>
+<script>
+    //    window.scrollTo(100, 400);
+
+
+</script>
+</body>
+</html>

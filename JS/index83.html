@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style type="text/css">
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    .slider {
+        position: relative;
+        margin: 100px auto;
+        width: 490px;
+        height: 170px;
+
+
+    }
+
+    .inner {
+        position: relative;
+        border: 1px solid #8A25C6;
+        width: 490px;
+        height: 170px;
+        overflow: hidden;
+    }
+
+    .inner ul {
+        position: absolute;
+        list-style: none;
+        width: 500%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+    }
+
+    ul li {
+        float: left;
+    }
+
+    .olc {
+        left: 50%;
+        margin-left: -40px;
+        bottom: 5px;
+        position: absolute;
+        list-style: none;
+    }
+
+    .olc li {
+        background-color: #fff;
+        float: left;
+        margin-right: 10px;
+        font-size: 15px;
+        line-height: 18px;
+        width: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .olc li.current {
+        background-color: orange;
+    }
+</style>
+<body>
+<div class="slider" id="jd">
+    <div class="inner">
+        <ul>
+            <li><img src="images/jiaodian/01.jpg"></li>
+            <li><img src="images/jiaodian/02.jpg"></li>
+            <li><img src="images/jiaodian/03.jpg"></li>
+            <li><img src="images/jiaodian/04.jpg"></li>
+            <li><img src="images/jiaodian/05.jpg"></li>
+        </ul>
+    </div>
+    <ol class="olc">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li class="current">5</li>
+    </ol>
+</div>
+
+<script>
+    var jd = document.getElementById("jd");
+    var ul = jd.children[0].children[0];
+    var ol = jd.children[1];
+    var olc = ol.children;
+    for(var i = 0 ; i < olc.length; i++){
+        olc[i].index = i;
+        olc[i].onmouseover = function () {
+            for (var j = 0 ; j < olc.length ; j++){
+                olc[j].setAttribute("class","");
+            }
+            this.setAttribute("class","current");
+            target = -this.index*490;
+        }
+    }
+
+    var leader = 0,target = 0;
+    setInterval(function () {
+        leader  = leader + ( target - leader)/10;
+        console.log(leader);
+        ul.style.left = leader + "px";
+    },30);
+</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #divid2{
+            width: 100px;
+            padding: 10px;
+            border: 1px solid #36ab4c;
+
+        }
+        
+        #divid2323{
+            width: 500px;
+            height: 500px;
+            background-color: #9e0f18;
+            position: relative;
+        }
+
+        #divid23{
+            padding-left: 20px;
+            position: relative;
+            margin-left: 100px;
+            width: 300px;
+            height: 300px;
+            background-color: #f2ff29;
+            border: 1px solid #3E3E3E;
+        }
+
+
+        #divid3{
+            width: 50px;
+            height: 50px;
+            background-color: #7aff9f;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="div1" id="divid" style="width: 100px ;height: 200px; background-color: #8A25C6"></div>
+<div id="divid2">d ada wda wdw ahuifhawehguiv aerhihigeahui ghuaerhigrhear hgeahrghiearhig ehraewwrgerreu rhugrehiugrhui grhuigrhu igrhuirghu</div>
+<div id="divid2323">
+<div id="divid23">
+<div id="divid3"></div>
+</div>
+    </div>
+<script>
+    var divid = document.getElementById("divid");
+    console.log(divid.style.width);
+    console.log(divid.style.height);
+    divid.style.color = "red";
+
+    console.log("----------");
+    var id2 = document.getElementById("divid2");
+    console.log(id2.offsetWidth);
+    console.log(id2.offsetHeight);
+
+    console.log("---------");
+    var id3 = document.getElementById("divid3");
+    console.log(id3.offsetLeft);
+    console.log(id3.offsetTop);
+
+</script>
+</body>
+</html>

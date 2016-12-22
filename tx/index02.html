@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #divid2{
+            position: relative;
+        }
+        
+        #div9{
+            /*width: 100px;*/
+            height: 100px;
+            background-color: #8A25C6;
+        }
+    </style>
+</head>
+<body id="huhu">
+<div id="divid">
+    <div id="divid2">
+        <div id="divid3"></div>
+    </div>
+    
+    <div id="div9" style="width:200px;"></div>
+</div>
+
+
+<script>
+    var divid3= document.getElementById("divid3");
+//    alert(divid3.offsetParent.id);
+    console.log("--------");
+    var div9 = document.getElementById("div9");
+
+    div9.offsetWidth = 900;
+    console.log(div9.style.width);
+    console.log(div9.offsetWidth);
+    
+</script>
+
+</body>
+</html>

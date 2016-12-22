@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .div1{
+            margin: 100px auto;
+            width: 100px;
+            height: 100px;
+            background-color: #7aff9f;
+        }
+    </style>
+</head>
+<body>
+<div class="div1"></div>
+
+<script>
+    var div = document.getElementsByTagName("div")[0];
+    div.onmousedown = function (event) {
+        console.log("down =="+event.clientX);
+    }
+
+//    div.onclick = function () {
+//        console.log("click");
+//    }
+    div.onmouseup = function () {
+        console.log("up");
+    }
+
+
+//    document.onmousemove = function () {
+//        console.log("move");
+//    }
+</script>
+</body>
+</html>

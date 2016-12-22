@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div{
+            margin-top: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: #ab383e;
+            position: absolute;
+            left: 0px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+<button>按钮</button>
+<div id="divid"></div>
+<script>
+    var div = document.getElementById("divid");
+    var leader = 10;
+    var target = 500;
+    setInterval(function () {
+        leader = leader + (target-leader)/10;
+        div.style.left = leader + "px";
+    },100);
+</script>
+</body>
+</html>
