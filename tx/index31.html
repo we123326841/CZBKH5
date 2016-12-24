@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var spp = "aaaabbbbaaaaffffffffffffvvvvvv";
+
+
+    var maxclass = new MaxClass();
+    var nima = maxclass.maxcount(spp);
+    console.log(nima);
+    console.log(maxclass.index);
+
+
+    function MaxClass() {
+        this.index = 1;
+        this.maxcount = function (str) {
+            var arr = [];
+            for (var i = 0; i < str.length; i++) {
+                var isRepeat = false;
+                if (i != 0) {
+                    for (var j = 0; j < arr.length; j++) {
+                        if (arr[j] == str[i]) {
+                            isRepeat = true;
+//                        console.log("str=="+str[i]);
+                        }
+                    }
+
+                }
+
+                if (isRepeat == false) {
+                    arr.push(str[i]);
+                }
+            }
+
+//        console.log(arr);
+            var max = 0;
+            var maxvalue = null;
+            for (var j = 0; j < arr.length; j++) {
+                var count = 0;
+                for (var i = 0; i < str.length; i++) {
+                    if (arr[j] == str[i]) {
+                        count++;
+                    }
+                }
+
+                if (max < count) {
+                    max = count;
+                    maxvalue = arr[j];
+                }
+//            console.log(arr[j] +","+count);
+            }
+            return {name: maxvalue, count: max};
+        }
+    }
+
+
+
+      var s = ""&&undefined;
+    console.log(s);
+//    var demo = function () {
+//        console.log("demo");
+//    }
+//    demo();
+
+    if (!""){
+
+    }
+
+    var str2 = "  ";
+//    alert(str2.length);
+
+
+    var count = 0;
+     var timer = setInterval(function () {
+//         count++;
+         console.log(new Date().getTime());
+       for(var i = 0 ; i < 1000;i++){
+           console.log("你你你");
+       }
+//         console.log(new Date().getTime());
+
+//         if (count == 6){
+//             clearInterval(timer);
+//         }
+    },100);
+
+</script>
+</body>
+</html>

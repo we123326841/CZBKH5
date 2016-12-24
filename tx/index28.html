@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            margin-top: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+<button>按钮</button>
+<div></div>
+
+</body>
+</html>
+
+<script>
+     var btn = document.getElementsByTagName("button")[0];
+     var div = document.getElementsByTagName("div")[0];
+    btn.onclick = function () {
+       var timer = setInterval(function () {
+           console.log("执行定时器"+timer);
+            if(div.offsetLeft > 200){
+                console.log("清理"+timer);
+                clearInterval(timer);
+            }
+           console.log("怎么还在执行"+timer);
+            div.style.left  = div.offsetLeft + 10 + "px";
+
+
+        },100);
+    }
+
+
+</script>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            height: 1000px;
+        }
+
+        #mask{
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+            filter: alpha(opacity = 40);  /*ie 6半透明*/
+            background-color: black;
+            display: none;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+        }
+        
+        #show{
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin: -150px 0 0 -150px;
+            display: none;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+<a href="javascript:;" id="login">登陆</a>
+<a href="javascript:;" id="register">注册</a>
+<div id="mask"></div>
+<div id="show"></div>
+<script>
+    var mask = document.getElementById("mask");
+    var show = document.getElementById("show");
+    var login = document.getElementById("login");
+    login.onclick = function (event) {
+        mask.style.display = "block";
+        show.style.display = "block";
+//        document.body.style.overflow = "hidden";
+        var event = event || window.event;
+        event.stopPropagation ? event.stopPropagation() : event.cancelable = true;
+
+    }
+
+
+    document.onclick = function (event) {
+
+        var event = event || window.event;
+       var targetid = event.target ? event.target.id : event.srcElement.id;
+        if (targetid == "mask") {
+            mask.style.display = "none";
+            show.style.display = "none";
+//            document.body.style.overflow = "visible";
+        }
+    }
+</script>
+</body>
+</html>

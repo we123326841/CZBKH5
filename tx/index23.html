@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>检测屏幕可视区域</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="" id="linkid">;
+<body>
+<div class="demo" id="demo1"></div>
+<script>
+    var linkid = document.getElementById("linkid");
+    function client() {
+        if (window.innerWidth != null) {
+            return {
+                width: window.innerWidth,
+                height: window.innerHeight
+            };
+        } else if (document.compatMode === "CSS1Compat") {
+            return {
+                width: document.documentElement.clientWidth,
+                height: document.documentElement.clientHeight
+            }
+        }
+
+        return {
+            width: document.body.clientWidth,
+            height: document.body.clientHeight
+        }
+    }
+resize();
+    window.onresize = resize;
+
+
+            function resize() {
+                console.log(client().width+","+client().height);
+                if (client().width > 960) {
+//                    document.body.style.backgroundColor = "red";
+                    linkid.href = "css/big.css";
+                } else if (client().width < 960 && client().width > 650) {
+//                    document.body.style.backgroundColor = "blue";
+                    linkid.href = "css/pad.css";
+
+                } else {
+//                    document.body.style.backgroundColor = "yellow";
+                    linkid.href = "css/mobile.css";
+
+                }
+            }
+</script>
+</body>
+</html>

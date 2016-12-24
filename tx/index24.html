@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn">按钮</button>
+<script>
+//    alert("得得得");
+//    alert("什么鸡巴=="+window.event.);
+//    console.log(window.screen.width);
+//    console.log(window.screen.height);
+    var button = document.getElementById("btn");
+    button.onmousedown = function (event) {
+        alert("按钮被点击=="+event);
+        var event = event || window.event;
+//        event.stopPropagation?event.stopPropagation():event.cancelBubble = true;
+//        event.stopPropagation();
+
+        if (event&&event.stopPropagation){
+            event.stopPropagation();
+        }else{
+            event.cancelBubble = true;
+        }
+    }
+
+
+    document.onmousedown = function () {
+        alert("document")
+    }
+</script>
+</body>
+</html>

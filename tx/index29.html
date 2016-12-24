@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #kuai {
+            margin-top: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+<button id="btn1">按钮1</button>
+<button id="btn2">按钮2</button>
+
+<div id="kuai"></div>
+
+<script>
+    function $(objId) {
+        return document.getElementById(objId);
+    }
+    var btn1 = $("btn1")
+    var btn2 = $("btn2")
+    var kuai = $("kuai")
+
+    btn1.onclick = function () {
+        animate($("kuai"), 200);
+    };
+
+    btn2.onclick = function () {
+        animate($("kuai"), 400);
+    };
+
+
+    function animate(obj, target) {
+
+
+        obj.timer = setInterval(function () {
+            console.log("高些么逼");
+            if(obj.offsetLeft > target) {
+                console.log("高些么逼1");
+                clearInterval(obj.timer);
+            }
+            obj.style.left = obj.offsetLeft + 10 + "px";
+
+            console.log("高些么逼2");
+        }, 100);
+
+    }
+</script>
+</body>
+</html>

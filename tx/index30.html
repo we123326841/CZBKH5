@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+            margin-top: 50px;
+            left: 0px;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+<button id="btn200">按钮200</button>
+<button id="btn400">按钮400</button>
+<div id="kuai"></div>
+</body>
+
+<script>
+    function $(objid) {
+        return document.getElementById(objid);
+    }
+
+    $("btn200").onclick = function () {
+        animate($("kuai"),200);
+    };
+
+    $("btn400").onclick = function () {
+        animate($("kuai"),400);
+
+    };
+
+  function animate(obj,target){
+      clearInterval(obj.timer);
+      obj.timer = setInterval(function () {
+            var speed = obj.offsetLeft < target ? 5 : -5;
+
+
+          obj.style.left = obj.offsetLeft + speed + "px";
+
+          if (Math.abs(target - obj.offsetLeft)  <=5){
+              obj.style.left = target + "px";
+              clearInterval(obj.timer);
+          }
+      },100);
+  }
+</script>
+</html>

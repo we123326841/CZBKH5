@@ -65,6 +65,7 @@
 
     function drag(current, move) {
         current.onmousedown = function (event) {
+            alert("搞鸡巴");
             var event = event || window.event;
 
             var x = event.clientX - move.offsetLeft;

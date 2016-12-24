@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .box1{
+            width: 300px;
+            height: 300px;
+            margin-top: 50px;
+        }
+        #kuai{  margin-top: 0px;
+            height: 50px;
+            width: 50px;
+            background-color: pink;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="kuai"></div>
+<div class="box1" id="box1">的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的</div>
+
+<div>的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的打我多渠道为的钱我的完全当前大豆纤维的钱我的当前当前的的</div>
+</body>
+</body>
+</html>
+<script>
+    var kuai = document.getElementById("kuai");
+    var box1 = document.getElementById("box1");
+    box1.onmouseup = function (event) {
+        var event = event || window.event;
+//        console.log("x="+event.clientX + "y="+event.clientY);
+        var text = null;
+        if(window.getSelection){
+            text = window.getSelection().toString();
+//            console.log("先进浏览器"+text);
+        }else{
+            text = document.selection.createRange().text;
+//            console.log("垃圾浏览器");
+        }
+
+        if (text){
+            showKuai(event,text);
+        }
+
+    }
+
+    function showKuai(event, contentText) {
+        setTimeout(function () {
+            kuai.style.display = "block";
+            kuai.style.left = event.clientX + "px";
+            kuai.style.top = event.clientY + "px";
+            kuai.innerHTML = contentText;
+        },200);
+
+    }
+
+
+    document.onmousedown = function (event) {
+//        console.log("什么鸡巴男子毛");
+        var event = event || window.event;
+        alert(event.target);
+        var ido = event.target?event.target.id : event.srcElement.id;
+        if(ido != "kuai"){
+            kuai.style.display = "none";
+        }
+    }
+</script>
