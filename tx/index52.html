@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css"></style>
+</head>
+<body>
+<div id="content"></div>
+</body>
+
+
+<script>
+    var content = document.getElementById("content");
+    window.onresize = function (fn,dey) {
+        timer = null;
+        console.log("你麻痹");
+        return function () {
+            console.log("你麻痹哈="+timer);
+            clearTimeout(timer);
+            timer = setTimeout(fn,dey)
+        }
+    }(function () {
+        console.log("哈哈");
+    },300);
+
+
+//    function sm(fn,dey) {
+//        timer = null;
+//        console.log("你麻痹");
+//        return function () {
+//            console.log("你麻痹哈="+timer);
+//           clearTimeout(timer);
+//           timer = setTimeout(fn,dey)
+//        }
+//    }
+
+
+//   var ttt = setTimeout(function () {
+//       clearTimeout(ttt);
+//
+//       console.log("sm gui");
+//    },1000);
+//
+//    var tp = setInterval(function () {
+//        clearInterval(tp);
+//        console.log("dec成都");
+//    },1000);
+
+
+</script>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #7aff9f;
+        }
+    </style>
+</head>
+<body>
+<button class="zuo" id="zuo">左边</button>
+<button class="you" id="you">右边</button>
+<div></div>
+<script>
+//    var s = function (x) {
+//        console.log(x);
+//    }
+//
+//    s(32);
+//
+//    function demo(b) {
+//        alert(b);
+//    }
+//
+//    demo();
+
+//    function demo1(x) {
+//        function demo2(y) {
+//            alert(x+y);
+//        }
+//
+//        return demo2;
+//    }
+//
+//
+//
+//    var obj =demo1(2);
+//    obj(42);
+
+    var div1 = document.getElementsByTagName("div")[0];
+//    alert(div1.offsetLeft);
+//    alert(div1.offsetTop);
+
+    var zuo = document.getElementById("zuo");
+    var you = document.getElementById("you");
+    function demo(speed) {
+        function hehe() {
+           div1.style.left  =  div1.offsetLeft + speed  + "px";
+        }
+        return hehe;
+    }
+    zuo.onclick = demo(-8);
+    you.onclick = demo(8);
+</script>
+
+</body>
+</html>

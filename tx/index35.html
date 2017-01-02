@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+
+        }
+    </style>
+</head>
+<body>
+<button id="btn200">到200</button>
+<button id="btn400">到400</button>
+<div id="divid" style="width: 23px"></div>
+
+
+<script>
+    var json = {name:"wanghao","age":19};
+
+ function $(myid) {
+     return document.getElementById(myid);
+ }
+
+
+ $("btn200").onclick = function () {
+   animate(200,$("divid"));
+ };
+
+
+ $("btn400").onclick = function () {
+     animate(400,$("divid"));
+
+ };
+
+    function animate(target,obj) {
+       var timer = setInterval(function () {
+            var step = (target - obj.offsetLeft)/10;
+            step = step > 0?Math.ceil(step):Math.floor(step);
+            obj.style.left = obj.offsetLeft + step + "px";
+
+            if (target == obj.offsetLeft){
+                clearInterval(timer);
+            }
+        },10);
+    }
+
+
+    window.onload = function () {
+        alert($("divid").style.width);
+        alert($("divid").style["width"]);
+        alert(json.name);
+        alert(json["name"]);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //    function demo() {
+    //        alert(this);
+    //        this.x = 20;
+    //    }
+    //     var obj = {};
+    //      obj.de= demo;
+    //    obj.de();
+    //    console.log(window.x);
+    //    console.log(obj.x);
+    //    console.log(x);
+    //
+    //
+    //    alert(x);
+    //    f1();
+    //    function f1() {
+    //        var a = b=c =9;
+    //    }
+    //    console.log(a);
+    //    console.log(b);
+    //    console.log(c);
+
+
+    //    var  b = 45;
+    //    function f2() {
+    //        console.log(b);
+    ////        var b = 21;
+    //    }
+    //    f2();
+
+    function demo(name, age) {
+        this.y = age;
+        this.nameo = name;
+
+    }
+
+
+    var d = new demo("王浩", 27);
+    console.log(d.y);
+    console.log(d.nameo);
+    console.log(window.y);
+    console.log(window.nameo);
+    console.log(y);
+
+    console.log(nameo);
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function li(name,age) {
+        var obj = {};
+        obj.name = name;
+        obj.age = age;
+        obj.showName = function () {
+            alert(obj.name+"的年龄是:"+obj.age);
+        }
+
+        return obj;
+    }
+
+
+    var xiaomi = li("小米",32);
+    xiaomi.showName();
+</script>
+</body>
+</html>

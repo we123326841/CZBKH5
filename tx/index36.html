@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            width: 100px;
+            height: 200px;
+            background-color: #7aff9f;
+            position: absolute;
+            left: 20px;
+            top: 40px;
+        }
+    </style>
+</head>
+<body>
+<div id="idv"></div>
+<script>
+
+
+    function getValue(obj,attri) {
+//       return obj.currentStyle?obj.currentStyle[attri]:window.getComputedStyle(obj,null)[attri];
+        if (obj.currentStyle){
+            alert("ie");
+            return obj.currentStyle[attri];
+        }else{
+            alert("w3c");
+            return window.getComputedStyle(obj,null)[attri];
+        }
+    }
+
+    var idv = document.getElementById("idv");
+//    alert(idv.currentStyle["width"]);
+    alert(window.getComputedStyle(idv,null).width);
+    alert(getValue(idv,"width"));
+    alert(idv.offsetWidth);
+
+</script>
+</body>
+</html>

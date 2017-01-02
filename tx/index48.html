@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css48.css"/>
+    <script src="animate.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="wrap" id="wrap">
+    <div class="slide" id="slide">
+        <ul>
+            <li><a href="#"><img src="images/slidepic1.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="images/slidepic2.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="images/slidepic3.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="images/slidepic4.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="images/slidepic5.jpg" alt=""/></a></li>
+        </ul>
+        <div class="arrow" id="arrow">
+            <a href="javascript:;" class="prev"></a>
+            <a href="javascript:;" class="next"></a>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    function $(id) {
+        return document.getElementById(id);
+    }
+    var wrap = $("wrap");
+    var arrow = $("arrow");
+    var lis = $("slide").children[0].children;
+    var as = arrow.children;
+
+    wrap.onmouseover = function () {
+            animate(arrow,{opacity:100});
+    }
+
+    wrap.onmouseout = function () {
+        animate(arrow,{opacity:0});
+    }
+
+    //  存储了每个图片的信息
+    var json = [
+        {   //  1
+            width:400,
+            top:20,
+            left:50,
+            opacity:20,
+            z:2
+        },
+        {  // 2
+            width:600,
+            top:70,
+            left:0,
+            opacity:80,
+            z:3
+        },
+        {   // 3
+            width:800,
+            top:100,
+            left:200,
+            opacity:100,
+            z:4
+        },
+        {  // 4
+            width:600,
+            top:70,
+            left:600,
+            opacity:80,
+            z:3
+        },
+        {   //5
+            width:400,
+            top:20,
+            left:750,
+            opacity:20,
+            z:2
+        }
+    ];
+    var ableClick = true;
+    for(var a  in as){
+        as[a].onclick = function () {
+            if (this.className == "prev"){
+                if (ableClick) {
+                    change(false);
+                    ableClick = false;
+                }
+            }else{
+                if (ableClick) {
+                    change(true);
+                    ableClick = false;
+                }
+            }
+        }
+    }
+
+    function change(b) {
+//        alert(lis.length);
+        if(b){
+            json.unshift(json.pop());
+        }else{
+            json.push(json.shift());
+        }
+        show();
+
+    }
+    show();
+
+    function show() {
+        for (var j in json){
+            var jsonC = json[j];
+            animate(lis[j],{width:jsonC.width,top:jsonC.top,left:jsonC.left,opacity:jsonC.opacity,zIndex:jsonC.z },function () {
+                ableClick = true;
+
+            });
+        }
+    }
+
+
+</script>
+</html>

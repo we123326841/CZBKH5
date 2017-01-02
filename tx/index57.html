@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person(name,age) {
+        this.name = name;
+        this.age = age;
+        this.showName = function () {
+            alert("我的名字是:"+this.name);
+        }
+
+        this.showAge = function () {
+            alert("我的年龄是:"+this.age);
+        }
+    }
+
+    Person.prototype.gaobo= function () {
+        alert("gaomebi:"+this.age);
+    }
+
+
+
+    var p1 = new Person("毛男子",21);
+    var p2 = new Person("毛男子",23);
+//    console.log(p1.name);
+//    console.log(p1.age);
+//    p1.showName();
+//
+//    console.log(p2.name);
+//    console.log(p2.age);
+//    p2.showName();
+//
+    alert(p1.showName == p2.showName);
+
+
+    p1.gaobo();
+    p2.gaobo();
+    alert(p1.gaobo == p2.gaobo);
+
+</script>
+</body>
+</html>

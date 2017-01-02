@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+            position: absolute;
+
+        }
+    </style>
+</head>
+<body>
+<button>开始跑</button>
+<div id="divid"></div>
+<script>
+    var btn = document.getElementsByTagName("button")[0];
+    var box = document.getElementById("divid");
+    var target = 400;
+    var timer = null;
+    btn.onclick = function () {
+
+      var realtimer= timer = setInterval(function () {
+            var step = (target - box.offsetLeft)/10;
+//            step = Math.ceil(step);
+           step = step >0 ? Math.ceil(step): Math.floor(step);
+            box.style.left = box.offsetLeft + step + "px";
+            console.log("step=="+step + ",left=="+box.style.left+",off=="+ box.offsetLeft+ "timer=="+timer);
+            if (box.offsetLeft == target){
+                console.log("timer:"+timer+"清除"+",realTimer:"+realtimer+"清除");
+                clearInterval(realtimer);
+            }
+        },10);
+
+    }
+</script>
+
+</body>
+</html>

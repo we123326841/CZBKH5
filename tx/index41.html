@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #p{
+           position: fixed;
+            right: 0px;
+            bottom: 0px;
+
+        }
+        span{
+            color: white;
+            position: absolute;
+            right: 15px;
+            top: 2px;
+            font: 400 16px/16px "American Typewriter";
+        }
+    </style>
+</head>
+<body>
+<div id="p">
+    <span id="sp">x</span>
+    <div id="t"><img src="images/t.jpg"></div>
+    <div id="b"><img src="images/b.jpg"></div>
+</div>
+
+<script>
+    function $(id) {
+        return document.getElementById(id);
+    }
+
+    function getStyle(obj, attri) {
+        return obj.currentStyle ? obj.currentStyle[attri] : window.getComputedStyle(obj, null)[attri];
+    }
+
+
+    function animate(obj, json,fn) {
+        var timer = setInterval(function () {
+            var flag = true;
+            for (var key in json) {
+                var styleValue = parseInt(getStyle(obj, key));
+                var step = (json[key] - styleValue) / 10;
+                step = step > 0 ? Math.ceil(step) : Math.floor(step);
+                obj.style[key] = styleValue + step + "px";
+                if (styleValue != json[key]) {
+                    flag = false;
+                }
+
+//                console.log("key:" + key + ",styleValue:" + styleValue + ",step:" + step);
+            }
+
+            if(flag){
+                clearInterval(timer);
+                if (fn){
+                    fn();
+                }
+            }
+        }, 10);
+
+//        console.log("什么鸡巴男子毛啊");
+
+    }
+
+    $("sp").onclick =function () {
+
+        animate($("b"),{height:0},function () {
+            animate($("t").parentNode,{width:0},function () {
+//                alert("搞些么逼");
+            });
+        });
+    }
+</script>
+</body>
+</html>

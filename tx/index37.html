@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: #7aff9f;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+<button id="btn200">走200</button>
+<button id="btn400">走400</button>
+<div id="idvid"></div>
+
+<script>
+
+    function $(idvi) {
+        return document.getElementById(idvi);
+    }
+    function getStyle(obj,attri) {
+        return obj.currentStyle?obj.currentStyle[attri]:window.getComputedStyle(obj,null)[attri];
+
+    }
+
+    function animate(obj,target,attri) {
+
+       obj.timer = setInterval(function () {
+           var styleValue= parseInt(getStyle(obj,attri));
+           var step = (target - styleValue)/10;
+           step = step>0?Math.ceil(step):Math.floor(step);
+           console.log(step);
+           obj.style[attri] = styleValue + step + "px";
+
+           if(styleValue == target){
+               clearInterval(obj.timer);
+           }
+        },10);
+
+    }
+    $("btn200").onclick = function () {
+
+        animate($("idvid"),200,"left");
+    }
+    $("btn400").onclick = function () {
+
+        animate($("idvid"),400,"left");
+    }
+
+
+</script>
+</body>
+</html>

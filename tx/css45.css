@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+img{
+    vertical-align: middle;
+}
+
+.w-slider {
+    width: 310px;
+    height: 280px;
+    margin: 50px auto;
+    border: 1px solid #9e0f18;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.slider {
+    width: 310px;
+    height: 220px;
+    /*background-color: #9e0f18;*/
+    /*overflow: hidden;*/
+
+
+}
+
+.slider-control {
+
+    text-align: center;
+
+}
+
+.slider-control span.con-item{
+    margin-top: 5px;
+    width: 24px;
+    height: 20px;
+    display: inline-block;
+    background: url("wylb/icon.png") no-repeat -24px -782px;
+    margin-left: 10px;
+    text-indent: 12em;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.slider-control span.current{
+    background-position:-24px -762px;
+}
+
+.slider-control span.pre , .slider-control span.next{
+    position: absolute;
+    top: 50%;
+
+    width: 30px;
+    height: 35px;
+    margin-top: -35px;
+    opacity: 1;
+    background: url("wylb/icon.png") no-repeat 6px top;
+    cursor: pointer;
+}
+
+.slider-control span.pre{
+    left: 0px;
+}
+
+.slider-control span.next{
+    right: 0px;
+    background: url("wylb/icon.png") no-repeat 0px -44px;
+}
+
+.slider .silder-content a{
+    display: block;
+
+}
+
+.slider .silder-content{
+    width: 620px;
+    height: 220px;
+    /*background-color: #9e0f18;*/
+
+    position: relative;
+}
+
+.slider .silder-content div{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

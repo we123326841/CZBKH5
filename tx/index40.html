@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: #7aff9f;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+<button id="btn200">走200</button>
+<button id="btn400">走400</button>
+<div id="idvid"></div>
+<script>
+    var obj = document.getElementById("idvid");
+    console.log(window.getComputedStyle(obj,null)["top"]);
+    obj.style["top"] = parseInt(window.getComputedStyle(obj,null)["top"]) + 12+"px";
+    console.log(window.getComputedStyle(obj,null)["top"]);
+</script>
+</body>
+</html>
