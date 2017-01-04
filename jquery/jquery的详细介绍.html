@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+</head>
+<body>
+<script>
+    var iquery = function (dom) {
+        var obj = {ready:function (fuc) {
+            if( typeof dom.onload === "function"){
+                var oldFuc = dom.onload;
+                dom.onload = function () {
+                    fuc();
+                    oldFuc();
+                };
+
+            }else{
+                dom.onload = fuc;
+            }
+        }};
+
+        return obj;
+    };
+
+    iquery(window).ready(function () {
+        alert("第一次");
+    });
+    iquery(window).ready(function () {
+        alert("第二次");
+    });
+
+
+    
+    
+</script>
+</body>
+</html>

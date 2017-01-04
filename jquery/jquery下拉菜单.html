@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div {
+            margin: 50px auto;
+            width: 340px;
+            height: 30px;
+            background: url("imgs/bg.jpg") no-repeat;
+
+        }
+
+        ul {
+            list-style: none;
+
+        }
+
+        li {
+
+            float: left;
+            height: 30px;
+            width: 100px;
+            background: url("imgs/libg.jpg") no-repeat;
+
+        }
+
+        .li1 {
+            margin-left: 10px;
+            position: relative;
+        }
+
+        a {
+            text-align: center;
+            text-decoration: none;
+            line-height: 30px;
+            display: block;
+            color: black;
+
+        }
+
+        .ul2 {
+            display: none;
+            position: absolute;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script>
+        $(function () {
+//            $(".li1").mouseenter(function () {
+//                $(this).children(".ul2").show();
+//            });
+//
+//            $(".li1").mouseleave(function () {
+//                $(this).children(".ul2").hide();
+//            });
+
+//            $(".li1").hover(function () {
+//                $(this).children(".ul2").show();
+//            },function () {
+//                $(this).children(".ul2").hide();
+//            });
+//        });
+
+//            $(".li1").hover(function () {
+//                if ($(this).children(".ul2").css("display") === "block") {
+//                    $(this).children(".ul2").hide();
+//                } else {
+//                    $(this).children(".ul2").show();
+//                }
+//            });
+
+//            $(".li1").hover(function () {
+//                $(this).children(".ul2").slideToggle();
+//            });
+        });
+
+    </script>
+</head>
+<body>
+<div>
+    <ul>
+        <li class="li1"><a class="yj" href="#">一级菜单</a>
+            <ul class="ul2">
+                <li><a href="">二级菜单</a></li>
+                <li><a href="">二级菜单</a></li>
+                <li><a href="">二级菜单</a></li>
+            </ul>
+        </li>
+        <li class="li1"><a class="yj" href="#">一级菜单</a>
+            <ul class="ul2">
+                <li><a href="">二级菜单</a></li>
+                <li><a href="">二级菜单</a></li>
+                <li><a href="">二级菜单</a></li>
+            </ul>
+        </li>
+        <li class="li1"><a class="yj" href="#">一级菜单</a>
+            <ul class="ul2">
+                <li><a href="">二级菜单</a></li>
+                <li><a href="">二级菜单</a></li>
+                <li><a href="">二级菜单</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

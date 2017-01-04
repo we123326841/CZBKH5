@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script>
+        $(function () {
+//           $("div,span").css("background","red");
+           $("div,span").css({"width":"100px","height":"100px","background":"red"});
+//           $("div").css();
+           var s = $("div").css("height");
+
+
+            $("div").css("font-size",function (index,value) {
+                console.log("index=="+index+",value=="+value);
+            });
+
+            $("div").css("font-size",function (index,value) {
+//                console.log("index=="+index+",value=="+value);
+                return (index+1)*50+"px";
+            });
+
+        });
+
+
+        function del(a,b) {
+            console.log("a=="+a);
+            console.log("b=="+b);
+        }
+
+    del(21,43,32);
+
+
+    </script>
+</head>
+<body>
+<div style="font-size: 18px">1</div>
+<div style="font-size: 20px">2</div>
+<div style="font-size: 22px">3</div>
+
+<span>nimagebi</span>
+</body>
+</html>

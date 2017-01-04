@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="jquery-1.11.1.js" type="text/javascript"></script>
+
+    <script>
+
+        $(function () {
+//            $("a[href = 'http://www.souhu.com']").css("background","red");
+            $("a[href ^= 'http']").css("font-size","100px");
+            $("a[href $= 'cn']").css("font-size","50px");
+            $("a[href *= 'tob']").css("font-size","10px");
+            $("a[href][title = '我']").css("background","blue");
+        });
+
+    </script>
+</head>
+<body>
+<a href="http://www.baidu.com" title="我">进入拜服</a>
+<a href="http://www.souhu.com">进入shoufu</a>
+<a href="http://www.taobao.com">进入taobao</a>
+<a href="http://www.taobao.cn">进入taobao.cn</a>
+<a href="http://www.taobao.cn">进入cn</a>
+<a href="http://www.tob.com">进入sm</a>
+<a href="http://www.tob.cn">进入po</a>
+<a>进入鸡巴</a>
+</body>
+</html>

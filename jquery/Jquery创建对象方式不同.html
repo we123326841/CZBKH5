@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+</head>
+<body>
+<script>
+    var json = {"name":"刘豆花","age":14,"fuc":function () {
+        alert("哎哟我去");
+    }};
+    alert(json.name);
+    alert(json["name"]);
+    json.fuc();
+    json["fuc"]();
+
+    var json1 = {name:"刘豆花",age:14,fuc:function () {
+        alert("你麻痹");
+    }};
+
+    alert(json1.name);
+    alert(json1["name"]);
+    json1.fuc();
+    json1["fuc"]();
+
+
+    var obj = new  Object();
+    obj.name = "dwcd";
+    alert(obj["name"]);
+
+</script>
+</body>
+</html>

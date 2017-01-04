@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script>
+        window.onload = function () {
+            alert(document.getElementById("img3").clientWidth);
+        }
+
+//        $(document).ready(function () {
+////            alert($("#img3").width());
+//            alert("喝:"+document.getElementById("img3").clientWidth);
+//        });
+
+        $(function () {
+            alert("喝:"+document.getElementById("img3").clientWidth);
+        });
+
+    </script>
+</head>
+<body>
+<img src="imgs/01.jpg"/>
+<img src="imgs/02.jpg"/>
+<img src="imgs/03.jpg" id="img3"/>
+</body>
+</html>
