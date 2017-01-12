@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../jquery/jquery-1.11.1.js"></script>
+    <script>
+        $(function () {
+            $("#guo").bind("click", function () {
+                $("#si").trigger("focus", ["trigger"]);
+            });
+            $("#yan").bind("click", function () {
+                $("#si").triggerHandler("focus", ["triggerHandler"]);
+            });
+            $("#si").bind("focus", function (e, handler) {
+                console.log("si bind");
+                if (typeof(handler) == "undefined") handler = "用户操作";
+                $(this).val(handler);
+            });
+        })
+    </script>
+</head>
+<body>
+<input type="button" id="guo" value="trigger"/>
+
+<input type="button" id="yan" value="triggerHandler"/>
+<input id="si" type="text"/>
+
+
+</body>
+</html>

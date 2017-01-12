@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .div1 {
+            width: 300px;
+            height: 300px;
+            background-color: #7aff9f;
+        }
+
+        .div2 {
+            width: 200px;
+            height: 600px;
+            background-color: #1b78f6;
+        }
+
+
+    </style>
+    <script type="text/javascript" src="../jquery/jquery-1.11.1.js"></script>
+    <script>
+        $(function () {
+
+
+            var div1 = document.getElementById("div1");
+            var div2 = document.getElementById("div2");
+            var btn = document.getElementById("btn");
+            var btn1 = document.getElementById("btn1");
+            div1.onclick = function () {
+                alert("div1被点击");
+            };
+
+            div2.onclick = function () {
+                alert("div2被点击");
+            }
+
+
+//            btn1.onclick = function () {
+//                $("#btn").trigger("click");
+//            };
+//
+//            btn.onclick = function () {
+//              alert("点击了");
+//            };
+
+            $("#div2").trigger("click");
+//            div2.click();
+
+
+        });
+    </script>
+</head>
+<body>
+<button id="btn">隐藏</button>
+<button id="btn1">呵呵</button>
+
+<div class="div1" id="div1">
+    <div class="div2" id="div2"></div>
+</div>
+</body>
+</html>

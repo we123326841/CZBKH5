@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+     polygon{
+         fill: #f2ff29 !important;
+     }
+    </style>
+    <script type="text/javascript" src="../jquery/jquery-1.11.1.js"></script>
+
+</head>
+<body>
+<!--<iframe src="demo.svg"></iframe>-->
+<!--<object data="demo.svg" type=""></object>-->
+<!--<embed src="demo.svg"></embed>-->
+<!--<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" xml:space="preserve">-->
+    <!--<polygon id="XMLID_1_" style="fill:#fff;stroke:#f40;stroke-miterlimit:10;" points="163.595,113.892 127.131,102.867-->
+  <!--97.377,126.654 96.594,88.568 64.777,67.621 100.757,55.108 110.846,18.375 133.866,48.727 171.919,46.971 150.166,78.243 " />-->
+  <!--</svg>-->
+
+<svg data-src="demo.svg"></svg>
+
+<script>
+    window.addEventListener("load",function () {
+        var p = document.documentElement;
+
+        var svgs = document.getElementsByTagName("svg");
+        for(var i = 0; i < svgs.length; i++){
+            var svg = svgs[i];
+            var src = $(svg).data("src");
+
+            $.get(src,function (data) {
+               var el = data.documentElement;
+                $(document.body).append(el);
+            });
+        }
+    });
+</script>
+</body>
+</html>

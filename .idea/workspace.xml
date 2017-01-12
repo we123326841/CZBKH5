@@ -2,183 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c5fba60-aa05-4603-bfe2-54cc116e6247" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/minion_02.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/movie.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/movie.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/music.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/天后.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/100.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/101.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/102.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/103.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/104.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/105.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/106.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/107.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/108.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/109.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/110.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/111.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/112.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/113.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/114.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/115.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/20.gif.baiduyun.downloading" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/20.gif.baiduyun.downloading.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/73.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/75.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/76.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/77.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/78.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/79.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/80.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/81.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/82.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/83.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/84.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/85.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/86.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/87.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/88.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/89.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/90.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/91.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/92.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/93.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/94.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/95.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/96.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/97.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/98.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/faces/99.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/images/01.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/images/02.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/images/03.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/images/04.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/images/05.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/images/06.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/images/07.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/images/08.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/imgs/bk-top3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/imgs/guojidapai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/imgs/guozhuangmingpin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/imgs/nanshijingpin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/imgs/qingjieyongpin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/demo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/nima.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/Jquery复习3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jequery动画停止.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquerydom操作.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquerytab栏切换.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery两边 广告图片动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery事件介绍.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery事件介绍2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery事件介绍3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery事件捕获和冒泡.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery函数模拟.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery创建对象.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery动画停止1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery图片导航网站效果.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery复习1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery复习2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery复习4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery复习5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery模拟.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery第三天height和width介绍.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery第三天固定导航栏.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery第三天坐标值.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery第三天滚动条.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery第二天开始.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery第二天第三课.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery第二天第二课.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery节点操作.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jsemoji.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/juqery样式操作.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/index21.html" afterPath="$PROJECT_DIR$/CSS/index21.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery/jquery下拉菜单.html" afterPath="$PROJECT_DIR$/jquery/jquery下拉菜单.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tx/index24.html" afterPath="$PROJECT_DIR$/tx/index24.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/html5初次尝试.html" afterPath="$PROJECT_DIR$/html5/html5初次尝试.html" />
     </list>
     <ignored path="CZBKH5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -200,7 +29,38 @@
     <favorites_list name="CZBKH5" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test01.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LX/test01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="32" column="45" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test02.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LX/test02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test03.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LX/test03.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -222,11 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jquery/jquery的详细介绍.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery入口函数跟js入口函数比较.html" />
-        <option value="$PROJECT_DIR$/jquery/Jquery创建对象方式不同.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery基本选择器.html" />
         <option value="$PROJECT_DIR$/jquery/jquery的选择器加强.html" />
         <option value="$PROJECT_DIR$/jquery/jquery过滤选择器.html" />
         <option value="$PROJECT_DIR$/jquery/jquery属性选择器.html" />
@@ -266,13 +121,18 @@
         <option value="$PROJECT_DIR$/jquery/jquery复习4.html" />
         <option value="$PROJECT_DIR$/jquery/jquery复习5.html" />
         <option value="$PROJECT_DIR$/jquery/jsemoji.js" />
-        <option value="$PROJECT_DIR$/html5/html5初次尝试.html" />
         <option value="$PROJECT_DIR$/html5/nima.css" />
         <option value="$PROJECT_DIR$/html5/html5初次尝试0.html" />
         <option value="$PROJECT_DIR$/html5/html5初次尝试2.html" />
         <option value="$PROJECT_DIR$/html5/html5初次尝试3.html" />
         <option value="$PROJECT_DIR$/html5/html5初次尝试4.html" />
         <option value="$PROJECT_DIR$/html5/html5初次尝试5.html" />
+        <option value="$PROJECT_DIR$/html5/demo.svg" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试6.html" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试.html" />
+        <option value="$PROJECT_DIR$/LX/test01.html" />
+        <option value="$PROJECT_DIR$/LX/test02.html" />
+        <option value="$PROJECT_DIR$/LX/test03.html" />
       </list>
     </option>
   </component>
@@ -289,8 +149,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="154" />
-    <option name="y" value="269" />
+    <option name="x" value="-53" />
+    <option name="y" value="186" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
   </component>
@@ -348,21 +208,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CZBKH5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CZBKH5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="LX" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -663,24 +509,26 @@
       <workItem from="1484050604170" duration="7066000" />
       <workItem from="1484097330636" duration="10315000" />
       <workItem from="1484137416267" duration="3502000" />
-      <workItem from="1484187571157" duration="41000" />
+      <workItem from="1484187571157" duration="5621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="723493000" />
+    <option name="totallyTimeSpent" value="729073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="154" y="269" width="1280" height="727" extended-state="0" />
-    <editor active="false" />
+    <frame x="-53" y="186" width="1280" height="727" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28196982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28196982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -689,13 +537,11 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="128" y="123" width="1080" height="531" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -746,34 +592,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jquery/jquery基本选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery基本使用.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/Jquery创建对象方式不同.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery创建对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery/jquery事件介绍.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -989,21 +807,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试3.html">
+    <entry file="file://$PROJECT_DIR$/html5/toy.png" />
+    <entry file="file://$USER_HOME$/Desktop/06 HTML5/HTML5_01/2015-12-03/code/demo.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试2.html">
+    <entry file="file://$PROJECT_DIR$/html5/demo.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,10 +832,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试.html">
+    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1031,27 +856,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/toy.png" />
     <entry file="file://$PROJECT_DIR$/html5/html5初次尝试5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="47">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/demo.svg">
+    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/06 HTML5/HTML5_01/2015-12-03/code/demo.svg">
+    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
