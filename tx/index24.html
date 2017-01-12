@@ -13,7 +13,7 @@
 //    console.log(window.screen.height);
     var button = document.getElementById("btn");
     button.onmousedown = function (event) {
-        alert("按钮被点击=="+event);
+        alert("按钮被点击=="+event.target);
         var event = event || window.event;
 //        event.stopPropagation?event.stopPropagation():event.cancelBubble = true;
 //        event.stopPropagation();
@@ -26,8 +26,8 @@
     }
 
 
-    document.onmousedown = function () {
-        alert("document")
+    document.onmousedown = function (event) {
+        alert("document"+event.target)
     }
 </script>
 </body>

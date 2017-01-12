@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .con::after{
+             content: "是你妹";
+             color: #7aff9f;
+         }
+
+        .con::before{
+            content: "我是东湖";
+            color: #7aff9f;
+        }
+
+        .propro{
+            -webkit-appearance: none;
+        }
+
+        /*.propro::-webkit-progress-bar{*/
+            /*background-color: #008aff;*/
+        /*}*/
+
+        /*.propro::-webkit-progress-value{*/
+            /*background-color: yellowgreen;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+<input type="text" list="input_list"/>
+<datalist id="input_list">
+    <option value="laoma"></option>
+    <option value="lisi"></option>
+</datalist>
+
+<progress max="100" value="10" class="propro"></progress>
+
+
+<div class="con">aaaa</div>
+
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   var Person =  function (myname) {
+      this.name =  myname;
+    };
+
+    Person.prototype.show = function () {
+        alert(this.name);
+    };
+
+
+    var p1 = new Person("王浩");
+    var p2 = new Person("李四");
+
+    console.log(p1 == p2);
+    console.log(p1.show == p2.show);
+    p1.show();
+</script>
+</body>
+</html>

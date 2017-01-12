@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: #7aff9f;
+        }
+    </style>
+</head>
+<body>
+<!--ele.addEventListener('click',doSomething2,true)-->
+<div>
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+    var div1 = document.getElementsByTagName("div")[0];
+    var something = function () {
+        alert("div1点击");
+    }
+
+    var something1 = function () {
+        alert("doc点击");
+    }
+    document.addEventListener("click",something1,true);
+
+
+    div1.addEventListener("click",something,true);
+</script>
+</html>

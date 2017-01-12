@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script>
+        $(document).ready(function () {
+//            $("button").bind("click mouseenter",function () {
+//                console.log("事件");
+//            });
+//        });
+        
+//        $("button").bind({"click":function () {
+//            alert("点击事件");
+//        },"mouseenter":function () {
+//            alert("进入事件");
+//        }});
+
+//            $("button").bind("click",{a:"你妹"},function (e) {
+//                alert(e.data.a);
+//            });
+
+//            $("button").one("click",function () {
+//               alert("one");
+//            });
+
+//            $("ul li").bind("click",function () {
+//                alert($(this).html());
+//            })
+
+//            $("ul").delegate("li","click",function () {
+//               alert($(this).html());
+//            });
+
+//            $("ul").on("click","li",function () {
+//               alert($(this).html());
+//            });
+
+            $("div").on("click mouseenter","p",function () {
+                alert("出发");
+            })
+
+            $("div").off("click");
+        });
+
+    </script>
+</head>
+<body>
+<button>绑定两个事件</button>
+<ul>
+    <li>我是li1</li>
+    <li>我是li2</li>
+    <li>我是li3</li>
+    <li>我是li4</li>
+    <li>我是li5</li>
+    <li>我是li6</li>
+    <li>我是li7</li>
+    <li>我是li8</li>
+    <li>我是li9</li>
+    <li>我是li10</li>
+</ul>
+
+<div>
+    <p>我是p元素</p>
+    <p>我是p元素</p>
+    <h1>我是h1元素</h1>
+</div>
+</body>
+</html>

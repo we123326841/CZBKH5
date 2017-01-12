@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .item1{
+            background-color: #008aff;
+        }
+    </style>
+    <script src="jquery-1.11.1.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").eq(0).click(function () {
+//                $("div").eq(3).addClass("item1");
+//                $("div").eq(3).removeClass("item1");
+//                $("div").eq(3).toggleClass("item1");
+                if(  $("div").eq(3).hasClass("item1")){
+                    $("div").eq(3).removeClass("item1");
+                }else{
+                    $("div").eq(3).addClass("item1");
+                }
+
+            });
+        });
+
+    </script>
+</head>
+<body>
+<button>切换</button>
+<div>还你妈个屁还你妈个毛</div>
+<div>还你妈个屁还你妈个毛</div>
+<div>还你妈个屁还你妈个毛</div>
+<div>还你妈个屁还你妈个毛</div>
+<div>还你妈个屁还你妈个毛</div>
+<div>还你妈个屁还你妈个毛</div>
+<div>还你妈个屁还你妈个毛</div>
+<div>还你妈个屁还你妈个毛</div>
+<div>还你妈个屁还你妈个毛</div>
+<div>还你妈个屁还你妈个毛</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        img{
+            vertical-align: middle;
+        }
+
+        .fixed {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+        }
+
+    </style>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script>
+        $(function () {
+           $(window).scroll(function () {
+              var top1 = $(document).scrollTop();
+               if(top1 >= $("#top").height()){
+                   $("#nav").css({"position":"fixed","left":"0px","top":"0px"});
+                   $("#main").css("margin-top",$("#nav").height());
+               }else{
+                   $("#nav").css({"position":"static"});
+                   $("#main").css("margin-top",0);
+               }
+           });
+        });
+    </script>
+
+</head>
+
+
+<body>
+<div class="top" id="top">
+    <img src="../tx/images/top.png"/>
+</div>
+<div class="nav" id="nav">
+    <img src="../tx/images/nav.png"/>
+</div>
+<div class="main" id="main">
+    <img src="../tx/images/main.png">
+</div>
+
+
+
+
+</body>
+</html>
+<!--<script>-->
+
+<!--for(var j = 0 ; j < 1000; j++) {-->
+<!--console.log("dedede");-->
+<!--}-->
+<!--console.log("dedede");-->
+<!--console.log("dedede");-->
+<!--console.log("dedede");-->
+<!--console.log("dedede");-->
+<!--console.log("dedede");-->
+<!--console.log("dedede");-->
+<!--</script>-->
+<script>
+
+
+
+</script>

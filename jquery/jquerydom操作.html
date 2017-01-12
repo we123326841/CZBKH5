@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        p{
+            height: 50px;
+            background-color: gray;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script>
+        $(function () {
+            $("input").eq(0).click(function () {
+                $(this).attr("title","我日你老母");
+            });
+            $("input").eq(1).click(function () {
+               var txt = $("input").eq(0).attr("title");
+                debugger;
+//                alert(txt);
+                $("input[type = 'text']").val(txt);
+            });
+
+            $("input").eq(2).click(function () {
+                $("input").eq(0).removeAttr("title");
+            });
+
+            $("input").eq(4).click(function () {
+                alert($("input[type = 'text']").val());
+            });
+
+            $("input").eq(5).click(function () {
+               $("div").html("<p>哦是吗</p>");
+            });
+
+            $("input").eq(6).click(function () {
+                alert($("div").html());
+            });
+
+            $("input").eq(7).click(function () {
+               $("div").text("你麻痹");
+            });
+
+            $("input").eq(8).click(function () {
+               alert($("div").text());
+            });
+
+
+        });
+
+    </script>
+</head>
+<body>
+<input type="button" value="设置属性">
+<input type="button" value="获取属性">
+<input type="button" value="移除属性">
+<input type="button" value="设置值">
+<input type="button" value="获取值">
+<input type="button" value="设置html内容">
+<input type="button" value="获取html内容">
+<input type="button" value="设置text内容">
+<input type="button" value="得到text内容">
+<div>
+    <input type="text" id="txt"/>
+</div>
+</body>
+</html>

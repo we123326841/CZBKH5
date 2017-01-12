@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: gold;
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script>
+        $(document).ready(function () {
+           $("button").eq(0).click(function () {
+//               $("div").show("slow");
+//               $("div").show("fast");
+//               $("div").show("normal");
+               $("div").show(1000,function () {
+                   alert("完成");
+//                   $(this).hide(1000);
+               });
+
+
+
+           }) ;
+
+            $("button:eq(1)").click(function () {
+                $("div").first().hide(2000);
+            })
+        });
+    </script>
+    
+</head>
+<body>
+<button>第1个</button>
+<button>第2个</button>
+<div></div>
+</body>
+</html>

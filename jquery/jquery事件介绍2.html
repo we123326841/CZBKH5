@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script>
+        $(function () {
+//            $("form").on("click","#sub1",function () {
+//                if ($("input[type = 'text']").val()== 1){
+//                    alert("恭喜你对了!");
+//                }else{
+//                    $("input[type = 'text']").val("").focus();
+////                    $("input[type = 'text']").val("").trigger("focus");
+////                    $("input[type = 'text']").val("").triggerHandler("focus");
+//                }
+//            });
+
+            $("#sub1").click(function () {
+                if ($("input[type = 'text']").val()== 1){
+                    alert("恭喜你对了!");
+                }else{
+//                    $("input[type = 'text']").val("").focus();
+//                    $("input[type = 'text']").val("").trigger("focus");
+                    $("input[type = 'text']").val("").triggerHandler("focus");
+                }
+            });
+
+            $("form").on("click","#sub",function () {
+                $("#sub1").trigger("click");
+//                $("#sub1").triggerHandler("click");
+            });
+        });
+
+    </script>
+</head>
+<body>
+<form>
+    <label for="ip">什么鬼</label><input type="text" id="ip"> <input type="button" id="sub1" value="提交">
+    <input type="button" id="sub" value="提交2">
+</form>
+</body>
+</html>

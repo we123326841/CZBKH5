@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<audio src="天后.mp3" id="audio"></audio>-->
+<!--<video src="movie.ogg" controls="controls" id="video">sss</video>-->
+
+<video controls="controls" poster="../images/bg.png" preload="auto">
+    <source src="movie.ogg" type="video/ogg">
+    <source src="movie.mp4" type="video/mp4">
+    oh shit nimabi不支持的浏览器
+    <!--<object type="application/x-shockwave-flash" data="//static.youku.com/v20170111.0/v/swf/loader.swf" width="100%" height="100%" id="movie_player"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><param name="allowFullScreenInteractive" value="true"><param name="flashvars" value="skincolor1=ffffff&amp;skincolor2=ffffff&amp;VideoIDS=XMTkwMjgyMDEzMg==&amp;ShowId=313682&amp;category=85&amp;Cp=authorized&amp;unCookie=0&amp;frame=undefined&amp;uepflag=0&amp;Tid=0&amp;isAutoPlay=true&amp;playmode=3&amp;show_ce=1&amp;winType=interior&amp;Fid=0&amp;Pt=0&amp;Ob=0&amp;plchid=&amp;embedid=AjQ3NTcwNTAzMwJ2LnlvdWt1LmNvbQIvdl9zaG93L2lkX1hNVGt3TWpneU1ERXpNZz09Lmh0bWw=&amp;ysuid=1465449591194udf&amp;vext=bc%3D%26pid%3Dundefined%26unCookie%3Dundefined%26frame%3Dundefined%26type%3D1%26fob%3D0%26fpo%3D0%26svt%3D0%26cna%3DsYPZD7gGOXECAaN9UPO1ugWP%26emb%3DAjQ3NTcwNTAzMwJ2LnlvdWt1LmNvbQIvdl9zaG93L2lkX1hNVGt3TWpneU1ERXpNZz09Lmh0bWw%3D%26dn%3D%E7%BD%91%E9%A1%B5%26hwc%3D1%26mtype%3Doth&amp;cna=sYPZD7gGOXECAaN9UPO1ugWP&amp;pageStartTime=1484142845960"><param name="movie" value="//static.youku.com/v20170111.0/v/swf/loader.swf"><div class="player_html5"><div class="picture" style="height:100%"><div style="line-height:460px;"><span style="font-size:18px">anzhuang flash<a href="//www.adobe.com/go/getflash" target="_blank">这里</a>安装</span></div></div></div></object>-->
+</video>
+<button id="play">播放</button>
+<button id="pause">暂停</button>
+<script>
+    document.getElementById("play").addEventListener("click",function () {
+        document.getElementById("video").play();
+    });
+    document.getElementById("pause").addEventListener("click",function () {
+        document.getElementById("video").pause();
+    });
+</script>
+</body>
+</html>

@@ -53,12 +53,27 @@
     <script type="text/javascript" src="jquery-1.11.1.js"></script>
     <script>
         $(function () {
+
+//            $("#liid").click(function () {
+//                $("#liid").children(".ul2").show(5000);
+//            });
+//
+//            $("#liid2").click(function () {
+//                $("#liid").children(".ul2").stop();
+//            });
+
 //            $(".li1").mouseenter(function () {
-//                $(this).children(".ul2").show();
+////                $(this).children(".ul2").show(5000);
+//              $(this).children(".ul2").stop(true,true).show(4000);
+////
+//
+//                //stop(a,b) a 表示清空队列 b 让当前正在执行的动画立即完成
 //            });
 //
 //            $(".li1").mouseleave(function () {
-//                $(this).children(".ul2").hide();
+////                $(this).children(".ul2").stop();
+//                 $(this).children(".ul2").stop(true,true).hide(4000);
+////               xixi.hide(5000);
 //            });
 
 //            $(".li1").hover(function () {
@@ -79,21 +94,40 @@
 //            $(".li1").hover(function () {
 //                $(this).children(".ul2").slideToggle();
 //            });
+
+
+//            $(".li1").hover(function () {
+//                if ($(this).children(".ul2").css("display") === "block") {
+//                    $(this).children(".ul2").hide(1000);
+//                } else {
+//                    $(this).children(".ul2").show(1000);
+//                }
+//            });
+
+//            $(".li1").hover(function () {
+//                if ($(this).children(".ul2").css("display") === "block") {
+//                    $(this).children(".ul2").slideUp();
+//                } else {
+//                    $(this).children(".ul2").slideDown();
+//                }
+//            });
         });
+
+
 
     </script>
 </head>
 <body>
 <div>
     <ul>
-        <li class="li1"><a class="yj" href="#">一级菜单</a>
+        <li id="liid" class="li1"><a class="yj" href="#">一级菜单</a>
             <ul class="ul2">
                 <li><a href="">二级菜单</a></li>
                 <li><a href="">二级菜单</a></li>
                 <li><a href="">二级菜单</a></li>
             </ul>
         </li>
-        <li class="li1"><a class="yj" href="#">一级菜单</a>
+        <li id="liid2" class="li1"><a class="yj" href="#">一级菜单</a>
             <ul class="ul2">
                 <li><a href="">二级菜单</a></li>
                 <li><a href="">二级菜单</a></li>

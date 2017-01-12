@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+</body>
+
+<script>
+    var data = {
+        11:{
+            name:"张三1",
+            age:18
+        },
+        22:{
+            name:"张三2",
+            age:19
+        },
+        33:{
+            name:"张三3",
+            age:20
+        }
+    };
+
+    var ul = document.createElement("ul");
+    for(var i in data){
+       var li = document.createElement("li");
+        li.setAttribute("data-name",data[i].name);
+        li.setAttribute("data-age",data[i].age);
+        li.innerHTML = data[i].name;
+        ul.appendChild(li);
+        li.addEventListener("click",function () {
+           console.log(this.dataset["name"]);
+        });
+    }
+
+    document.body.appendChild(ul);
+</script>
+</html>

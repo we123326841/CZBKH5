@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css"></style>
+    <script src="jquery-1.11.1.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+            $("button:eq(0)").click(function () {
+                $("div").eq(0).append("<p>append追加的哦</p>");
+//                $("div").eq(0).append($("p"));
+            });
+
+
+            $(document).ready(function () {
+                $("button:eq(1)").click(function () {
+//                    $("<p>appendTo追加的哦</p>").appendTo($("div").eq(0));
+                    $("<p>appendTo追加的哦</p>").appendTo("#divId");
+                });
+            });
+
+            $("button:eq(2)").click(function () {
+                $("div").eq(0).prepend("<p>prepend追加的哦</p>");
+            });
+
+
+            $("button:eq(3)").click(function () {
+               $("<p>prependTo追加的哦</p>").prependTo( $("div").eq(0));
+            });
+
+            $("button:eq(4)").click(function () {
+                $("div").eq(0).before("<p>before追加的哦</p>");
+            });
+
+
+            $("button:eq(5)").click(function () {
+                $("div").eq(0).after("<p>after追加的哦</p>");
+            });
+
+            $("button:eq(6)").click(function () {
+                $("<p>insertBefore追加的哦</p>").insertBefore( $("div").eq(0));
+            });
+
+            $("button:eq(7)").click(function () {
+                $("<p>insertAfter追加的哦</p>").insertAfter( $("div").eq(0));
+            });
+
+            $("button:eq(8)").click(function () {
+                $(this).remove();
+            });
+
+            $("button:eq(9)").click(function () {
+//                $("div").eq(0).empty();
+                $("div").eq(0).html("");
+            });
+
+            $("p").click(function () {
+                alert("点击了p");
+            });
+
+
+            $("button:eq(10)").click(function () {
+
+                $("div").append($("p").clone());
+            });
+
+            $("button:eq(11)").click(function () {
+
+                $("div").append($("p").clone(true));
+            });
+
+
+            $("button:eq(12)").click(function () {
+
+                $("span").wrap($(".divItem"));
+            });
+
+            $("button:eq(13)").click(function () {
+
+                $("li").wrapAll($(".divItem"));
+            });
+
+
+            $("button:eq(14)").click(function () {
+
+                $("li").replaceWith($(".divItem"));
+            });
+        });
+
+
+
+    </script>
+</head>
+<body>
+
+<button>append
+</button>
+
+<button>appendTo
+</button>
+
+<button>prepend
+</button>
+
+<button>prependTo
+</button>
+
+<button>before
+</button>
+
+<button>after
+</button>
+
+<button>insertBefore
+</button>
+
+<button>insertAfter
+</button>
+
+<button>remove
+</button>
+
+<button>empty
+</button>
+
+<button>clone</button>
+<button>深clone</button>
+<button>wrap</button>
+
+<button>wrapAll</button>
+
+<button>replaceWith</button>
+<div class="divItem" id="divId">
+    <h1>title标题<span>我是span元素</span></h1>
+</div>
+<p>我是div外面的p元素</p>
+
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+</ul>
+</body>
+</html>

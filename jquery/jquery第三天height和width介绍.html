@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div {
+            background-color: gray;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("button").eq(0).click(function () {
+//                $("div").css("height","300px");
+                $("div").width(400);
+            });
+
+            $("button").eq(1).click(function () {
+//                $("div").css("height","300px");
+                $("div").height(300);
+            });
+
+
+            $("button").eq(2).click(function () {
+//                $("div").css("height","300px");
+                $("div").html("宽度是:" + $("div").width());
+            });
+
+            $("button").eq(3).click(function () {
+//                $("div").css("height","300px");
+                $("div").html("高度是:" + $("div").height());
+//                $("div").html("高度是:" + $("div").css("height"));
+            });
+        });
+    </script>
+</head>
+<body>
+<button>设置宽度</button>
+<button>设置高度</button>
+<button>得到宽度</button>
+<button>得到高度</button>
+<div></div>
+</body>
+</html>

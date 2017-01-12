@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: gold;
+            float: left;
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $("input[type = button]").click(function () {
+                //匀速
+                $("div:first").show(2000,"linear",function () {
+                    console.log("first完成");
+                })
+                //先慢后快
+                $("div").last().show(2000,"swing",function () {
+                    console.log("last完成");
+                })
+            });
+
+
+            $("button:first").click(function () {
+                $("div").slideToggle();
+            });
+
+
+            $("button").eq(1).click(function () {
+                $("div").slideDown(3000);
+            })
+        })
+
+    </script>
+
+</head>
+<body>
+<div></div>
+<div></div>
+<input  type="button" value="日你妈"/>
+<button>第1次</button>
+<button>第2次</button>
+</body>
+</html>
