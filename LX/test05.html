@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript" src="../jquery/jquery-1.11.1.js"></script>
+<body>
+<button id="btn">获取焦点</button>
+<input type="text"  id="txt"/>
+<a id="test-link" href="">跳转到百度</a>
+<form action="#" method="get">
+<input type="submit" id="sub" />
+    </form>
+</body>
+
+<script>
+    document.getElementById("btn").onclick = function (event) {
+        event.preventDefault();
+      document.getElementById("txt").focus();
+    };
+
+    document.getElementById("txt").onfocus = function (event) {
+      console.log("得到");
+        event.preventDefault();
+    };
+
+
+    document.getElementById("test-link").onclick = function (e) {
+        console.log("链接");
+//        e.preventDefault();
+    }
+
+    document.getElementById("sub").onclick = function (e) {
+        console.log("tijoao ");
+        e.preventDefault();
+
+    }
+
+
+
+
+</script>
+</html>

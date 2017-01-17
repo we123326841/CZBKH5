@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="../jquery/jquery-1.11.1.js"></script>
+    <script>
+        $(function () {
+            $("div>ul>li").click(function () {
+                var content  = $(this).data("content");
+                alert(content);
+            });
+
+        })
+    </script>
+</head>
+<body>
+<div>
+    <ul>
+        <li data-content="这是新闻">新闻</li>
+        <li data-content="这是八卦">八卦</li>
+        <li data-content="这是体育">体育</li>
+    </ul>
+
+    <div class="panel">
+        <div class="news"></div>
+        <div class="bagua"></div>
+        <div class="sport"></div>
+    </div>
+</div>
+</body>
+</html>

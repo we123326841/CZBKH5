@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="bootstrap.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="../jquery/jquery-1.11.1.js"></script>
+    <script>
+        window.addEventListener("load",function () {
+//            var items = document.getElementsByClassName("item");
+//
+//            console.log(items);
+//
+//            for(var i = 0; i < items.length ; i++ ){
+//                items.item(i).onclick = function () {
+//                    alert(this.innerHTML);
+//                };
+//            }
+
+//            var item =document.querySelector(".item");
+//            console.log(item);
+//            item.onclick = function () {
+//                    alert(this.innerHTML);
+//                };
+
+            var items =document.querySelectorAll("ul > .item");
+//            for(var i = 0; i < items.length ; i++ ) {
+//                items.item(i).onclick = function () {
+//                    alert(this.innerHTML);
+//                };
+//            }
+
+//            var items1 = $(".item");
+//
+            $(items).on("click",function () {
+               alert($(this).html())
+            });
+
+//            console.log(items);
+//            console.log(items1);
+
+        });
+
+    </script>
+</head>
+<body>
+<div class="container">
+    <header class="page-header">新选择器</header>
+    <p>这是一个段落</p>
+    <ul>
+        <li class="item">item1</li>
+        <li class="item">item2</li>
+        <li class="item">item3</li>
+        <li class="item">item4</li>
+        <li class="item">item5</li>
+        <li class="item">item6</li>
+        <li class="item">item7</li>
+        <li class="item">item8</li>
+        <li class="item">item9</li>
+        <li class="item">item10</li>
+    </ul>
+</div>
+
+
+</body>
+</html>

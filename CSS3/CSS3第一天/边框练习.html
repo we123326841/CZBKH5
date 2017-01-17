@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .div1{
+            height: 180px;
+            width: 180px;
+            border: 1px solid red;
+            margin-top: 10px;
+        }
+
+        .div1:nth-child(1){
+            border-radius: 91px;
+        }
+
+        .div1:nth-child(2){
+            border-top-left-radius: 91px;
+            border-top-right-radius: 91px;
+        }
+
+        .div1:nth-child(3){
+            height: 90px;
+            border-top-left-radius: 91px;
+            border-top-right-radius: 91px;
+        }
+
+        .div1:nth-child(4){
+            border-top-left-radius: 91px;
+
+        }
+
+        .div1:nth-child(5){
+            width: 90px;
+            height:90px;
+            border-top-left-radius: 91px;
+            /*border-top-right-radius: 91px;*/
+        }
+
+        .div1:nth-child(6){
+            height: 90px;
+            border-radius: 91px 91px 91px 91px/45px 45px 45px 45px;
+        }
+
+        .div1:nth-child(7){
+            width: 90px;
+            border-radius: 45px/91px;
+        }
+
+        .div1:nth-child(8){
+            height: 45px;
+            border-radius: 91px 91px 0 0/45px 45px 0 0;
+        }
+        /*.div1:nth-child(9){*/
+            /*height: 45px;*/
+            /*border-radius: 91px 91px 91px 0/45px 45px 45px 0;*/
+        /*}*/
+
+        .div1:nth-child(9){
+            width: 45px;
+            border-radius: 45px 0 0 45px/ 91px 0 0 91px;
+        }
+        .div1:nth-child(10){
+            width: 45px;
+            height: 90px;
+            border-radius: 45px 0 0 0/ 91px 0 0 0;
+        }
+        .div1:nth-child(11){
+            background-color: #7aff9f;
+            width: 40px;
+            height: 40px;
+            border: 70px solid red;
+            border-radius: 90px;
+        }
+        .div1:nth-child(12){
+            width: 40px;
+            height: 40px;
+            border: 70px solid red;
+            border-radius: 70px;
+        }
+        .div1:nth-child(13){
+            width: 40px;
+            height: 40px;
+            border: 70px solid red;
+            border-top-left-radius: 90px;
+        }
+
+        .div1:nth-child(14){
+            width: 40px;
+            height: 40px;
+            border: 70px solid red;
+            border-top-left-radius: 90px;
+            border-bottom-right-radius: 90px;
+        }
+
+        .div1:nth-child(15){
+            width: 0px;
+            height: 0px;
+            border: 90px solid red;
+            /*border-top-color: greenyellow;*/
+            border-left-color: #c9d0d8;
+            border-bottom-color: #e470ff;
+            border-right-color: #1b78f6;
+        }
+
+
+        .div1:nth-child(16){
+            width: 0px;
+            height: 0px;
+            border: 90px solid red;
+            border-top-color: greenyellow;
+            border-left-color: #c9d0d8;
+            border-bottom-color: #e470ff;
+            border-right-color: transparent;
+        }
+
+        .div1:nth-child(17){
+            width: 0px;
+            height: 0px;
+            border: 90px solid red;
+            border-top-color: greenyellow;
+            border-left-color: #c9d0d8;
+            border-bottom-color: #e470ff;
+            border-right-color: transparent;
+            border-radius: 90px;
+        }
+
+        .div1:nth-child(18){
+            width: 0px;
+            height: 0px;
+            border: 90px solid red;
+            border-top-color: transparent;
+            border-left-color: transparent;
+            border-bottom-color: transparent;
+            border-right-color: #1b78f6;
+            border-radius: 90px;
+        }
+
+        .div1:nth-child(19){
+            width: 180px;
+            height: 0px;
+           border-top-width: 90px;
+            border-bottom-width: 90px;
+           border-radius: 90px;
+            border-top-color: green;
+            border-bottom-color: red;
+
+        }
+
+
+        .div1:nth-child(20){
+            position: relative;
+            width: 180px;
+            height: 0px;
+            border-top-width: 90px;
+            border-bottom-width: 90px;
+            border-radius: 90px;
+            border-top-color: green;
+            border-bottom-color: red;
+
+        }
+        .div1:nth-child(20)::after,
+        .div1:nth-child(20)::before{
+            position: absolute;
+            content: "";
+            width: 20px;
+            height: 20px;
+            margin-top: -45px;
+            top: 50%;
+            border: 35px solid chartreuse;
+            border-radius: 45px;
+
+
+        }
+
+
+        .div1:nth-child(20)::after{
+            right: 0;
+            border-color: green;
+            background-color: red;
+        }
+
+        .div1:nth-child(20)::before{
+            left: 0;
+            background-color:green;
+            border-color: red;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+
+        html,body {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+        }
+
+
+        
+        aside{
+            float: left;
+            height: 100%;
+            width: 220px;
+            background-color: #b0b0b0;
+        }
+
+        aside ul{
+            font-size: 14px;
+            line-height: 2;
+        }
+
+        article{
+            margin-left: 220px;
+            height: 100%;
+            /*background-color: #7aff9f;*/
+            overflow: scroll;
+
+        }
+    </style>
+</head>
+<body>
+<aside>
+    <ul id="ulid"></ul>
+</aside>
+<article> <p id="content"></p> </article>
+</body>
+
+<script src="myjs.js" type="text/javascript"></script>
+<script>
+    (function () {
+        var  ul = document.querySelector("aside > ul#ulid");
+        var p = document.getElementById("content");
+        for (var title in data){
+            var li = document.createElement("li");
+            li.setAttribute("data-content",title);
+            li.appendChild(document.createTextNode(title));
+            li.addEventListener("click",function () {
+               p.innerHTML =  data[this.dataset["content"]];
+                if(window.history&& history.pushState){
+                    history.pushState(this.dataset["content"],"没有任何浏览器支持","?t="+this.dataset["content"]);
+                }
+            });
+            ul.appendChild(li);
+        }
+
+
+        window.addEventListener("popstate",function (e) {
+                p.innerHTML = data[e.state];
+        });
+
+        var search = window.location.search;
+
+         var til = search.split("=")[1];
+        if (til){
+
+            p.innerHTML = data[ decodeURI(til)];
+        }
+
+
+
+    })();
+</script>
+</html>

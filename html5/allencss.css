@@ -1,0 +1,14 @@
+div:before{
+    content: "什么鸡巴毛";
+    color: #ab5fab;
+}
+
+
+div:after{
+    content: "你这个彪子样的";
+    color: #2cab10;
+}
+
+div{
+    background-color: #9e0f18;
+}

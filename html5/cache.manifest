@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# version 1.0.3
+
+CACHE:
+  html初次尝试13.html
+  allenjs.js
+
+
+NETWORK:
+  *

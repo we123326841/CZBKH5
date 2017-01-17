@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../jquery/jquery-1.11.1.js"></script>
+    <script>
+
+
+        $(function () {
+            $("#tridder").click(function () {
+                $("#txt").trigger("focus");
+            });
+
+            $("#tridderHandler").click(function () {
+                $("#txt").triggerHandler("focus");
+            });
+
+
+            $("#txt").focus(function () {
+                $(this).val("什么鬼");
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+<input type="button"  value="tridder" id="tridder"/>
+<input type="button"  value="tridderHandler" id="tridderHandler"/>
+<input type="text"  id="txt"/>
+</body>
+</html>

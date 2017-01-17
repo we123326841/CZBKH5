@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" id="setdata" value="设置"/>
+<input type="button" id="getdata" value="获取"/>
+<input type="text" id="txt" />
+
+<script>
+    var setData = document.getElementById("setdata");
+    var getData = document.getElementById("getdata");
+    var txt = document.getElementById("txt");
+
+    
+    setData.onclick = function () {
+//        if(window.localStorage){
+////            window.localStorage.setItem("key1",txt.value);
+//        }
+        if(window.sessionStorage){
+            window.sessionStorage.setItem("key2",txt.value);
+        }
+    };
+    
+    
+    getData.onclick = function () {
+//        if (window.localStorage){
+//           txt.value =  window.localStorage["key1"];
+//
+//        }
+
+        if(window.sessionStorage){
+//           txt.value =window.sessionStorage["key2"];
+           txt.value =window.sessionStorage.getItem("key2");
+        }
+    }
+</script>
+</body>
+</html>

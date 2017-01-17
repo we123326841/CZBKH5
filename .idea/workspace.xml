@@ -2,12 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c5fba60-aa05-4603-bfe2-54cc116e6247" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/huabanbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/layer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/toy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/css3颜色.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/伪类选择器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/前端准备.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/属性选择器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/文本.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/类选择器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/边框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/边框练习.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test08.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test09.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/allencss.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/allenjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/cache.manifest" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/demo.appcache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5初次尝试9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html初次尝试13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/myjs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/html5初次尝试.html" afterPath="$PROJECT_DIR$/html5/html5初次尝试.html" />
     </list>
     <ignored path="CZBKH5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,31 +67,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LX/test01.html">
+      <file leaf-file-name="02 边框-圆角.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/07 CSS3/01-CSS3基础-第1天/4-源代码/边框/02 边框-圆角.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="32" column="45" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="255">
+              <caret line="17" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="376" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test02.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LX/test02.html">
+      <file leaf-file-name="边框.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/边框.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="边框练习.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/边框练习.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test17.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LX/test17.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test03.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LX/test03.html">
+      <file leaf-file-name="test15.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LX/test15.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="435">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test16.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LX/test16.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -65,8 +132,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -82,45 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jquery/jquery的选择器加强.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery过滤选择器.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery属性选择器.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery筛选选择器10.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery定位的复习.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery事件冒泡复习.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery与js的dom对象转换.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery第二天开始.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery第二天第二课.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery第二天第三课.html" />
-        <option value="$PROJECT_DIR$/jquery/jequery动画停止.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery动画停止1.html" />
-        <option value="$PROJECT_DIR$/jquery/juqery样式操作.html" />
-        <option value="$PROJECT_DIR$/jquery/jquerytab栏切换.html" />
-        <option value="$PROJECT_DIR$/jquery/jquerydom操作.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery下拉菜单.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery图片导航网站效果.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery创建对象.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery第三天height和width介绍.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery第三天坐标值.html" />
-        <option value="$PROJECT_DIR$/CSS/index21.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery第三天滚动条.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery第三天固定导航栏.html" />
-        <option value="$PROJECT_DIR$/tx/index24.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery事件捕获和冒泡.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery函数模拟.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery事件介绍.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery事件介绍2.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery事件介绍3.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery两边 广告图片动画.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery复习2.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery复习1.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery节点操作.html" />
-        <option value="$PROJECT_DIR$/jquery/jq.js" />
-        <option value="$PROJECT_DIR$/jquery/jquery模拟.html" />
-        <option value="$PROJECT_DIR$/jquery/Jquery复习3.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery复习4.html" />
-        <option value="$PROJECT_DIR$/jquery/jquery复习5.html" />
-        <option value="$PROJECT_DIR$/jquery/jsemoji.js" />
         <option value="$PROJECT_DIR$/html5/nima.css" />
         <option value="$PROJECT_DIR$/html5/html5初次尝试0.html" />
         <option value="$PROJECT_DIR$/html5/html5初次尝试2.html" />
@@ -128,11 +156,50 @@
         <option value="$PROJECT_DIR$/html5/html5初次尝试4.html" />
         <option value="$PROJECT_DIR$/html5/html5初次尝试5.html" />
         <option value="$PROJECT_DIR$/html5/demo.svg" />
-        <option value="$PROJECT_DIR$/html5/html5初次尝试6.html" />
         <option value="$PROJECT_DIR$/html5/html5初次尝试.html" />
         <option value="$PROJECT_DIR$/LX/test01.html" />
         <option value="$PROJECT_DIR$/LX/test02.html" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试6.html" />
+        <option value="$PROJECT_DIR$/LX/test04.html" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试8.html" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试7.html" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试9.html" />
         <option value="$PROJECT_DIR$/LX/test03.html" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试10.html" />
+        <option value="$PROJECT_DIR$/LX/test06.html" />
+        <option value="$PROJECT_DIR$/LX/test05.html" />
+        <option value="$USER_HOME$/Desktop/06 HTML5/HTML5_02/2015-12-04/code/04-history.html" />
+        <option value="$PROJECT_DIR$/html5/myjs.js" />
+        <option value="$USER_HOME$/Desktop/06 HTML5/HTML5_02/2015-12-04/code/05-wuhuan.html" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试11.html" />
+        <option value="$PROJECT_DIR$/LX/test07.html" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试12.html" />
+        <option value="$PROJECT_DIR$/html5/allenjs.js" />
+        <option value="$PROJECT_DIR$/html5/cache.manifest" />
+        <option value="$PROJECT_DIR$/html5/allencss.css" />
+        <option value="$PROJECT_DIR$/html5/demo.appcache" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试14.html" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试15.html" />
+        <option value="$PROJECT_DIR$/html5/html5初次尝试16.html" />
+        <option value="$PROJECT_DIR$/html5/html初次尝试13.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/前端准备.html" />
+        <option value="$PROJECT_DIR$/LX/test08.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/属性选择器.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/伪类选择器.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/类选择器.html" />
+        <option value="$PROJECT_DIR$/LX/test09.html" />
+        <option value="$PROJECT_DIR$/LX/test10.html" />
+        <option value="$PROJECT_DIR$/LX/test11.html" />
+        <option value="$PROJECT_DIR$/LX/test12.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/css3颜色.html" />
+        <option value="$PROJECT_DIR$/LX/test13.html" />
+        <option value="$PROJECT_DIR$/LX/test14.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/文本.html" />
+        <option value="$PROJECT_DIR$/LX/test15.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/边框.html" />
+        <option value="$PROJECT_DIR$/LX/test16.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/边框练习.html" />
+        <option value="$PROJECT_DIR$/LX/test17.html" />
       </list>
     </option>
   </component>
@@ -149,8 +216,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-53" />
-    <option name="y" value="186" />
+    <option name="x" value="22" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
   </component>
@@ -179,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,37 +266,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CZBKH5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CZBKH5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CZBKH5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CZBKH5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -271,11 +310,11 @@
       <recent name="$PROJECT_DIR$/CSS" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSS3" />
       <recent name="$PROJECT_DIR$/html5" />
       <recent name="$PROJECT_DIR$/jquery" />
       <recent name="$PROJECT_DIR$/jquery/imgs" />
       <recent name="$PROJECT_DIR$/jquery/images" />
-      <recent name="$PROJECT_DIR$/tx/images" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.jquery第三天滚动条.html">
@@ -509,39 +548,48 @@
       <workItem from="1484050604170" duration="7066000" />
       <workItem from="1484097330636" duration="10315000" />
       <workItem from="1484137416267" duration="3502000" />
-      <workItem from="1484187571157" duration="5621000" />
+      <workItem from="1484187571157" duration="16362000" />
+      <workItem from="1484225437068" duration="1949000" />
+      <workItem from="1484268603653" duration="16344000" />
+      <workItem from="1484484081752" duration="2364000" />
+      <workItem from="1484527589354" duration="8241000" />
+      <workItem from="1484571391630" duration="3800000" />
+      <workItem from="1484614182281" duration="6709000" />
+      <workItem from="1484636158908" duration="5674000" />
+      <workItem from="1484650638256" duration="5488000" />
+      <workItem from="1484660412235" duration="711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="729073000" />
+    <option name="totallyTimeSpent" value="791094000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-53" y="186" width="1280" height="727" extended-state="0" />
-    <editor active="true" />
+    <frame x="22" y="23" width="1280" height="727" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28196982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2867355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="128" y="123" width="1080" height="531" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="62" y="144" width="1080" height="515" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -558,7 +606,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27799842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28196982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -592,314 +640,335 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jquery/jquery事件介绍.html">
+    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/images/1.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/images/2.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tx/05 云课堂响应式/images/banner1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tx/05 云课堂响应式/images/banner3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tx/05 云课堂响应式/images/banner-x2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tx/05 云课堂响应式/images/erweima_07.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tx/05 云课堂响应式/images/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tx/05 云课堂响应式/images/user-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tx/images/libg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tx/images/cloud.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/images/govIcon.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webBasic/index04.html">
+    <entry file="file://$USER_HOME$/Desktop/06 HTML5/HTML5_02/2015-12-04/code/04-history.html" />
+    <entry file="file://$PROJECT_DIR$/html5/myjs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+        <state relative-caret-position="1650">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery事件介绍3.html">
+    <entry file="file://$USER_HOME$/Desktop/06 HTML5/HTML5_02/2015-12-04/code/data.js" />
+    <entry file="file://$PROJECT_DIR$/LX/test06.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="375">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/index66.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="383">
+          <caret line="857" column="0" selection-start-line="857" selection-start-column="0" selection-end-line="857" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tx/index14.html">
+    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+        <state relative-caret-position="585">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery两边 广告图片动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/05 JQ/jQuery-马伦（复习）/案例/review/02动态创建表格.html" />
-    <entry file="file://$USER_HOME$/Desktop/05 JQ/jQuery-马伦（复习）/案例/review/04城市选择案例.html" />
-    <entry file="file://$PROJECT_DIR$/jquery/jquery-1.11.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2219">
-          <caret line="10288" column="32" selection-start-line="10288" selection-start-column="24" selection-end-line="10288" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/imgs/bk-top3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery事件介绍2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery复习1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery属性选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery节点操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery复习2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/Jquery复习3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery模拟.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/05 JQ/jQuery-马伦（复习）/案例/review/06QQ微博.html" />
-    <entry file="file://$PROJECT_DIR$/jquery/images1/1.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/05 JQ/jQuery-马伦（复习）/案例/review/js/06weibo.js" />
-    <entry file="file://$PROJECT_DIR$/jquery/jq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/05 JQ/jQuery-马伦（复习）/案例/review/05省市选择.html" />
-    <entry file="file://$PROJECT_DIR$/CSS/index01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/nima.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery复习5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="152" column="34" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jsemoji.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery复习4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/toy.png" />
-    <entry file="file://$USER_HOME$/Desktop/06 HTML5/HTML5_01/2015-12-03/code/demo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/demo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试3.html">
+    <entry file="file://$USER_HOME$/Desktop/06 HTML5/HTML5_02/2015-12-04/code/05-wuhuan.html" />
+    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试11.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
+          <caret line="69" column="40" selection-start-line="55" selection-start-column="15" selection-end-line="69" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试4.html">
+    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试12.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试5.html">
+    <entry file="file://$PROJECT_DIR$/html5/cache.manifest">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试.html">
+    <entry file="file://$PROJECT_DIR$/html5/allenjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="5246" column="11" selection-start-line="5246" selection-start-column="1" selection-end-line="5246" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/06 HTML5/HTML5_02/2015-12-04/code/10-drag&amp;drop.html" />
+    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="9" selection-start-line="52" selection-start-column="7" selection-end-line="69" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/06 HTML5/HTML5_02/2015-12-04/code/09-file-api.html" />
+    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/allencss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/html5初次尝试6.html">
+    <entry file="file://$PROJECT_DIR$/html5/demo.appcache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/html初次尝试13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/01-CSS3基础-第1天/4-源代码/准备工作/02 使用手册.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/01-CSS3基础-第1天/4-源代码/选择器/01 选择器-属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="181" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/01-CSS3基础-第1天/4-源代码/选择器/02 选择器-伪类.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2430">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="195" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/伪类选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="112" column="24" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/01-CSS3基础-第1天/4-源代码/选择器/calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3255">
+          <caret line="270" column="29" selection-start-line="270" selection-start-column="29" selection-end-line="270" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test09.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index09.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/前端准备.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/属性选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="198" column="15" selection-start-line="198" selection-start-column="9" selection-end-line="198" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/index03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test14.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-          <folding />
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test01.html">
+    <entry file="file://$PROJECT_DIR$/LX/test10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test02.html">
+    <entry file="file://$PROJECT_DIR$/LX/test07.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="975">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LX/test03.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="330">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/类选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/css3颜色.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/文本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/01-CSS3基础-第1天/4-源代码/边框/02 边框-圆角.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="376" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/边框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/边框练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>

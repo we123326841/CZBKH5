@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap.css"/>
+</head>
+<body>
+<form action="">
+<input type="file" name="input_file" class="form-control hidden" id="input_file" multiple/>
+    <input id="btn_read" class="btn btn-info" type="button" value="读取文件列表"/>
+    <input id="btn_select"  class="btn btn-warning" type="button" value="选择文件"/>
+    <ul id="file_list" class="list-group">
+        <!--<li class="list-group-item"><h5 class="list-group-item-heading">机密文件</h5>-->
+        <!--<p class="list-group-item-text">日你麻痹的</p></li>-->
+        <!--<li class="list-group-item">haha</li>-->
+        <!--<li class="list-group-item">haha</li>-->
+        <!--<li class="list-group-item">haha</li>-->
+    </ul>
+</form>
+<script>
+//    console.log(new Date().getTime());
+        alert(typeof new Date());
+    var input_file = document.querySelector("#input_file");
+    var btn_read = document.querySelector("#btn_read");
+    var btn_select = document.querySelector("#btn_select");
+    var file_list = document.querySelector("#file_list");
+//    btn_read.addEventListener("click",function () {
+//        var files = document.forms[0].input_file.files;
+//        for (var i = 0 ; i< files.length;i++){
+//            var li = document.createElement("li");
+//            li.setAttribute("class","list-group-item");
+//            var h5 = document.createElement("h5");
+//            h5.setAttribute("class","list-group-item-heading");
+//            h5.innerHTML = files[i].name;
+//            var p = document.createElement("p");
+//            p.setAttribute("class","list-group-item-text");
+//            p.innerHTML = files[i].lastModifiedDate;
+//            li.appendChild(h5);
+//            li.appendChild(p);
+//            file_list.appendChild(li);
+//
+//
+//
+//        }
+//    });
+
+    btn_select.addEventListener("click",function () {
+        input_file.click();
+    });
+
+    input_file.addEventListener("change",function () {
+        var files = document.forms[0].input_file.files;
+        for (var i = 0 ; i< files.length;i++){
+            var li = document.createElement("li");
+            li.setAttribute("class","list-group-item");
+            var h5 = document.createElement("h5");
+            h5.setAttribute("class","list-group-item-heading");
+            h5.innerHTML = files[i].name;
+            var p = document.createElement("p");
+            p.setAttribute("class","list-group-item-text");
+            //toLocaleTimeString()
+            p.innerHTML =files[i].lastModifiedDate.toLocaleDateString() + " "+files[i].lastModifiedDate.toLocaleTimeString() +" " +(files[i].size/1024).toFixed(2)+"kb";
+            li.appendChild(h5);
+            li.appendChild(p);
+            file_list.appendChild(li);
+
+
+
+        }
+    });
+</script>
+</body>
+</html>

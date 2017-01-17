@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .div1{
+            text-shadow: 5px 5px 5px #e470ff;
+        }
+
+        .div2{
+            width: 100px;
+            height: 500px;
+            background-color: #7aff9f;
+            /*word-wrap: break-word;*/
+            word-break: break-all;
+        }
+
+        .div3{
+            width: 100px;
+            height: 500px;
+            /*white-space:pre;*/
+            /*white-space:pre-wrap;*/
+            white-space:pre-line;
+            /*white-space: nowrap;*/
+            background-color: #008aff;
+        }
+
+        .div4{
+            width: 100px;
+            border: 1px solid #1b2435;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        div:nth-child(5) p{
+            width: 200px;
+            border: 1px solid #1b2435;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp:5;
+            -webkit-box-orient:vertical;
+
+        }
+    </style>
+</head>
+<body>
+<div class="div1">文本内容</div>
+
+<div class="div2">dasdndkn    lksan
+    dln salndlnasndlnsaldsa</div>
+
+
+
+<div class="div3">                                                                                                                      wn kdwkefnewnfnweknfwenkfnkwe fff   fewfwe</div>
+
+
+
+<div class="div4">   dqdqwdqwdqwdqwddwqd</div>
+
+<div><p>dnqjdwjnndjwndwd kqnj kdwqnjkwdq kndwqnkdwqeddedwdwdwdw dnqjdwjnndjwndwd kqnj kdwqnjkwdq kndwqnkdwqeddedwdwdwdw dnqjdwjnndjwndwd kqnj kdwqnjkwdq kndwqnkdwqeddedwdwdwdw dnqjdwjnndjwndwd kqnj kdwqnjkwdq kndwqnkdwqeddedwdwdwdw dnqjdwjnndjwndwd kqnj kdwqnjkwdq kndwqnkdwqeddedwdwdwdw</p></div>
+</body>
+
+</html>
