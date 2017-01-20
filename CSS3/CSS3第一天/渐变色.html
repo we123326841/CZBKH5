@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            margin: 20px;
+        }
+        div:nth-child(1){
+            height: 40px;
+            width: 100px;
+           background-image: linear-gradient(blue,yellow);
+        }
+        div:nth-child(2){
+            height: 40px;
+            width: 100px;
+           background-image: linear-gradient(blue,yellow,red);
+        }
+
+
+        div:nth-child(3){
+            height: 40px;
+            width: 100px;
+            background-image: linear-gradient(0deg,yellow,red);
+        }
+
+        div:nth-child(4){
+            height: 40px;
+            width: 100px;
+            background-image: linear-gradient(90deg,yellow,red);
+        }
+
+        div:nth-child(5){
+            height: 40px;
+            width: 100px;
+            background-image: linear-gradient(180deg,yellow,red);
+        }
+
+        div:nth-child(6){
+            height: 40px;
+            width: 100px;
+            background-image: linear-gradient(to top,yellow,red);
+        }
+        /*斜着的*/
+        div:nth-child(7){
+            height: 40px;
+            width: 100px;
+            background-image: linear-gradient(to left top,yellow,red);
+        }
+
+        div:nth-child(8){
+            height: 40px;
+            width: 100px;
+            background-image: linear-gradient(315deg,yellow,red);
+        }
+
+
+        div:nth-child(9){
+            height: 40px;
+            width: 100px;
+            background-image: linear-gradient(to left ,yellow 25%,red 50%);
+        }
+
+        div:nth-child(10){
+            height: 40px;
+            width: 100px;
+            background-image: linear-gradient(to left ,yellow 50%,red 50%);
+        }
+        /*red 20% 小于50% 所以要从50%开始渐变*/
+        div:nth-child(11){
+            height: 40px;
+            width: 100px;
+            background-image: linear-gradient(to left ,yellow 50%,red 20%,blue 60%);
+        }
+
+        div:nth-child(12){
+            height: 40px;
+            width: 100px;
+            background-image: linear-gradient(to left ,yellow 50%,red 60%,blue 70%);
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</body>
+</html>

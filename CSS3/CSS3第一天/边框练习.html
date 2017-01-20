@@ -142,6 +142,8 @@
             height: 0px;
            border-top-width: 90px;
             border-bottom-width: 90px;
+            border-left-width: 0px;
+            border-right-width: 0px;
            border-radius: 90px;
             border-top-color: green;
             border-bottom-color: red;
@@ -154,7 +156,10 @@
             width: 180px;
             height: 0px;
             border-top-width: 90px;
+
             border-bottom-width: 90px;
+            border-left-width: 0px;
+            border-right-width: 0px;
             border-radius: 90px;
             border-top-color: green;
             border-bottom-color: red;
@@ -188,9 +193,112 @@
 
         }
 
+
+
+        .div1:nth-child(21){
+            width: 180px;
+            height: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-top-width: 90px;
+            border-bottom-width: 90px;
+            border-top-color: green;
+            border-bottom-color: red;
+            border-radius: 90px;
+            position: relative;
+            /*border-width: 0px;*/
+
+        }
+
+        .div1:nth-child(21)::before,
+        .div1:nth-child(21)::after{
+            position: absolute;
+          content: "";
+            width: 20px;
+            height: 20px;
+            border: 35px solid #1b78f6;
+            top:50%;
+            border-radius: 45px;
+            margin-top: -45px;
+
+        }
+
+        .div1:nth-child(21)::before{
+            left: 0px;
+            background-color: green;
+            border-color: red;
+
+        }
+
+
+        .div1:nth-child(21)::after{
+            right: 0px;
+            border-color: green;
+            background-color: red;
+        }
+
+        .div1:nth-child(22){
+            margin-left: 10px;
+            width: 160px;
+            height: 60px;
+            background-color: red;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .div1:nth-child(22)::before{
+
+            content: "";
+            position: absolute;
+            border: 10px solid red;
+            border-color: transparent red transparent transparent;
+            left: -20px;
+            top: 16px;
+        }
+
+
+        .div1:nth-child(23){
+            width: 40px;
+            height: 40px;
+            border-width: 60px 0px 60px 100px ;
+            border-color: transparent transparent red transparent;
+            border-bottom-right-radius: 80px;
+
+
+        }
+
+
+        .div1:nth-child(24){
+            margin-left: 10px;
+            width: 160px;
+            height: 60px;
+            background-color: red;
+            border-radius: 5px;
+            position: relative;
+
+
+        }
+
+        .div1:nth-child(24)::before{
+            content: "";
+            position: absolute;
+            left: 140px;
+            top: -30px;
+            /*background-color: #7aff9f;*/
+            width: 40px;
+            height: 40px;
+            border: 60px solid red;
+            border-width: 0px 0 31px 12px;
+            border-color: transparent transparent red transparent;
+            border-bottom-right-radius: 80px;
+        }
+
     </style>
 </head>
 <body>
+<div class="div1"></div>
+<div class="div1"></div>
+<div class="div1"></div>
 <div class="div1"></div>
 <div class="div1"></div>
 <div class="div1"></div>

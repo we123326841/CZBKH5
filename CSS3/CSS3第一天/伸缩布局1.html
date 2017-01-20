@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        ul {
+            margin: 60px auto;
+            width: 984px;
+            height: 400px;
+            background-color: #7aff9f;
+            list-style: none;
+            text-align: center;
+
+        }
+
+        .ul1 > li {
+            /*margin: auto;*/
+            text-align: center;
+            line-height: 200px;
+            float: left;
+            height: 200px;
+            width: 200px;
+            background-color: #98bf21;
+            margin-right: 192px;
+        }
+
+        .ul1 > li:last-child {
+            margin-right: 0px;
+        }
+
+        .ul2 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .ul2 > li, .ul3 > li, .ul4 > li, .ul5 > li, .ul6 > li, .ul7 > li, .ul8 > li, .ul9 > li, .ul10 > li, .ul11 > li, .ul13 > li, .ul14 > li, .ul15 > li, .ul16 > li, .ul17 > li, .ul18 > li, .ul19 >li {
+            height: 200px;
+            width: 200px;
+            background-color: #1b78f6;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        .ul3 > li {
+            margin: 10px;
+        }
+
+        .ul3 {
+            display: flex;
+        }
+
+        .ul4 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ul5 {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .ul6 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .ul7 {
+            display: flex;
+            justify-content: flex-start;
+
+        }
+
+        .ul8 {
+            display: flex;
+            justify-content: flex-end;
+
+        }
+
+        .ul9 {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .ul10 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .ul11 {
+            display: flex;
+            align-items: baseline;
+        }
+
+        .ul11 > li:nth-child(2) {
+            line-height: 240px;
+        }
+
+        .ul12 > li {
+
+            width: 200px;
+            background-color: #1b78f6;
+            text-align: center;
+            line-height: 200px;
+
+        }
+
+        /*默认值*/
+        .ul12 {
+            display: flex;
+            align-items: stretch;
+        }
+
+        .ul13 {
+            display: flex;
+            align-items: center;
+        }
+
+        .ul14 {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .ul15 {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .ul16 {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .ul17 , .ul9{
+            margin: 60px auto;
+            width: 984px;
+            height: 800px;
+            background-color: #7aff9f;
+            list-style: none;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .ul18{
+            margin: 60px auto;
+            width: 984px;
+
+            background-color: #7aff9f;
+            list-style: none;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .ul18 {
+            /*align-content: space-around;*/
+            /*align-content: space-between;*/
+            /*align-content: center;*/
+            /*align-content: flex-end;*/
+            align-content: stretch;
+        }
+
+        .ul19{
+            align-items: center;
+        }
+
+
+    </style>
+</head>
+<body>
+<div>
+    <ul class="ul1">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+
+    <ul class="ul2">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+
+    <ul class="ul3">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+
+    <ul class="ul4">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+
+    <ul class="ul5">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+
+    <ul class="ul6">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <ul class="ul7">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <ul class="ul8">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <ul class="ul9">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <ul class="ul10">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <ul class="ul11">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <ul class="ul12">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <ul class="ul13">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <ul class="ul14">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <ul class="ul15">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <ul class="ul16">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+
+    <ul class="ul17">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+
+    <ul class="ul18">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+
+    <ul class="ul19">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+
+
+</div>
+</body>
+</html>
+
+
+<!--flew-flow 就是 flex-direction 和 flex-wrap 的合成-->
+<!--flew-flow:column wrap-->

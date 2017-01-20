@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul{
+            display: flex;
+            list-style:none;
+        }
+        
+        li{
+            width: 100px;
+            height:100px;
+            background-color: #7aff9f;
+        }
+
+        li:nth-child(1){
+            background-color: #98bf21;
+            width: 100px;
+        }
+        li:nth-child(2){
+            background-color: #1b78f6;
+            flex: 2;
+        }
+
+        li:nth-child(3){
+            background-color: #1dff15;
+            flex: 1;
+        }
+
+
+        .div2{
+            background-color: #5e5e5e;
+            height: 400px;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .div3{
+            /*order: 3;*/
+            width:100px;
+            height: 100px;
+            background-color: #ffd3fa;
+
+
+        }
+
+        .div4{
+            /*order: 2;*/
+            width:100px;
+            height: 100px;
+            background-color: #e470ff;
+        }
+
+        .div5{
+            /*order: 1;*/
+            width:100px;
+            height: 100px;
+            background-color: #f2ff29;
+            align-self: center;
+        }
+
+        .div6{
+            display: flex;
+            width: 500px;
+            height: 500px;
+            background-color: #ff5035;
+        }
+
+        .div7{
+            width: 50px;
+            height: 50px;
+            background-color: #7aff9f;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+</div>
+
+
+<div class="div2">
+    <div class="div3">1</div>
+    <div class="div4">2</div>
+    <div class="div5">3</div>
+</div>
+
+<div class="div6">
+    <div class="div7"></div>
+</div>
+</body>
+</html>
