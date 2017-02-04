@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .div2{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            transition: left 2s ;
+            transition-timing-function: linear;
+            /*transition-timing-function: ease;*/
+            transition-delay: 5s;
+        }
+        .div1{
+            position: relative;
+            height: 300px;
+            width: 1000px;
+            border: 1px solid #1b78f6;
+
+        }
+
+        .div1:hover .div2{
+            left: 750px;
+            background-color: #fff942;
+
+        }
+    </style>
+</head>
+<body>
+<div class="div1"><div class="div2"></div></div>
+</body>
+</html>

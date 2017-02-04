@@ -2,42 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c5fba60-aa05-4603-bfe2-54cc116e6247" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/bg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/bg3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/bg4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/bg5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/bgme.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/border.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/flex.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/渐变色.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/练习自适应.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/背景1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/背景2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/背景3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/背景4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/边框图片.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/边框图片练习开始.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/阴影.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/背景.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test18.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test19.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test20.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test21.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test22.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test23.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test24.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test25.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test26.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test27.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test28.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/3D旋转.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/Jquery回顾.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/动画-介绍.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/动画应用.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/多列布局.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/径向渐变.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/渐变应用.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/过渡.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/index50.html" afterPath="$PROJECT_DIR$/CSS/index50.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS3/CSS3第一天/边框练习.html" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/边框练习.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LX/test17.html" afterPath="$PROJECT_DIR$/LX/test17.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS3/CSS3第一天/渐变色.html" afterPath="$PROJECT_DIR$/CSS3/CSS3第一天/渐变色.html" />
     </list>
     <ignored path="CZBKH5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +24,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -60,101 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="渐变色.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/渐变色.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Desktop/07 CSS3/04-CSS3基础-第4天/2-其它资料/高级应用/Ball/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="伸缩布局.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" column="43" selection-start-line="77" selection-start-column="11" selection-end-line="78" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="伸缩布局1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="伸缩布局2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test27.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LX/test27.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test28.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LX/test28.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="背景4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/背景4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="练习自适应.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/练习自适应.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10 伸缩布局-详解 order.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/10 伸缩布局-详解 order.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02 伸缩布局-详解 flex-direction.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/02 伸缩布局-详解 flex-direction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="79" column="35" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="35" />
+            <state relative-caret-position="465">
+              <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -182,16 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html5/allenjs.js" />
-        <option value="$PROJECT_DIR$/html5/cache.manifest" />
-        <option value="$PROJECT_DIR$/html5/allencss.css" />
-        <option value="$PROJECT_DIR$/html5/demo.appcache" />
-        <option value="$PROJECT_DIR$/html5/html5初次尝试14.html" />
-        <option value="$PROJECT_DIR$/html5/html5初次尝试15.html" />
-        <option value="$PROJECT_DIR$/html5/html5初次尝试16.html" />
-        <option value="$PROJECT_DIR$/html5/html初次尝试13.html" />
-        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/前端准备.html" />
-        <option value="$PROJECT_DIR$/LX/test08.html" />
         <option value="$PROJECT_DIR$/CSS3/CSS3第一天/属性选择器.html" />
         <option value="$PROJECT_DIR$/CSS3/CSS3第一天/伪类选择器.html" />
         <option value="$PROJECT_DIR$/CSS3/CSS3第一天/类选择器.html" />
@@ -226,20 +99,31 @@
         <option value="$PROJECT_DIR$/LX/test24.html" />
         <option value="$PROJECT_DIR$/LX/test25.html" />
         <option value="$PROJECT_DIR$/LX/test26.html" />
-        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/渐变色.html" />
         <option value="$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局.html" />
         <option value="$PROJECT_DIR$/LX/test27.html" />
-        <option value="$PROJECT_DIR$/LX/test28.html" />
         <option value="$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局1.html" />
         <option value="$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局2.html" />
         <option value="$PROJECT_DIR$/CSS3/CSS3第一天/练习自适应.html" />
+        <option value="$PROJECT_DIR$/LX/test28.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/渐变色.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/径向渐变.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/渐变应用.html" />
+        <option value="$USER_HOME$/Desktop/07 CSS3/03-CSS3基础-第3天/4-源代码/10 多列布局/01 多列布局.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/多列布局.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/过渡.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/Jquery回顾.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/动画-介绍.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/动画应用.html" />
+        <option value="$PROJECT_DIR$/CSS3/CSS3第一天/3D旋转.html" />
+        <option value="$USER_HOME$/Desktop/07 CSS3/04-CSS3基础-第4天/2-其它资料/高级应用/Ball/index.html" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -249,6 +133,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
@@ -279,6 +164,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,7 +193,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LX" />
+              <option name="myItemId" value="jquery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,35 +208,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CSS3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CZBKH5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CZBKH5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSS3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSS3第一天" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -380,19 +247,19 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html5" />
-      <recent name="$PROJECT_DIR$/jquery" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/webBasic/project" />
-      <recent name="$PROJECT_DIR$/CSS" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CSS3" />
       <recent name="$PROJECT_DIR$/html5" />
       <recent name="$PROJECT_DIR$/jquery" />
       <recent name="$PROJECT_DIR$/jquery/imgs" />
       <recent name="$PROJECT_DIR$/jquery/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html5" />
+      <recent name="$PROJECT_DIR$/jquery" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/webBasic/project" />
+      <recent name="$PROJECT_DIR$/CSS" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.jquery第三天滚动条.html">
@@ -641,19 +508,22 @@
       <workItem from="1484786789576" duration="15327000" />
       <workItem from="1484873464749" duration="1710000" />
       <workItem from="1484876979993" duration="4943000" />
+      <workItem from="1486083277361" duration="15182000" />
+      <workItem from="1486122050132" duration="632000" />
+      <workItem from="1486172578498" duration="3975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="835575000" />
+    <option name="totallyTimeSpent" value="855364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="727" extended-state="0" />
+    <frame x="15" y="23" width="1280" height="727" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2867355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28671876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826748" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -669,7 +539,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -723,104 +593,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/index38.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index37.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index36.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index35.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index34.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index33.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index32.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index31.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index30.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index29.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index28.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index27.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index26.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index57.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/index58.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
@@ -996,82 +768,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/01 伸缩布局-介绍.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="112" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/07 CSS3/02-CSS3基础-第2天/4-源代码/渐变/linear-graidnet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1860">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/02 伸缩布局-详解 flex-direction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="35" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/10 伸缩布局-详解 order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="43" selection-start-line="77" selection-start-column="11" selection-end-line="78" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/渐变色.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/01 伸缩布局-介绍.html" />
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/02-CSS3基础-第2天/4-源代码/渐变/linear-graidnet.html" />
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/02 伸缩布局-详解 flex-direction.html" />
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/03-CSS3基础-第3天/4-源代码/09 伸缩布局/10 伸缩布局-详解 order.html" />
     <entry file="file://$PROJECT_DIR$/LX/test27.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test28.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
+        <state relative-caret-position="2040">
           <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="1035">
           <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,6 +804,133 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/伸缩布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test28.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/css3颜色.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/03-CSS3基础-第3天/4-源代码/10 多列布局/01 多列布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/Jquery回顾.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/渐变色.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/渐变应用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="96" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/03-CSS3基础-第3天/4-源代码/12 动画/03 动画-应用1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/边框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="142" column="9" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/动画应用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/多列布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/动画-介绍.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/径向渐变.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/过渡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CSS3第一天/3D旋转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/07 CSS3/04-CSS3基础-第4天/2-其它资料/高级应用/Ball/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .div1{
+            height: 200px;
+            width: 1000px;
+            position: relative;
+            margin: 60px auto;
+            border: 1px solid red;
+        }
+
+        .div2{
+            height: 100px;
+            width:100px;
+            background-color: #7aff9f;
+            position: absolute;
+            left: 50px;
+            top:50px;
+           transition: all 1s;
+        }
+
+        .div1:hover .div2{
+            transform:translate(400px) rotate(135deg) scale(1.6) ;
+        }
+
+
+        img{
+            vertical-align: middle;
+            transition: all 1s;
+        }
+
+        .roatex:hover img{
+            transform: rotateX(360deg);
+        }
+
+        .roateY:hover img{
+            transform: rotateY(360deg);
+        }
+
+        .roateZ:hover img{
+            transform: rotateZ(360deg);
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="div1">
+    <div class="div2"></div>
+</div>
+
+
+<div class="roatex">
+    <img src="../bg.jpg">
+</div>
+
+
+<div class="roateY">
+    <img src="../bg.jpg">
+</div>
+
+
+
+<div class="roateZ">
+    <img src="../bg.jpg">
+</div>
+</body>
+</html>
