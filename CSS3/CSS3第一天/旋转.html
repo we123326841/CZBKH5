@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        img{
+            transition: all 1s;
+        }
+        .imgs{
+
+            transform: rotate(135deg);
+        }
+    </style>
+</head>
+
+<script type="text/javascript" src="../../jquery/jquery-1.11.1.js"></script>
+<script>
+    $(function () {
+       $("div").on("click",function () {
+            $("img").toggleClass("imgs");
+       });
+    });
+</script>
+<body>
+<div>
+    <img src="image/zhuan.jpg"/>
+</div>
+</body>
+</html>

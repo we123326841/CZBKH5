@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        li{
+            float: left;
+            list-style: none;
+            border: 1px solid #7c9299;
+            border-left-style: dashed;
+            border-right: none;
+            height: 35px;
+            width: 100px;
+            text-align: center;
+            line-height: 35px;
+            position: relative;
+
+        }
+
+        li:first-child{
+            border-left-style: solid;
+        }
+
+        li:last-child{
+            border: 1px solid #7c9299;
+            border-left-style: dashed;
+        }
+
+
+
+
+        ul{
+
+        }
+
+
+        ins{
+            height: 35px;
+            width: 100px;
+            position: absolute;
+            top: 35px;
+            left: 0px;
+            background-color: #7aff9f;
+        }
+    </style>
+</head>
+<body>
+<audio src="../music/1.ogg"></audio>
+<audio src="../music/2.ogg"></audio>
+<audio src="../music/3.ogg"></audio>
+<audio src="../music/4.ogg"></audio>
+<audio src="../music/5.ogg"></audio>
+<audio src="../music/6.ogg"></audio>
+<audio src="../music/7.ogg"></audio>
+<audio src="../music/8.ogg"></audio>
+<ul>
+    <li>邓紫棋1<ins></ins></li>
+    <li>邓紫棋2<ins></ins></li>
+    <li>邓紫棋3<ins></ins></li>
+    <li>邓紫棋4<ins></ins></li>
+    <li>邓紫棋5<ins></ins></li>
+    <li>邓紫棋6<ins></ins></li>
+    <li>邓紫棋7<ins></ins></li>
+    <li>邓紫棋8<ins></ins></li>
+</ul>
+</body>
+</html>
+<script type="text/javascript" src="../../jquery/jquery-1.11.1.js"></script>
+<script>
+    $(function () {
+        var array = new Array("red","blue","yellow","green","pink","deeppink","orange","purple");
+        $("li ins").each(function (index,eac) {
+            console.log("index="+index);
+            $(this).css("backgroundColor",array[index]);
+        });
+
+//        $("ins").on("mouseenter",function (e) {
+////            alert("鼠标进入");
+//            e.stopPropagation();
+//
+//        });
+//
+//        $("ins").on("mouseleave",function (e) {
+////            alert("鼠标进入");
+//            e.stopPropagation();
+//
+//        });
+
+
+        $("li").on("mouseenter",function () {
+//            alert("鼠标进入");
+            $(this).children("ins").stop().animate({top:"0px"},300);
+            $("audio").get($(this).index()).load();
+            $("audio").get($(this).index()).play();
+
+        });
+        $("li").on("mouseleave",function () {
+//            alert("鼠标离开");
+            $(this).children("ins").stop().animate({top:"35px"},300);
+        });
+
+        $(window).keydown(function (e) {
+//            alert(e.keyCode);
+            if(e.keyCode >=49 && e.keyCode <=57){
+                $("li").eq(e.keyCode - 49).trigger("mouseenter");
+
+                setTimeout(function () {
+                    $("li").eq(e.keyCode - 49).trigger("mouseleave");
+                },300);
+            }
+
+
+        });
+
+    });
+
+</script>

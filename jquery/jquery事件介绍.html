@@ -25,9 +25,9 @@
 //               alert("one");
 //            });
 
-//            $("ul li").bind("click",function () {
-//                alert($(this).html());
-//            })
+            $("ul li").bind("click",function () {
+                alert($(this).html());
+            })
 
 //            $("ul").delegate("li","click",function () {
 //               alert($(this).html());
@@ -38,6 +38,8 @@
 //            });
 
             $("div").on("click mouseenter","p",function () {
+//                $(this).html("你在说什么");
+                this.innerHTML = "什么鬼";
                 alert("出发");
             })
 

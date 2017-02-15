@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            background-color: #7c9299;
+        }
+
+        .div1{
+            margin: 100px auto;
+            width: 350px;
+            height: 500px;
+            background: url("image/paopao.png") left top,url("image/paopao.png") right bottom,deepskyblue;
+            transition: all 10s;
+            /*overflow: hidden;*/
+            border-radius: 6px;
+        }
+
+        .div2{
+            margin-top: 500px;
+            width: 350px;
+            height: 100px;
+            background: url("image/paopao.png") left top,deepskyblue;
+        }
+
+        .div1:hover{
+            background-position: right bottom , left top;
+        }
+    </style>
+
+    <script type="text/javascript" src="../../jquery/jquery-1.11.1.js"></script>
+    <script>
+//        $(function () {
+//            $(".div1").on("click",function () {
+//                $(".div1").addClass("changebgc");
+//            });
+//
+//        });
+
+    </script>
+</head>
+<body>
+<div class="div1">
+    <img src="image/paopao.png"/>
+</div>
+
+
+<div class="div2">
+    <img src="image/paopao.png"/>
+</div>
+</body>
+</html>

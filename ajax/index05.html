@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<div id="show"></div>
+<form action="form05.php" method="get">
+    账号:<input  type="text" name="username"/>
+    密码:<input  type="password"  name="password"/>
+    <input type="submit" value="酸爽"/>
+</form>
+</body>
+</html>
+
+<script type="text/javascript">
+    window.onload = function () {
+        var show1 = document.getElementById("show");
+        var search1 = window.location.search;
+//        alert(search1);
+       var flag =search1.split("=")[1];
+        if (flag==1){
+            show1.innerHTML = "登陆成功";
+        }else{
+            show1.innerHTML = "登陆失败";
+        }
+    }
+</script>

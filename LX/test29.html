@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *::after{
+            box-sizing: border-box;
+        }
+        #divid{
+            height: 300px;
+            width: 300px;
+            background-color: #ff443f;
+            position: relative;
+        }
+        .divc{
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            right: 10px;
+            width: 50px;
+            height: 50px;
+            background-color: #8A25C6;
+        }
+
+        .dive{
+            width: 500px;
+            height: 500px;
+            background-color: #7c9299;
+        }
+
+        .dive::after{
+            display: block;
+            content: "";
+            width: 100px;
+            height: 100px;
+            border: 25px solid #1b78f6;
+            background-color: #7aff9f;
+        }
+    </style>
+</head>
+<body>
+<div id="divid">
+    <div class="divc"></div>
+</div>
+
+
+
+<div class="dive"></div>
+<script>
+    var di = document.getElementById("divid");
+    di.onclick = function () {
+       alert(this);
+        this.jimo();
+    }
+
+
+    function jimo() {
+        alert(this);
+    }
+</script>
+</body>
+</html>
