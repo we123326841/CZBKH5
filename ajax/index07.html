@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var xmls = null;
+    if(window.XMLHttpRequest){
+        xmls = new XMLHttpRequest();
+    }else{
+        xmls = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+
+    console.log("a"+xmls.readyState);
+    xmls.open("get","./check.php?username=admin&password=123");
+    console.log("b"+xmls.readyState);
+
+    xmls.onreadystatechange = function () {
+        console.log("e"+xmls.readyState);
+        if(xmls.readyState == 4){
+            if (xmls.status==200){
+                console.log(xmls.responseText);
+                console.log(xmls.responseXML);
+            }
+        }
+    }
+    console.log("c"+xmls.readyState);
+    xmls.send(null);//早期浏览器 必须要加null 为了兼容性考虑  现在的浏览器可以不用
+    console.log("d"+xmls.readyState);
+</script>
+</body>
+</html>

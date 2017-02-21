@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="show"></div>
+<form>
+    账号:<input  type="text" id="username" name="username"/>
+    密码:<input type="text" id="password" name="password"/>
+    <input type="button" id="btn" value="哈哈"/>
+</form>
+
+
+<script>
+    window.onload = function () {
+
+        var btn = document.getElementById("btn");
+        btn.onclick = function () {
+            var showi= document.getElementById("show");
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var xmls = null;
+            if(window.XMLHttpRequest){
+                xmls = new XMLHttpRequest();
+            }else{
+                xmls = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+//            xmls.open("get","./check.php?username="+username+"&password="+password);
+            xmls.open("post","./check.php");
+            xmls.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+            xmls.onreadystatechange = function () {
+                if (xmls.readyState==4){
+                    if (xmls.status == 200){
+                        var text = xmls.responseText;
+                        console.log(text);
+                        showi.innerHTML = text;
+                    }
+
+                }
+            };
+
+            xmls.send("username="+username+"&password="+password);
+//            xmls.send(null);
+        }
+
+    }
+</script>
+</body>
+</html>

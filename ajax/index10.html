@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" id="btn">
+<div>
+
+    <table id="bookinfo"></table>
+</div>
+</body>
+</html>
+
+<script>
+    window.onload = function () {
+        var bookInfo =  document.getElementById("bookinfo");
+        bookInfo.innerHTML = "";
+        var xmls = null;
+        if(window.XMLHttpRequest){
+            xmls = new XMLHttpRequest();
+        }else{
+            xmls = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        xmls.open("get","data.xml");
+
+        xmls.onreadystatechange = function () {
+            if (xmls.readyState==4){
+                if(xmls.status == 200){
+                    var rt = xmls.responseXML;
+
+                    var bookstore = rt.getElementsByTagName("bookstore")[0];
+
+//                    console.log(bookstore.length);
+                    var books = bookstore.getElementsByTagName("book");
+                    var tag = "";
+                    for(var i = 0; i<books.length; i++){
+                        var name = books[i].getElementsByTagName("name")[0];
+                        var category = books[i].getElementsByTagName("category")[0];
+                        var desc = books[i].getElementsByTagName("desc")[0];
+                        tag+= "<tr><td>"+gettest(name)+"</td><td>"+gettest(category)+"</td><td>"+gettest(desc)+"</td></tr>";
+                    }
+                    bookInfo.innerHTML = tag;
+                }
+            }
+        }
+
+
+        function gettest(node) {
+            if(window.ActiveXObject){
+                return node.text;
+            }else{
+                if(node.nodeType == 1){
+                    return node.textContent;
+                }
+            }
+        }
+
+        xmls.send(null);
+    }
+</script>

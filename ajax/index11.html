@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+ var jsonStr = '{"name":"三国演义","age":"1"}';
+   var jsonobj  = JSON.parse(jsonStr);
+
+    console.log(jsonobj.name);
+
+    var jsonobj1 = eval("("+jsonStr+")");
+    console.log(jsonobj1.name);
+</script>
+ </body>
+</html>

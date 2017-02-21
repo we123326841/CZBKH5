@@ -31,7 +31,7 @@
                 xmlh = new ActiveXObject("Microsoft.XMLHTTP");
             }
             var url = "./check.php?username="+username +"&password="+password;
-            xmlh.open("get",url,false);//true表示异步 false表示同步
+            xmlh.open("get",url,true);//true表示异步 false表示同步
             xmlh.onreadystatechange = function () {
                 console.log(2);
                 if(xmlh.readyState == 4){

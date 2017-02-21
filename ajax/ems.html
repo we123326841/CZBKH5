@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+    #ems {
+        width: 400px;
+        height: 500px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: absolute;
+        left: 50%;
+        margin-left: -200px;
+        background-color: skyblue;
+        text-align: center;
+    }
+
+    ul{
+        font-size: 14px;
+    }
+
+    #ems .info-search {
+        margin-top: 20px;
+
+    }
+</style>
+<body>
+<div id="ems">
+    <div class="info-search">
+
+        <input type="text" id="emscode"/>
+        <input type="button" id="btn" value="提交"/>
+
+    </div>
+
+    <div id="list"></div>
+</div>
+</body>
+</html>
+
+<script>
+    window.onload = function () {
+        var btn = document.getElementById("btn");
+        var list = document.getElementById("list");
+        btn.onclick = function () {
+            var code = document.getElementById("emscode").value;
+
+            var xmls = null;
+            try {
+                xmls = new XMLHttpRequest();
+//                xmls = new ActiveXObject("Microsoft.XMLHTTP");
+            } catch (e) {
+
+                console.log(e);
+                xmls = new ActiveXObject("Microsoft.XMLHTTP");
+//                xmls = new XMLHttpRequest();
+            }
+
+//            console.log("哈哈");
+
+
+            var url = "ems.php?code=" + code;
+            xmls.open("get", url, true);
+            xmls.onreadystatechange = function () {
+                if (this.readyState == 4) {
+                    if (this.status == 200) {
+                        var res = this.responseText;
+                        var data = JSON.parse(res);
+                        var status = data.status;
+                        if (status == -2) {
+                            list.innerHTML = data.msg;
+                        } else if (status == 0) {
+                            var tag = "";
+                            var listdata = data.data.info.context;
+                            for (var i = 0; i < listdata.length; i++) {
+                                var time = listdata[i].time;
+                                var desc = listdata[i].desc;
+                                var date = new Date();
+                                date.setTime(time + "000");
+                                var str = date.getFullYear() + '年' + (date.getMonth() + 1) + '月' + date.getDay() + '日' + (date.getHours() > 12 ? ' 下午' : ' 上午') + date.getHours() % 12 + ":" + date.getMinutes() + ":" + date.getSeconds();
+                                tag += "<li><div>" + str + "</div><div>" + desc + "</div></li>";
+
+                            }
+                            var ul = document.createElement("ul");
+                            ul.innerHTML = tag;
+                            list.appendChild(ul);
+                        }
+                    }
+                }
+            };
+
+            xmls.send(null);
+
+
+        }
+    }
+</script>
