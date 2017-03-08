@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#inputid").keyup(function () {
+                var name = $("#inputid").val();
+                check(name);
+            });
+        });
+
+
+        function check(name) {
+            console.log(name);
+            $.ajax({
+                url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=" + name,
+                dataType: "jsonp",
+                jsonp: "cb",
+                success: function (data) {
+//                    console.log(data.s);
+                    show(data.s);
+                },
+                error: function () {
+
+                }
+            });
+        }
+
+
+        function show(arrays) {
+            $("#content").html("");
+            var ul = $("<ul></ul>");
+            $.each(arrays,function (i, ele) {
+                console.log(i);
+                console.log(ele);
+               var li = $("<li></li>");
+                li.html(ele);
+                ul.append(li);
+
+
+            });
+            $("#content").append(ul);
+        }
+    </script>
+
+</head>
+<body>
+<div>
+    <input type="text" id="inputid"/>
+    <input type="button" value="选择">
+    <div id="content"></div>
+</div>
+</body>
+</html>

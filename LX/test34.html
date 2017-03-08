@@ -4,6 +4,7 @@
         src="chrome-extension://kajfghlhfkcocafkcjlajldicbikpgnp/catcher.js"><!-- script injected by Request Maker --></script>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
 </head>
 <style type="text/css">
     *{
@@ -57,15 +58,17 @@
 
 
     .container .tit{
+        display: inline-block;
         float: left;
         margin-left: 50px;
-        width: 200px;
+        /*width: 200px;*/
         line-height: 80px;
         color: rgba(0,0,0,.6);
 
     }
 
     .container .righttit{
+        /*display: inline-block;*/
         color: rgba(0,0,0,.6);
         float: right;
         margin-right: 50px;
@@ -177,16 +180,26 @@
         line-height: 100px;
     }
 
+    audio{
+        width: 300px;
+       position: absolute;
+        top: 100px;
+        left: 50%;
+        margin-left: -150px;
+
+    }
+
 
 
 
 
 </style>
 <body>
+<audio src="ShapeofYouEd.mp3" controls="controls" loop="loop" autoplay="autoplay">亲 您的浏览器不支持html5的audio标签</audio>
 <div class="proj">
 <div class="container">
-    <div class="tit">玩球彩</div>
-    <div class="righttit">版本: 1.0(build 20170216)<span> / </span>大小: 25M<span> / </span>2017-02-16</div>
+    <div class="tit" id="titt">玩球彩</div>
+    <div class="righttit" id="rightt">测试版本: 2.3(build 20170307)<span> / </span>大小: 25M<span> / </span>2017-03-07</div>
 </div>
 
 
@@ -200,9 +213,12 @@
     
     
     <div class="bottom">
-        <div class="l">Copyright © 2000-2017 by Allen Wang </div>
-        <div class="r">本应用仅供内测人员使用，请于完成下载后 24 小时内删除</div>
+        <div class="l" id="ll">Copyright © 2000-2017 by Allen Wang </div>
+        <div class="r" id="rr">本应用仅供内测人员使用，请于完成下载后 24 小时内删除</div>
     </div>
+
+
+
 
 
 </div>
@@ -237,7 +253,47 @@
 <script type="text/javascript">
 
     window.onload =function () {
+        var browser = {
+            versions: function () {
+                var u = navigator.userAgent, app = navigator.appVersion;
+                return {     //移动终端浏览器版本信息
+                    trident: u.indexOf('Trident') > -1, //IE内核
+                    presto: u.indexOf('Presto') > -1, //opera内核
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+                    iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+                    iPad: u.indexOf('iPad') > -1, //是否iPad
+                    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+                };
+            }(),
+            language: (navigator.browserLanguage || navigator.language).toLowerCase()
+        }
+        if (browser.versions.mobile) {
+            var ll = document.getElementById("ll");
+            var titt  = document.getElementById("titt");
+            var rightT = document.getElementById("rightt");
+            rightT.style.marginRight = "0px";
+            rightT.style.textAlign = "center";
+            rightT.style.float = "none";
+            var rr = document.getElementById("rr");
+//            rightT.style.display = 'none';
+            rr.style.display = 'none';
 
+            rightT.innerHTML = rightT.innerHTML.split("/")[0];
+            ll.style.lineHeight = "50px";
+            ll.style.textAlign = "center";
+            ll.style.marginLeft = "0px";
+            ll.style.float = "none";
+            ll.style.fontSize = "12px";
+            ll.innerHTML = ll.innerHTML +'<br>'+ rr.innerHTML;
+        }
+
+        if (browser.versions.ios) {
+
+        }
 
 /**
         function browserRedirect() {
@@ -266,35 +322,19 @@
        var clickdownload  = document.getElementById("clickdownload");
 
         clickdownload.onclick = function () {
-            var browser = {
-                versions: function () {
-                    var u = navigator.userAgent, app = navigator.appVersion;
-                    return {     //移动终端浏览器版本信息
-                        trident: u.indexOf('Trident') > -1, //IE内核
-                        presto: u.indexOf('Presto') > -1, //opera内核
-                        webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
-                        gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
-                        mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
-                        ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
-                        android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
-                        iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
-                        iPad: u.indexOf('iPad') > -1, //是否iPad
-                        webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
-                    };
-                }(),
-                language: (navigator.browserLanguage || navigator.language).toLowerCase()
-            }
+
             if (browser.versions.mobile) {//判断是否是移动设备打开。browser代码在下面
+
                 if (browser.versions.ios) {
                     //是否在IOS浏览器打开
 //                    alert("在ios浏览器打开");
-                    window.location.href="itms-services://?action=download-manifest&url=https://olgz47gdl.qnssl.com/wanlecai.plist";
+                    window.location.href="itms-services://?action=download-manifest&url=https://olgz47gdl.qnssl.com/caipiao2.3.plist";
                 }
                 if(browser.versions.android){
                     //是否在安卓浏览器打开
 //                    alert("在android浏览器打开");
 //                    http://www.allenwang198932.com/wanqiucai.apk
-                    window.location.href="http://www.allenwang198932.com/wanqiucai.apk";
+                    window.location.href="http://www.allenwang198932.com/wanqiucai2.0.apk";
                 }
                 var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
                 if (ua.match(/MicroMessenger/i) == "micromessenger") {

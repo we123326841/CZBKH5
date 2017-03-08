@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var json = {name:"鸡巴"};
+    var json1 = {name:"鸡巴"};
+    console.log(json.name);
+    console.log(json["name"]);
+    console.log(json);
+    console.log(json1);
+
+    console.log("-------------");
+    var json = {"name":"加吧","steps":[{"tag":"妓女"},{"tag":"彪子"}]};
+    for(var i = 0; i < json.steps.length; i++){
+        var step = json.steps[i];
+        console.log(step.tag);
+    }
+</script>
+
+</body>
+</html>

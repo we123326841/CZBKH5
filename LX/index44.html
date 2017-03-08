@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var xmls = null;
+    if(window.XMLHttpRequest){
+        xmls = new XMLHttpRequest();
+    }else{
+        xmls = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+
+
+    xmls.open("get","index16.php?_jsonp=jojo");
+
+
+    xmls.onreadystatechange = function () {
+
+        if(xmls.readyState == 4){
+            if (xmls.status==200){
+                //打印jojo({"name":"张三","age":"27"})
+                console.log(xmls.responseText);
+
+            }
+        }
+    }
+
+    xmls.send(null);//早期浏览器 必须要加null 为了兼容性考虑  现在的浏览器可以不用
+
+
+</script>
+</body>
+</html>

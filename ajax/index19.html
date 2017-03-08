@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //    window["demo"] = function () {
+    //        console.log("你麻痹");
+    //    }
+    //
+    //
+    //    demo();
+
+    window.onload = function () {
+
+        function ajax(data) {
+
+            var funCallback = "Jquery_" + new Date().getTime();
+
+            if (data.jsonpCallback) {
+                funCallback = data.jsonpCallback;
+
+            }
+
+            window[funCallback] = function (e) {
+                data.success(e);
+            }
+
+            var scr = document.createElement("script");
+            scr.src = data.url + "?" + data.jsonpType + "=" + funCallback;
+            document.body.appendChild(scr);
+        }
+        ;
+
+
+        var a = {
+            url: "index16.php", type: "jsonp", jsonpType: "_jsonp", jsonpCallback: "jojo", success: function (ee) {
+                console.log("我日你麻痹的");
+                console.log(ee);
+                console.log("彪子样的");
+
+            }, error: function () {
+
+            }
+        };
+
+        ajax(a);
+    }
+
+</script>
+</body>
+</html>

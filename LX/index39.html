@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+   <script>
+       function demo(ddd) {
+           console.log(111111);
+           console.log(ddd);
+           console.log(111111);
+       }
+   </script>
+
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+
+</body>
+
+
+</html>
+
+
+<script>
+    window.onload = function () {
+//        var scr = document.createElement("script");
+//      scr.src = "http://www.allenwang198932.com/index133.php";
+//        document.body.appendChild(scr);
+
+//        var scr = document.createElement("script");
+//        scr.src = "index133.php";
+//        document.body.appendChild(scr);
+
+        $.ajax({
+            type:"get",
+            async:false,
+            url:"http://www.allenwang198932.com/index16.php",
+            dataType:"jsonp",
+            jsonp:"_jsonp",
+//            jsonpCallback:"jojo",
+            success:function (json) {
+                console.log("哈哈");
+                console.log(json);
+                console.log("哈哈");
+            },
+            error:function () {
+                console.log("fail");
+            }
+        });
+        console.log("你这个哈哈哈哈");
+
+//        $.ajax({
+//            type:"get",
+//            async:true,
+//            url:"index16.php",
+//            dataType:"jsonp",
+////            jsonp:"_jsonp",
+////            jsonpCallback:"jojo",
+//            success:function (json) {
+//                console.log("哈哈");
+//                console.log(json);
+//                console.log("哈哈");
+//            },
+//            error:function () {
+//                console.log("fail");
+//            }
+//        });
+
+        //jsonp这个选项一定要填 jsonpCallback这个选项可以选可以不选 都可以正常得到success:function(json) 里面的json数据
+//        原理分析:
+        //有填jsonpCallbanck:"jojo" 的时候 请求是index16.php?_jsonp=jojo 或者没有填jsonpCallback的时候请求是index16.php?_jsonp=jquery12321312312232131232
+
+        //实质是 有填jsonpCallbanck:"jojo" 的时候是jojo(json){success(json) };  或者没有填jsonpCallback的时候 是一组随机函数名 jquery12321312312232131232(json){success(json)};
+
+
+    }
+</script>

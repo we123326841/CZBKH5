@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script>
+        //        $(function () {
+        //            var s= jQuery("#haha");
+        //            s.css("backgroundColor","red");
+        //        });
+
+
+        //        function demo() {
+        //            alert("demo");
+        //        }
+        //        demo.haha = function () {
+        //            alert("嘻嘻");
+        //        }
+        //
+        //        demo();
+        //
+        //        demo.haha();
+
+
+        $(function () {
+            $("#btn").click(function () {
+//                $.ajax({
+//                    url: "index133.php", dataType: "text", type: "get", success: function (data) {
+////                        alert( data);
+////                        $("#haha").html(data);
+//                        eval(data);
+//                    }, error: function (e) {
+//                        console.log(e);
+//                    }
+//                });
+
+
+                $.ajax({
+                    url: "index12.php", dataType: "text", type: "get", success: function (data) {
+//                        alert( data);
+//                        $("#haha").html(data);
+//                        eval(data);
+                        console.log("彪子"+data);
+                    }, error: function (e) {
+                        console.log(e);
+                    }
+                });
+            });
+        });
+
+
+    </script>
+</head>
+<body>
+<button id="btn">按钮</button>
+<div id="haha">1</div>
+<!--<div id="xixi">2</div>-->
+</body>
+</html>

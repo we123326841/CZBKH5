@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+<script>
+    function ajax(data) {
+
+
+        var xhr = null;
+
+        if (window.XMLHttpRequest) {
+            xhr = new XMLHttpRequest();
+        } else {
+            xhr = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        var type = data.type == "get" ? "get" : "post";
+        var url = "";
+        if (data.url) {
+            url = data.url;
+            if (type == "get") {
+                url += "?" + data.data + "&_t=" + new Date().getTime();
+            }
+        }
+
+        var flag = data.asyn == true ? true : false;
+        xhr.open(type, url, flag);
+        if (type == "get") {
+            xhr.send(null);
+        } else {
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.send(data.data);
+        }
+
+
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                if (xhr.status == 200) {
+                    var d = data.dataType == "xml" ? xhr.responseXML : xhr.responseText;
+                    if (typeof data.success == "function") {
+                        data.success(d);
+                    }
+                } else {
+                    if (typeof data.fail == "function") {
+                        data.fail();
+                    }
+                }
+            }
+        }
+
+        console.log("你说什么东西");
+
+
+//        xhr.send(null);
+    }
+    
+    
+    
+    window.onload = function () {
+//        ajax({url:"index38.php",type:"get",asyn:true,success:function (data) {
+//            console.log("!");
+//            console.log(data);
+//            console.log("!");
+//        }});
+
+
+//        ajax({url:"http://www.allenwang198932.com/index133.php",type:"get",asyn:true,success:function (data) {
+//            console.log("!");
+//            console.log(data);
+//            console.log("!");
+//        }});
+
+        $.ajax({
+            url:"index133.php",type:"get",dataType:"text",success:function (data) {
+                console.log(1);
+                console.log(data);
+                console.log(1);
+            },error:function (e) {
+                console.log("错误");
+                console.log(e);
+                console.log("错误");
+            }
+        });
+        console.log("是没什么事吗貌似没什么");
+
+//        $.ajax({
+//            url:"http://www.allenwang198932.com/index133.php",type:"get",dataType:"text",success:function (data) {
+//                console.log(1);
+//                console.log(data);
+//                console.log(1);
+//            },error:function (e) {
+//                console.log("错误");
+//                console.log(e);
+//                console.log("错误");
+//            }
+//        });
+    }
+</script>
+</body>
+</html>

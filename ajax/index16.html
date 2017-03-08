@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function jiba(data) {
+            console.log(data);
+        }
+        
+        
+        window.onload = function () {
+            var btn = document.getElementById("btn");
+            btn.onclick = function () {
+                console.log({"name":"张三","age":"27"});
+                var sc = document.createElement("script");
+                sc.src = "index16.php?_jsonp=jiba";
+                document.body.appendChild(sc);
+            }
+        }
+    </script>
+</head>
+<body>
+<button id="btn">牛逼</button>
+</body>
+</html>

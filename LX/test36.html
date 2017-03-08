@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //    function demo() {
+    //
+    //    }
+    console.log(a);
+
+    de();
+    console.log(b);
+    var a = 19;
+    function de() {
+        b = 321;
+    }
+
+
+    var data = [];
+
+
+    for (var i = 0; i < 3; i++) {
+//        data[i]= function () {
+//            console.log(i);
+//        };
+        data[i] = (function (e) {
+            return function () {
+                console.log(e);
+            }
+        })(i);
+    }
+
+    data[0]();
+    data[1]();
+    data[2]();
+    console.log("-----------");
+
+    function bubao() {
+        var n = 1;
+
+        function demo() {
+            n++;
+
+            console.log(n);
+        }
+
+        return demo;
+    }
+
+    var b = bubao();
+    b();
+    var c = bubao();
+
+    c();
+    var d = bubao();
+    d();
+
+
+    b();
+    c();
+
+</script>
+</body>
+</html>

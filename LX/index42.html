@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        window.onload = function () {
+            $.ajax({
+                url: "http://www.allenwang198932.com/index133.php",
+                type: "get",
+                dataType: "text",
+                data: {name: "john", _jsonp: "jojo"},
+                success: function (data) {
+                    console.log(1);
+                    console.log(data);
+                    console.log(2);
+                },
+                error: function (e) {
+                    console.log("错误");
+                    console.log(e);
+                }
+
+            });
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

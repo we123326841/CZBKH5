@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button>1</button>
+<button>1</button>
+<button>1</button>
+<script>
+
+    window.onload = function () {
+
+        var  btns = document.getElementsByTagName("button");
+        function outer() {
+
+
+            var i = 10;
+
+            function demo() {
+                i++;
+                console.log(i);
+            }
+
+            return demo;
+
+
+        }
+
+
+        var oo = outer();
+
+        oo();
+        oo();
+        console.log("------");
+        var op = outer();
+        op();
+        op();
+        console.log("------");
+
+        for(var i = 0 ; i < btns.length ; i++){
+                btns[i].onclick = (function (e) {
+                    return function () {
+                        console.log(e);
+                    }
+                })(i);
+        }
+
+
+
+
+        console.log("---------");
+        
+        
+        function juiceMaticine(juice) {
+            this.juice  =  juice;
+            this.hhhh = function () {
+                console.log("果汁=="+this.juice);
+            }
+        }
+
+
+        var ju = new juiceMaticine("苹果");
+
+//        ju.hhhh();
+        alert(ju.juice);
+
+        juiceMaticine.aninid = "dedede";
+
+        juiceMaticine.hu = function () {
+            alert("哈哈");
+        }
+
+        alert(juiceMaticine.aninid);
+        juiceMaticine.hu();
+
+        ju.hu();
+
+
+    };
+
+
+
+</script>
+</body>
+</html>

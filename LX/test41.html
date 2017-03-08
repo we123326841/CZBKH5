@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li{
+            line-height: 30px;
+            width: 100px;
+            background-color: #7aff9f;
+            float: left;
+            margin-right: 10px;
+            list-style: none;
+            text-align: center;
+
+        }
+        /*方法1*/
+        /*.div1{*/
+            /*height: 30px;*/
+        /*}*/
+
+        /*方法2*/
+        /*.div2{*/
+            /*clear: left;*/
+        /*}*/
+
+        /*方法3*/
+        /*.clearfix{*/
+            /*clear: left;*/
+            /*height: 10px;*/
+        /*}*/
+
+
+        /*方法4*/
+        /*.clearfix1{*/
+        /*clear: left;*/
+        /*height: 10px;*/
+        /*}*/
+
+        /*方法5*/
+        /*.div1{*/
+            /*overflow: hidden;*/
+        /*}*/
+
+        /*方法6*/
+        /*.div1::after{*/
+            /*content: "";*/
+            /*display: block;*/
+            /*height: 10px;*/
+            /*clear: left;*/
+        /*}*/
+    </style>
+</head>
+
+<body>
+
+<div class="div1">
+    <lu>
+        <li>呵呵1</li>
+        <li>呵呵2</li>
+        <li>呵呵3</li>
+    </lu>
+    <!--<div class="clearfix1"></div>-->
+</div>
+<!--<div class="clearfix"></div>-->
+<div class="div2">
+    <lu>
+        <li>呵呵4</li>
+        <li>呵呵5</li>
+        <li>呵呵6</li>
+    </lu>
+</div>
+
+</body>
+</html>

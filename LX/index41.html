@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+
+
+<script>
+    function ajax(data) {
+
+
+        var xhr = null;
+
+        if (window.XMLHttpRequest) {
+            xhr = new XMLHttpRequest();
+        } else {
+            xhr = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        var type = data.type == "get" ? "get" : "post";
+        var url = "";
+        if (data.url) {
+            url = data.url;
+            if (type == "get") {
+                url += "?" + data.data + "&_t=" + new Date().getTime();
+            }
+        }
+
+        var flag = data.asyn == true ? true : false;
+        xhr.open(type, url, flag);
+        if (type == "get") {
+            xhr.send(null);
+        } else {
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.send(data.data);
+        }
+
+
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                if (xhr.status == 200) {
+                    var d = data.dataType == "xml" ? xhr.responseXML : xhr.responseText;
+                    if (typeof data.success == "function") {
+                        data.success(d);
+                    }
+                } else {
+                    if (typeof data.fail == "function") {
+                        data.fail();
+                    }
+                }
+            }
+        }
+
+//        console.log("你说什么东西");
+
+
+//        xhr.send(null);
+    }
+
+    function jsonpAjax(data1) {
+        var funcallback = "jQuery"+new Date().getTime();
+        if(data1.jsonpCallback){
+            funcallback = data1.jsonpCallback;
+        }
+        window[funcallback] = function (d) {
+          data1.success(d);
+        };
+        var scr = document.createElement("script");
+        scr.src = data1.url + "?"+data1.jsonp+"="+funcallback+"&"+data1.data+"&_t="+new Date().getTime();
+        document.body.appendChild(scr);
+    }
+
+
+    window.onload = function () {
+//jquery1
+//http://localhost/index41.php?name=john&_jsonp=jojo
+//        $.ajax({
+//            url: "index41.php",
+//            type: "get",
+//            dataType: "text",
+//            data: {name: "john",_jsonp:"jojo"},
+//            success: function (data) {
+//                console.log(1);
+//                console.log(data);
+//                console.log(2);
+//            },
+//            error: function (e) {
+//                console.log(e);
+//            }
+//        });
+
+        //jquery2
+     //   http://localhost/index41.php?name=john&_jsonp=jojo
+//        $.ajax({
+//            url: "index41.php?name=john&_jsonp=jojo",
+//            type: "get",
+//            dataType: "text",
+//
+//            success: function (data) {
+//                console.log(1);
+//                console.log(data);
+//                console.log(2);
+//            },
+//            error: function (e) {
+//                console.log(e);
+//            }
+//        });
+
+
+        //原生
+        //http://localhost/index41.php?name=john&_jsonp=jojo&_t=1488243539671
+        //打印结果 jojo({"name":"john","age":"27"})
+
+//        ajax({
+//            url: "index41.php",data:"name=john&_jsonp=jojo", asyn: true, type: "get", success: function (data) {
+//                console.log(1);
+//                console.log(data);
+//                console.log(2);
+//            }
+  //      });
+
+
+
+
+
+
+
+
+
+
+        //jsonp 的jQuery
+        //http://localhost/index41.php?_jsonp=jQuery1102007908770835377932_1488201692413&name=allen&_=1488201692414
+//        $.ajax({
+//            url: "index41.php",
+//            type: "get",
+//            data: {name: "allen"},
+//            dataType: "jsonp",
+//            jsonp: "_jsonp",
+//            success: function (data) {
+//                console.log(1);
+//                console.log(data);
+//                console.log(2);
+//            },
+//            error: function (e) {
+//                console.log(e);
+//            }
+//
+//
+//        });
+
+
+
+
+
+        //jsonp 的jQuery2
+//http://localhost/index41.php?name=allen&_jsonp=jQuery110202872354125265093_1488211125675&_=1488211125676
+//                $.ajax({
+//            url: "index41.php?name=allen",
+//            type: "get",
+//
+//            dataType: "jsonp",
+//            jsonp: "_jsonp",
+//            success: function (data) {
+//                console.log(1);
+//                console.log(data);
+//                console.log(2);
+//            },
+//            error: function (e) {
+//                console.log(e);
+//            }
+//
+//
+//        });
+
+
+
+        //jsonp原生
+        /*<script src="index41.php?_jsonp=jQuery1488243982027&amp;name=allen&amp;_t=1488243982027"><script>*/
+        //打印结果{name: "allen", age: "27"}
+        jsonpAjax({url:"index41.php",jsonp:"_jsonp",data:"name=allen",success:function (e) {
+            console.log(1);
+            console.log(e);
+            console.log(2);
+        }})
+
+    }
+
+</script>
+</body>
+</html>

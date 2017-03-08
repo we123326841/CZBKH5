@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        window.onload = function () {
+            var btn = document.getElementById("btn");
+            btn.onclick = function () {
+                var status = document.getElementById("status");
+                var status1 = document.getElementById("status");
+                console.log(status == status1);
+                var content = document.getElementById("content");
+                console.log(status == content);
+                status.innerHTML = "正在请求数据....";
+                var value = document.getElementById("search").value;
+                var val = encodeURIComponent(value);
+                $.ajax({
+                    url: "http://apis.juhe.cn/cook/query?key=2f017a53ea92855a063e8376469e0c7f&menu=" + val + "&rn=3&pn=1&dtype=jsonp",
+                    dataType: "jsonp",
+                    success: function (data) {
+                        console.log(data);
+                        if (data.resultcode == 200) {
+                            var menu = $("#content");
+                            menu.children("div").remove();
+                            status.innerHTML = "";
+                            var datas = data.result.data;
+//                            var all = $('<div class="all"></div>');
+//                            menu.append(all);
+                            for (var i = 0; i < datas.length; i++) {
+//                            console.log(datas[i].title);
+                                var all = $('<div class="all"></div>');
+                                menu.append(all);
+                                all.append($("<h2>" + datas[i].title + "</h2>"));
+                                all.append($("<p>" + datas[i].imtro + "</p>"));
+                                for(var j = 0; j<datas[i].albums.length; j++){
+                                    var imgrs = datas[i].albums[j];
+                                   var img = $('<img src="'+imgrs+'">');
+                                    all.append(img);
+                                }
+                               var zl = $('<p class="zl">'+datas[i].ingredients+'</p>');
+                                all.append(zl);
+                               var fl = $('<p class="zl">'+datas[i].burden+'</p>');
+                                all.append(fl);
+                                for(var k=0; k<datas[i].steps.length;k++){
+                                    var steps = $('<div class="steps"></div>');
+                                    all.append(steps);
+                                  var xh  = $('<em class="xh">'+(k+1)+'.</em>');
+                                    steps.append(xh);
+                                    var c = $('<div class="c"></div>');
+                                    var p1 = $('<p>'+datas[i].steps[k].step+'</p>');
+                                    c.append(p1);
+                                    steps.append(c);
+                                   var  img1= $('<p><img src="'+datas[i].steps[k].img+'"></p>');
+                                    c.append(img1);
+                                }
+
+                                 menu.append($("<hr>"));
+                            }
+
+
+                        } else {
+                            status.innerHTML = "没有您想要的数据";
+                        }
+
+
+                    }, error: function (e) {
+                        status.innerHTML = "请求数据失败";
+                        console.log(e);
+                    }
+                });
+            };
+
+        }
+    </script>
+</head>
+<body>
+<div>
+    <input type="text" id="search"/> <input type="button" value="搜索" id="btn">
+    <div id="status"></div>
+    <div id="content"></div>
+</div>
+</body>
+</html>

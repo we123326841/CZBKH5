@@ -1,0 +1,274 @@
+/*自定义样式*/
+
+/*bootstrap扩展*/
+.it-cast {
+    color: #FFFFFF;
+    background-color: #E82C87;
+    border-color: #026912;
+}
+
+.it-cast:hover,
+.it-cast:focus,
+.it-cast:active,
+.it-cast.active,
+.open .dropdown-toggle.it-cast {
+    color: #FFFFFF;
+    background-color: #247A6F;
+    border-color: #026912;
+}
+
+.it-cast:active,
+.it-cast.active,
+.open .dropdown-toggle.it-cast {
+    background-image: none;
+}
+
+.it-cast.disabled,
+.it-cast[disabled],
+fieldset[disabled] .it-cast,
+.it-cast.disabled:hover,
+.it-cast[disabled]:hover,
+fieldset[disabled] .it-cast:hover,
+.it-cast.disabled:focus,
+.it-cast[disabled]:focus,
+fieldset[disabled] .it-cast:focus,
+.it-cast.disabled:active,
+.it-cast[disabled]:active,
+fieldset[disabled] .it-cast:active,
+.it-cast.disabled.active,
+.it-cast[disabled].active,
+fieldset[disabled] .it-cast.active {
+    background-color: #E82C87;
+    border-color: #026912;
+}
+
+.it-cast .badge {
+    color: #E82C87;
+    background-color: #FFFFFF;
+}
+
+
+.navbar-itcast {
+    background-color: #fff;
+    border-color: #f5f5f5;
+}
+.navbar-itcast .navbar-brand {
+    color: #777;
+    height: 80px;
+}
+.navbar-itcast .navbar-brand:hover,
+.navbar-itcast .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+.navbar-itcast .navbar-text {
+    color: #777;
+}
+.navbar-itcast .navbar-nav > li > a {
+    color: #777;
+    line-height: 48px;
+    font-size: 14px;
+}
+.navbar-itcast .navbar-nav > li > a:hover,
+.navbar-itcast .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 2px solid red;
+}
+.navbar-itcast .navbar-nav > .active > a,
+.navbar-itcast .navbar-nav > .active > a:hover,
+.navbar-itcast .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: transparent;
+    border-bottom: 2px solid red;
+}
+.navbar-itcast .navbar-nav > .disabled > a,
+.navbar-itcast .navbar-nav > .disabled > a:hover,
+.navbar-itcast .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.navbar-itcast .navbar-toggle {
+    border-color: #ddd;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.navbar-itcast .navbar-toggle:hover,
+.navbar-itcast .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.navbar-itcast .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-itcast .navbar-collapse,
+.navbar-itcast .navbar-form {
+    border-color: #e7e7e7;
+}
+.navbar-itcast .navbar-nav > .open > a,
+.navbar-itcast .navbar-nav > .open > a:hover,
+.navbar-itcast .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+    .navbar-itcast .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-itcast .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.navbar-itcast .navbar-link {
+    color: #777;
+}
+.navbar-itcast .navbar-link:hover {
+    color: #333;
+}
+.navbar-itcast .btn-link {
+    color: #777;
+}
+.navbar-itcast .btn-link:hover,
+.navbar-itcast .btn-link:focus {
+    color: #333;
+}
+.navbar-itcast .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-itcast .btn-link:hover,
+.navbar-itcast .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-itcast .btn-link:focus {
+    color: #ccc;
+}
+
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+@font-face {
+    font-family: 'myjiba';
+    src: url('../font/MiFie-Web-Font.eot') format('embedded-opentype'),
+    url('../font/MiFie-Web-Font.svg') format('svg'),
+    url('../font/MiFie-Web-Font.ttf') format('truetype'),
+    url('../font/MiFie-Web-Font.woff') format('woff');
+
+
+}
+
+
+[class^="icon-"],
+[class*=" icon1-"] {
+    font-family: myjiba;
+    font-style: normal;
+}
+
+/*头部区域*/
+
+#header{
+    height: 200px;
+    /*background-color: #f0f0f0;*/
+}
+
+
+
+
+#header> .topbar{
+    height: 40px;
+    border-bottom: 1px solid #c0c0c0;
+    line-height: 40px;
+
+    color: #888;
+    font-size: 12px;
+}
+
+.topbar .weijinsuoa,.problem,.richlogin,.btn-link{
+    color: #888;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.topbar .weijinsuoa:hover,.problem:hover,.richlogin:hover,.btn-link:hover{
+    text-decoration: none;
+    color: #888;
+}
+
+.topbar .weijinsuoa:hover> img{
+    display: block;
+}
+
+.topbar .weijinsuoa img{
+    display: none;
+    position: absolute;
+    left:50%;
+    margin-left: -60px ;
+    z-index: 1001;
+}
+
+.topbar .icon-mobilephone::before{
+    content: "\e908";
+    font-size: 13px;
+}
+
+.topbar .icon-telephone::before{
+    content: "\e909";
+    font-size: 15px;
+}
+
+.icon-logo::before{
+    content: "\e93e";
+}
+
+.icon-icon::before{
+    content: "\e920";
+}
+
+
+#header .icon-logo{
+    font-size: 32px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#header .icon-icon{
+    color: red;
+    font-size: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+
+#header>.topbar>.container>.row>div{
+    /*background-color: #f40;*/
+    height: 40px;
+ }
+
+#header>.topbar>.container>.row>div + div{
+    border-left: 1px solid #c0c0c0;
+}
+/*#header>.topbar>.container>.row>div:nth-child(2n){*/
+    /*!*background-color: #f00;*!*/
+/*}*/
+
+section{
+    height: 200px;
+    background-color: #fff;
+}
+
+section:nth-of-type(2n) {
+    background-color: #f5f5f5;
+}
+
+
+

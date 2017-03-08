@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="template-native.js"></script>
+    <script id="art" type="text/html">
+        <h1><%=className%></h1>
+        <ul><% for (var i = 0; i < students.length; i++) { %>
+                <li>索引 <%= i + 1 %> : <%= students[i] %></li>
+            <% } %>
+        </ul>
+    </script>
+</head>
+<body>
+<div id="content"></div>
+
+
+<script>
+    window.onload =function () {
+        var content = document.getElementById("content");
+        var data = {className : "前端1期",
+            students:["张飞","刘备","诸葛亮","小王","汪汪"]
+        };
+        var html1 = template("art",data);
+        content.innerHTML = html1;
+    }
+
+</script>
+</body>
+</html>
+
+
+<!--<h1><%=className%></h1>-->
+<!--<ul>-->
+    <!--<% for (var i = 0; i < students.length; i ++) { %>-->
+    <!--<li>索引 <%= i + 1 %> ：<%= students[i] %></li>-->
+    <!--<% } %>-->
+</ul>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function biaoziyangde(data) {
+            console.log(1);
+            console.log(data);
+            console.log(2);
+        }
+    </script>
+</head>
+<body>
+    <script>
+        window.onload = function () {
+
+            var url = "index16.php?_jsonp=biaoziyangde";
+
+           var scr = document.createElement("script");
+            scr.src = url;
+            document.body.appendChild(scr);
+
+
+        }
+    </script>
+</body>
+</html>

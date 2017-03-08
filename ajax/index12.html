@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    function ajax(data) {
+
+
+        var xhr = null;
+
+        if (window.XMLHttpRequest) {
+            xhr = new XMLHttpRequest();
+        } else {
+            xhr = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        var type = data.type == "get" ? "get" : "post";
+        var url = "";
+        if (data.url) {
+            url = data.url;
+            if (type == "get") {
+                url += "?" + data.data + "&_t=" + new Date().getTime();
+            }
+        }
+
+        var flag = data.asyn == true ? true : false;
+        xhr.open(type, url, flag);
+        if (type == "get") {
+            xhr.send(null);
+        } else {
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.send(data.data);
+        }
+
+
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                if (xhr.status == 200) {
+                    var d = data.dataType == "xml" ? xhr.responseXML : xhr.responseText;
+                    if (typeof data.success == "function") {
+                        data.success(d);
+                    }
+                } else {
+                    if (typeof data.fail == "function") {
+                        data.fail();
+                    }
+                }
+            }
+        }
+
+
+//        xhr.send(null);
+    }
+
+
+
+
+    window.onload = function () {
+        ajax({url:"index12.php",dataType:"json",asyn:true,type:"get",success:function (data) {
+            console.log("你麻痹=="+data);
+        }});
+
+
+//        ajax({url:"http://cdn.weather.hao.360.cn/api_weather_info.php?app=hao360&_jsonp=abc&code=101280101",dataType:"json",asyn:true,type:"get",success:function (data) {
+//            console.log("你麻痹=="+data);
+//        }});
+    }
+</script>
+</body>
+</html>
