@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="index68.js"></script>-->
+    <script src="index67.js"></script>
+</head>
+<body>
+<script>
+    var  pp = 32;
+
+
+//    console.log(window.pp);
+
+    demo();
+
+    function haha() {
+        console.log(p);
+    }
+
+    var p = 23;
+
+    haha();
+
+
+    var ppp = function () {
+        console.log(this);
+    }
+
+
+    ppp();
+
+
+    var cat = new CCCat();
+    console.log("-------");
+    console.log(cat.name);
+    cat.name = "鸡巴";
+    console.log(cat.name);
+    cat.show();
+
+    console.log(cat.__proto__ === CCCat.prototype);
+
+    var pp = cat.show;
+
+    pp();
+</script>
+</body>
+</html>

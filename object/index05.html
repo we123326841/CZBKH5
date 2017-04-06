@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var ppp = function () {
+
+    };
+    function  Ppip() {
+        this.name = "张三";
+
+    }
+
+
+    Ppip.prototype = {
+        name :"李四",
+        human : {
+            age:"32",
+            sex :"男"
+        },
+        hha:98
+    };
+
+    var p = new Ppip();
+    var p2 = new Ppip();
+    delete p.name;
+    console.log(p.name);
+    console.log(p2.name);
+    console.log(Ppip.prototype.name);
+
+    var str = "  nn";
+    console.log(str);
+    console.log(str.replace(/(^\s*)/g,''));
+
+    console.log(typeof Function);
+    console.log(typeof Object);
+    console.log(typeof Ppip.prototype);
+    console.log(typeof Ppip);
+    console.log(typeof ppp);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var girl = {
+        name :"黄蓉",
+        age :19,
+        sex:"女"
+    }
+
+
+
+    function exend(target,obj) {
+        for(var name in obj){
+            console.log(name);
+            target[name] = obj[name];
+        }
+        return target;
+    }
+    var k = {};
+    var s= exend(k,girl);
+
+    console.log(s.name);
+    console.log(s.age);
+    console.log(s.sex);
+    console.log(k === s);
+    console.log(k === s);
+
+
+
+</script>
+</body>
+</html>

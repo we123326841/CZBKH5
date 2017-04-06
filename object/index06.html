@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Itcast.js"></script>
+</head>
+<body>
+<script>
+    var str = "@(name)哈哈@(time)"
+    var $ = new $$();
+    var s= $.formateString(str,{name:"张三",time:"9点过8分"});
+    console.log(s);
+
+
+str = "tankZHang (231144)"+
+        "tank ying (155445)";
+res = str.match(/tank/);    //没有加/g
+alert(toString.call(res));                //显示一个tank
+
+res = str.match(/tank/g);   //加了/g
+alert(toString.call(res));                 //显示为tank,tank
+
+
+    var pp = "4281ubalcuakkib69";
+   var ff = pp.match(/[abc]/g);
+console.log(ff);
+
+//   console.log(pp.replace(/[abc]/g,"你"));
+//    alert(ff);
+var jiji= pp.replace(/[abc]/g,function (a,b) {
+    console.log("a="+a);
+    console.log("b="+b);
+    return "批";
+})
+    console.log(jiji);
+    console.log("----");
+
+    var str1 = "javaojojojava";
+    str1.replace(/java/g,function (a,b,c) {
+        console.log("a="+a);
+        console.log("b="+b);
+        console.log("c="+c);
+    })
+
+</script>
+</body>
+</html>

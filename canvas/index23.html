@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="bower_components/konva/konva.js"></script>
+</head>
+<body>
+<div id="container"></div>
+
+<script>
+    var stage = new Konva.Stage({
+        container: "container",
+        width: window.innerWidth,
+        height: window.innerHeight
+    });
+
+    var layer = new Konva.Layer();
+
+    stage.add(layer);
+
+    var innerRadius = 252 / 2;
+    var outerRadius = 220;
+
+    var centerX = stage.width() / 2;
+    var centerY = stage.height() / 2;
+    var innerCircle = new Konva.Circle({
+                x: centerX,
+                y: centerY,
+                radius: innerRadius,
+                stroke: 'blue',
+                strokeWidth: 4,
+                dash: [10, 4]
+
+            }
+    );
+    layer.add(innerCircle);
+
+
+    var outterCircle = new Konva.Circle({
+                x: centerX,
+                y: centerY,
+                radius: outerRadius,
+                stroke: 'blue',
+                strokeWidth: 4,
+                dash: [10, 4]
+
+            }
+    );
+
+    layer.add(outterCircle);
+
+    var centerCircel = new Konva.Circle({
+        x: centerX,
+        y: centerY,
+        radius: 132 / 2,
+        fill: "#525A82"
+    });
+    layer.add(centerCircel);
+
+    var ringC = new Konva.Ring({
+        x: centerX,
+        y: centerY,
+        innerRadius: 132 / 2,
+        outerRadius: 180 / 2,
+        fill: "#E1E1E1",
+        opacity: .5
+    });
+    layer.add(ringC);
+
+    var centerText = new Konva.Text({
+        x: centerX - 180/2,
+        y: centerY - 9,
+        width:180,
+        fontSize: 18,
+        fontFamily: "微软雅黑",
+        align: "center",
+
+        text: 'Web全站',
+
+       fill: 'green'
+    });
+
+
+    layer.add(centerText);
+
+    layer.draw();
+
+
+    var animationLayer = new Konva.Layer();
+    stage.add(animationLayer);
+
+    var ax = centerX + Math.cos(-60*Math.PI/180)*innerRadius;
+    var ay = centerY + Math.sin(-60*Math.PI/180)*innerRadius;
+  var circleAnimation1  = new Konva.Circle({
+        x:ax,
+        y:ay,
+        radius:30,
+        fill:"#FABB48",
+      opacity:.7
+    });
+    animationLayer.add(circleAnimation1);
+
+    animationLayer.draw();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>矩形</title>
+</head>
+<body>
+<canvas id="canvasid"></canvas>
+
+<script>
+
+    (function () {
+        var canvas = document.querySelector("#canvasid");
+        canvas.width= 600;
+        canvas.height =600;
+        canvas.style.border = "1px solid black";
+        var cxt = canvas.getContext("2d");
+        cxt.rect(100,100,100,100);
+        cxt.stroke();
+
+        cxt.strokeRect(200,200,100,200);
+        cxt.fillStyle = "red";
+        cxt.fillRect(300,300,20,20);
+//        cxt.clearRect(200,300,200,200);
+
+        cxt.fillStyle = "yellow";
+        cxt.fillRect(400,400,20,20);
+    }());
+</script>
+</body>
+</html>

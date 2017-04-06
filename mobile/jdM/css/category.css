@@ -1,0 +1,147 @@
+/*分类*/
+
+body{
+    /*background-color: red;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+}
+.category{
+    height: 100%;
+}
+
+
+
+.category-header .category-form{
+    padding: 0 50px;
+    height: 100%;
+}
+
+.category-header .category-form input{
+    margin-top: 5px;
+    width: 100%;
+    /*padding: 5px 0px;*/
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid RGB(177,177,177);
+}
+
+
+
+/*主体*/
+
+.category-main {
+    position: absolute;
+    left: 0px;
+    top:0px;
+    height: 100%;
+    width: 100%;
+    padding-top: 45px;
+    overflow: hidden;
+
+}
+
+/*主体左边*/
+.category-main .category-main-left{
+    width: 90px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 45px;
+
+
+}
+
+.category-main .category-main-left ul{
+  transform:  translateY(0px);
+}
+
+.category-main .category-main-left ul li{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: RGB(240,240,240);
+    border-right: 1px solid RGB(217,217,217);
+    border-bottom: 1px solid RGB(217,217,217);
+}
+
+.category-main .category-main-left ul li.now {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-right: none;
+    background-color: #fff;
+
+}
+.category-main .category-main-left ul li.now a{
+    color: RGB(207,55,72);
+    
+}
+
+.category-main .category-main-left ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*主体右边*/
+.category-main .category-main-right{
+    padding-left: 90px;
+    height: 100%;
+}
+
+.category-main .category-main-right .category-main-rightbox{
+    height: 100%;
+    padding: 10px 10px 0px 10px;
+}
+
+.category-main .category-main-right .banner a{
+    display: block;
+    /*font-size: 0px;*/
+}
+
+.category-main .category-main-right .banner img{
+    width: 100%;
+    /*vertical-align: bottom;*/
+}
+
+
+.category-main .category-main-right .category-product{
+    margin-top: 20px;
+
+}
+
+.category-main .category-main-right .category-product h2
+{
+
+    color: RGB(117,117,117);
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.category-main .category-main-right .category-product ul li{
+    padding-top: 20px;
+    width: 33.3%;
+    float: left;
+    text-align: center;
+
+}
+
+.category-main .category-main-right .category-product ul li a{
+    width: 100%;
+    display: block;
+
+}
+
+.category-main .category-main-right .category-product ul li a img{
+    width: 62px;
+
+    /*display: block;*/
+    /*float: left;*/
+}
+
+.category-main .category-main-right .category-product ul li  p{
+    font-size: 12px;
+
+}

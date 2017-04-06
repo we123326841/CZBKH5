@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制图片</title>
+</head>
+<body>
+<canvas id="canvas-id"></canvas>
+<div>
+    <button id="left-btn">左</button>
+    <button id="right-btn">右</button>
+    <button id="top-btn">上</button>
+    <button id="bottow-btn">下</button>
+</div>
+<script>
+    var canvasid = document.querySelector("#canvas-id");
+    canvasid.width = 600;
+    canvasid.height = 600;
+    canvasid.style.border = "1px solid black";
+    var cxt = canvasid.getContext("2d");
+    var img = new Image();
+    //    img.src = "imgs/a.jpg";
+    //    img.onload =function () {
+    //
+    //       var height = img.height;
+    //       var width = img.width;
+    //
+    //
+    ////        for(var i = 0 ; i < 10 ; i++){
+    ////            cxt.drawImage(img,200+20*i,200+20*i,70,70);
+    ////        }
+    ////        cxt.drawImage(img,200,200,300,300*height/width);
+    //
+    //    }
+
+
+    img.src = "imgs/gameImgs/DMMban.png";
+    //    img.onload = function () {
+    //        cxt.drawImage(img,40,65,40,65,300,300,40,65);
+    //        cxt.drawImage(img,0,0,80,130,400,400,80,130);
+    //    }
+
+    var j = 0;
+    var i = 0;
+    var index = 0;
+    img.onload = function () {
+        var leftBtn = document.getElementById("left-btn");
+        var rightBtn = document.getElementById("right-btn");
+        var topBtn = document.getElementById("top-btn");
+        var bottowBtn = document.getElementById("bottow-btn");
+        setInterval(function () {
+            console.log(i);
+            cxt.clearRect(0, 0, canvasid.width, canvasid.height);
+//            canvasid.width = 600;
+            //上面两种方式都可以清除画面
+            cxt.drawImage(img, i * 40, index*65, 40, 65, 200, 200, 40, 65);
+            j++;
+
+            i = j % 4;
+        }, 1000 / 10);
+
+        leftBtn.onclick = function () {
+            index = 1;
+        };
+
+        rightBtn.onclick = function () {
+            index = 2;
+        };
+
+        topBtn.onclick = function () {
+            index = 3;
+        };
+
+        bottowBtn.onclick = function () {
+            index = 0;
+        }
+    }
+
+</script>
+</body>
+</html>

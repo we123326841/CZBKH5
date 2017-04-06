@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //extend2实现的功能：extend(target,obj1,obj2,obj3)
+    /*功能：将多个多个json拷贝给目标*/
+    /*原理：*/
+    /*首先找到target   --arguments[0]*/
+    function extend () {
+        var key,i = 0,len = arguments.length,target = null,copy;
+        if(len === 0){
+            return;
+        }else if(len === 1){
+            target = this;
+        }else{
+            i++;
+            target = arguments[0];
+        }
+        for(; i < len; i++){
+            for(key in arguments[i]){
+                copy = arguments[i][key];
+                target[key] = copy;
+            }
+        }
+        return target;
+    }
+
+    /*hasOwnProperty*/
+    function extend2(){
+        for (var p in source) {
+            if (source.hasOwnProperty(p)) {
+                target[p] = source[p];
+            }
+        }
+
+        return target;
+    }
+
+
+
+    var w= extend({name:"张三"},{age:13,sex:"拿拿"},{kiss:"否"});
+  //  var w= extend2({name:"张三"},{age:13,sex:"拿拿"},{kiss:"否"});
+console.log(w);
+
+
+    function Site(){
+        this.name = "CodePlayer";
+        this.url = "http://www.365mini.com/";
+
+        this.sayHello = function(){
+            document.writeln("欢迎来到" + this.name);
+        };
+    }
+
+    var obj = {
+        engine: "PHP"
+        ,sayHi: function(){
+            document.writeln("欢迎访问" + this.url);
+        }
+    };
+    // 使用对象obj覆盖Site本身的prototype属性
+    Site.prototype = obj;
+
+    var s =  new Site();
+    document.writeln( s.hasOwnProperty("name") ); // true
+    document.writeln( s.hasOwnProperty("sayHello") ); // true
+    // 以下属性继承自原型链，因此为false
+    document.writeln( s.hasOwnProperty("engine") ); // false
+    document.writeln( s.hasOwnProperty("sayHi") ); // false
+    document.writeln( s.hasOwnProperty("toString") ); // false
+
+    // 想要查看对象(包括原型链)是否具备指定的属性，可以使用in操作符
+    document.writeln( "engine" in s ); // true
+    document.writeln( "sayHi" in s ); // true
+    document.writeln( "toString" in s ); // true
+</script>
+</body>
+</html>

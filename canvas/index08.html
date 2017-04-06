@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function  Cat(age) {
+        this.he = 99;
+//        this.age = age;//this就是cat对象  cat.__proto__ === Cat.prototype
+
+        this.name = "你麻痹";
+        this.show = function () {
+            console.log(this.name+","+this.age+"彪子");
+        }
+//            this._init(age);
+    }
+
+    Cat.prototype.show = function () {
+        console.log(this.name+","+this.age);
+    }
+//    Cat.prototype.he = 32;
+
+//    Cat.prototype = {
+//        _init:function (a) {
+//            this.age = a;
+//        },
+//
+//        show:function () {
+//            console.log(this.age+"哈哈");
+//        }
+//    };
+
+    var cat1 = new Cat(323);
+
+//    console.log(cat1.age);
+    cat1.show();
+    cat1.show = function () {
+        console.log("哦哦哦");
+    }
+
+    cat1.show();
+    Cat.prototype.show();
+
+    var cat2 = new Cat(323);
+
+    cat2.show();
+
+
+
+
+//    var cat1 = new Cat();
+//    console.log(cat1.age);
+//    cat1.show();
+//    cat1.age = 33;
+//    cat1.show();
+//    console.log(cat1.he);
+//    cat1.he= 44;
+//    console.log(cat1.he);
+//
+//    console.log("--------------");
+//
+//    var cat2 = new Cat();
+//    console.log(cat1.age);
+//    cat2.show();
+//    cat2.age = 45;
+//    cat2.show();
+//    console.log(cat2.he);
+//
+//    cat2.he= 54;
+//    console.log(cat2.he);
+//
+//    console.log("====");
+//
+//    console.log(Cat.prototype.he);
+
+
+
+//    var o = new Object();
+//    o.name = "彪子";
+//    o.age = 29;
+//    cat.show.call(o);
+
+
+//    var cat = new Cat();
+//    var cat2 = new Cat();
+//    cat2.age = 21;
+//    console.log(cat.age);
+//    console.log(cat2.age);
+//    cat.show();
+//    cat2.show();
+
+     var o = {
+         name:"张三",
+         age:12,
+         show:function () {
+             console.log(this.name+","+this.color);
+         }
+     };
+
+    o.show();
+     o.name = "鸡巴";
+    o.color = "red";
+    o.show();
+
+//    var obj = new Object();
+
+//    var o = new Object();
+//    o.name = "彪子";
+//    o.age = 29;
+//    cat.show.call(o);
+
+
+
+
+</script>
+</body>
+</html>

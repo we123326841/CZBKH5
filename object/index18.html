@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+
+
+
+
+    function pp() {
+        this.name = "婆婆";
+    }
+
+    function Car() {
+        this.name = "车子";
+        this.show = function () {
+            console.log(this.name);
+            console.log(this instanceof pp);
+            console.log(this instanceof Car);
+        }
+    }
+
+    var car = new Car();
+
+//    console.log(car instanceof  Car);
+//    console.log(car instanceof  pp);
+    car.show();
+
+
+
+    var p = new pp();
+    car.show.call(p);
+//    console.log(p instanceof  Car);
+//    console.log(p instanceof  pp);
+
+</script>
+</body>
+</html>

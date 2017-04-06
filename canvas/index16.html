@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvasid"></canvas>
+<script>
+    var canvasid = document.getElementById("canvasid");
+
+    canvasid.width = 600;
+    canvasid.height = 600;
+    canvasid.style.border = "1px solid black";
+
+    var cxt = canvasid.getContext("2d");
+cxt.fillStyle= "red";
+    cxt.save();
+    cxt.fillRect(10,10,100,100);
+    cxt.translate(200,200);
+    cxt.rotate(45*Math.PI/180);
+    cxt.scale(2,2);
+    cxt.globalAlpha = .3;
+    cxt.moveTo(0,0);
+    cxt.lineTo(0,400);
+    cxt.moveTo(0,0);
+    cxt.lineTo(400,0);
+    cxt.stroke();
+    cxt.fillRect(10,10,100,100);
+cxt.restore();//表示回到save上面的状态
+    cxt.lineWidth = 10;
+
+    cxt.rect(400,400,100,100);
+    cxt.strokeStyle = "yellow";
+    cxt.stroke();
+    cxt.fillStyle = "pink";
+    cxt.fill();
+</script>
+</body>
+</html>

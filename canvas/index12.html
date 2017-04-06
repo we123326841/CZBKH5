@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script>
+    function Cat(ha){
+        this._init(ha)
+        this.uo = function () {
+            this.de ="撒";
+        }
+    }
+
+
+
+    Cat.prototype = {
+        pop:23,
+        _init : function (option) {
+            this.age = option.age;
+            this.name = option.name;
+        },
+
+        show:function () {
+            console.log(this.name);
+        }
+    };
+
+    console.log(Cat.prototype);
+    var cat = new Cat({name:"鸡巴",age:19});
+
+
+
+    cat.show();
+    console.log(cat.pop);
+    cat.uo();
+    console.log(cat.de);
+//
+//    console.log(Cat.prototype);
+
+
+    var o = {name:"王浩",pp:function () {
+        this.peo = 32
+    },show:function () {
+        console.log(this.name+"/"+this.peo);
+    }};
+    console.log(o);
+    o.pp();
+    o.show();
+
+</script>
+
+</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+</html>

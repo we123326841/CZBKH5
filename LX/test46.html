@@ -5,6 +5,10 @@
     <title>Title</title>
     <style>
 
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
 
         @font-face {
             font-family: 'myyaba';
@@ -29,13 +33,44 @@
         }
         body{
             /*font-family: 'myyaba';*/
-            font-family: 'myyaba';
+            /*font-family: 'myyaba';*/
         }
-        i::before{
+
+        .haha{
+            font-family: myyaba;
+        }
+        .xixi::before{
             content: "\64";
         }
-        i::after{
+        .xixi::after{
             content: "\65";
+        }
+
+
+        .div4{
+            height: 40px;
+            width: 970px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 0 auto;
+            background-color: #7aff9f;
+        }
+        .div5{
+
+            /*margin-left: -15px;*/
+            /*margin-right:-15px;*/
+        }
+
+        .div55{
+            margin: 0px auto;
+            width: 1000px;
+            height: 35px;
+            background-color: #1b78f6;
+        }
+        .div6{
+
+            padding-left: 15px;
+            padding-right: 15px;
         }
     </style>
 </head>
@@ -45,12 +80,21 @@
         <div class="div22">abcdefg e91c</div>
     </div>
     <div class="div3">
-        <div class="div33"></div>
+        <div class="div33">
+
+        </div>
     </div>
 </div>
 
 
 
-<div><i>哈哈</i></div>
+<div><i class="haha xixi">哈哈</i></div>
+
+
+<div class="div4">
+    <div class="div5 div55">
+        <!--<div class="div6">大无畏</div>-->
+    </div>
+</div>
 </body>
 </html>

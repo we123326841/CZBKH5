@@ -1,0 +1,377 @@
+
+.jd-layout{
+    min-width: 300px;
+    max-width: 640px;
+    height: 2000px;
+    /*background-color: #1b78f6;*/
+    margin: 0px auto;
+    position: relative;
+}
+
+/*头部css样式*/
+.jd-header{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    /*background-color: red;*/
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.jd-header .jd-headerbox{
+    max-width: 640px;
+    min-width: 300px;
+    height: 100%;
+    background-color:rgba(170,0,28,0);
+    margin: 0 auto;
+    position: relative;
+}
+
+.jd-header .jd-headerbox .icon-jd{
+    background-position: 0px 97px;
+    width: 60px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.jd-header .jd-headerbox .jd-form{
+    height: 100%;
+    padding-left: 75px;
+    padding-right: 40px;
+    padding-top: 5px;
+
+}
+
+.jd-header .jd-headerbox input{
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+    border-radius: 15px;
+    padding-left: 40px;
+}
+
+.jd-header .jd-headerbox .icon-search{
+    background-position: -59px 97px;
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: absolute;
+    left: 90px;
+    top: 5px;
+
+}
+
+.jd-header .jd-headerbox a.login{
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+
+/*轮播图*/
+
+.jd-ad{
+    overflow: hidden;
+    position: relative;
+}
+.jd-ad .jd-lunbotu {
+    width: 1000%;
+    overflow: hidden;
+    transform:translateX(-10%) ;
+    -webkit-transform:translateX(-10%);
+
+}
+
+.jd-ad .jd-lunbotu li{
+    float: left;
+    width:10%;
+}
+
+.jd-ad .jd-lunbotu li img{
+    width: 100%;
+    /*width: 12.5%;*/
+    /*vertical-align: middle;*/
+    /*float: left;*/
+}
+
+.jd-ad .jd-indicator{
+    height: 10px;
+    width: 160px;
+    /*background-color: red;*/
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    bottom: 10px;
+    list-style: none;
+}
+
+.jd-ad .jd-indicator li{
+
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    float: left;
+    margin-left: 13px;
+
+}
+
+.jd-ad .jd-indicator li.now{
+    background-color: #fff;
+}
+
+/*导航*/
+.jd-nav{
+    background-color: #fff;
+    padding-bottom: 20px;
+    border-bottom: 1px solid RGB(217,217,217);
+}
+
+.jd-nav ul{
+    padding: 0px 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+.jd-nav li{
+    float: left;
+    /*text-align: center;*/
+    width: 25%;
+    border: 10px solid transparent;
+}
+
+.jd-nav li a{
+    display: block;
+    color: darkorange;
+}
+
+.jd-nav li img{
+    width: 40px;
+    /*display: block;*/
+}
+
+/*产品*/
+
+.jd-product{
+
+    margin: 0px 5px;
+}
+.jd-product .product-box {
+    margin-top: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 1px 1px #e0e0e0;
+}
+
+.jd-product .product-box  .product-top{
+    height: 34px;
+
+    /*border-bottom: 1px solid RGB(217,217,217);*/
+
+}
+.jd-product .product-box  .product-top.no-bor{
+    border: none;
+}
+.jd-product .product-box  .product-bot{
+    border-bottom: 1px solid RGB(217,217,217);
+
+}
+
+
+/*产品:秒杀*/
+.jd-product .secondkill-left{
+    float: left;
+    position: relative;
+    margin-top: 7px;
+}
+
+.jd-product .secondkill-left .icon-time{
+    background: url("../images/seckill-icon.png");
+    background-size: 20px 25px;
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    top: -3px;
+    left: 5px;
+}
+
+
+.jd-product .secondkill-left .icon-time{
+
+}
+.jd-product .secondkill-left h4{
+    /*margin-top: 5px;*/
+    padding-left: 30px;
+    display: inline-block;
+    color: red;
+}
+
+
+.jd-product .secondkill-left .num{
+    background-color: rgb(38,38,38);
+    color: white;
+    /*padding :0 5px;*/
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 14px;
+}
+
+.jd-product .secondkill-right{
+    float: right;
+    height: 34px;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.jd-product .product-detail{
+    overflow: hidden;
+}
+
+.jd-product .product-detail  li{
+    float: left;
+    width: 33.333%;
+
+
+}
+
+.jd-product .product-detail  li a{
+
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+
+
+}
+
+
+
+
+.jd-product .product-detail  li a .cur-price{
+    color: red;
+    font-size: 22px;
+    font-weight: 900;
+
+
+}
+
+.jd-product .product-detail  li a .guoqu-price{
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: line-through;
+    color: RGB(117,117,117);
+}
+
+.jd-product .product-detail  li a div{
+    /*display: inline-block;*/
+    padding: 0px 20px;
+    border-right: 1px solid RGB(217,217,217);
+
+
+}
+
+.jd-product .product-detail  li a div.last-product{
+
+    border-right: none;
+
+
+}
+
+.jd-product .product-detail  li a div img{
+    display: inline-block;
+    width: 100%;
+
+}
+
+
+
+
+
+.jd-product .product-box h3{
+    line-height: 34px;
+    position: relative;
+    padding-left: 10px;
+    font-style: inherit;
+    color: rgb(76,76,76);
+    font-size: 14px;
+}
+
+.jd-product .product-box h3::before{
+    content: "";
+    /*display: block;*/
+    height: 14px;
+    width: 3px;
+    background-color: red;
+    position: absolute;
+    left: 4px;
+    top: 10px;
+
+
+
+
+/*超值购*/
+}
+.bottom-border{
+    border-bottom: 1px solid RGB(217,217,217);
+}
+.czg{
+    overflow: hidden;
+}
+.czg .product-bot a:nth-of-type(1){
+    border-right: 1px solid RGB(217,217,217);
+    float: left;
+    width: 50%;
+}
+
+.czg .product-bot a:nth-of-type(2){
+    float: right;
+    width: 50%;
+    border-bottom: 1px solid RGB(217,217,217);
+}
+
+.czg .product-bot a:nth-of-type(3){
+    float: right;
+    width: 50%;
+}
+
+
+.czg .product-bot a img{
+    width: 100%;
+
+}
+
+/*热门活动*/
+.rmhd{
+    /*margin-top: 8px;*/
+    overflow: hidden;
+}
+
+
+.rmhd .product-bot a:nth-of-type(1){
+    border-left: 1px solid RGB(217,217,217);
+    float: right;
+    width: 50%;
+}
+
+.rmhd .product-bot a:nth-of-type(2){
+    float: left;
+    width: 50%;
+    border-bottom: 1px solid RGB(217,217,217);
+}
+
+.rmhd .product-bot a:nth-of-type(3){
+    float: left;
+    width: 50%;
+}
+
+.rmhd .product-bot a img{
+    width: 100%;
+
+}

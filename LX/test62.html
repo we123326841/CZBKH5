@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">-->
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            -webkit-tap-highlight-color: transparent;
+            /*-webkit-user-select: none;*/
+        }
+        div{
+            width: 400px;
+            height: 200px;
+            background-color: #00a786;
+        }
+
+        a{
+            display: block;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<div class="div1"></div>
+<button>哈哈</button>
+<a href="javascript:;"></a>
+1234567
+
+发发发五峰
+
+</body>
+</html>
+
+<script>
+
+   var btn = document.getElementsByTagName("button")[0];
+   var div = document.getElementsByTagName("div")[0];
+
+  // 第一种测试
+//   var timer = 0;
+//    btn.onclick = function () {
+//        var p =  timer= setInterval(function () {
+//           console.log("haha" + timer+",p="+p);
+//            clearInterval(timer);
+//       }, 10000);
+//
+//       console.log("timer="+timer);
+//   }
+
+
+//第二种测试
+
+//   var t= setInterval(function () {
+//        console.log((new Date).getTime());
+//        for(var i= 0; i<1000;i++){
+//            console.log(1);
+//            if(i==999) {
+//                console.log("循环:" + (new Date).getTime());
+//            }
+//        }
+//    },100);
+
+    btn.style.backgroundColor = "red";
+   btn.onclick = function () {
+       div.style.backgroundColor = "red";
+   }
+
+</script>

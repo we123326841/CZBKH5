@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //伪数组
+//    var json = {name:"王浩",age:12};
+//    for(var a in json){
+//        console.log(a);
+//        console.log(json[a]);
+//    }
+
+
+    var json = {0:"张三",1:"李四",length:2};
+
+    var arr = ["张三","李四"];
+    console.log(json);
+    console.log(arr);
+    //    console.log(arr[1]);
+//    console.log(arr.length);
+//    console.log(json[1]);
+//    console.log(json.length);
+//    arr.push("我问问");
+//    console.log(arr);
+//    json.push("我问问");
+//    console.log(json);
+
+    //Arguments tagByName byclassName 都是伪数组
+//        function demo() {
+//            console.log(arguments);
+//            arguments.push(6);
+//        }
+//
+//        demo(1,2,4);
+
+    var oo = Array.prototype.slice.call(json);
+    console.log(oo);
+    oo.push(32);
+    console.log(oo);
+    console.log(oo === json);
+
+    var  json2 = {length:2};
+    var oo1 = Array.prototype.slice.call(json2);
+    console.log(oo1);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Sprite.js"></script>
+</head>
+<body>
+<canvas id="canvasid"></canvas>
+<button id="btn-left">左</button>
+<button id="btn-right">右</button>
+<button id="btn-top">上</button>
+<button id="btn-bottow">下</button>
+
+<script>
+    var left= document.querySelector("#btn-left");
+    var right= document.querySelector("#btn-right");
+    var top_1= document.querySelector("#btn-top");
+    var bottow= document.querySelector("#btn-bottow");
+
+    var canvasid = document.getElementById("canvasid");
+    canvasid.height = 600;
+    canvasid.width = 600;
+    var cxt = canvasid.getContext("2d");
+    canvasid.style.border = "1px solid black";
+    var img = new Image();
+    img.src = "imgs/gameImgs/DMMban.png";
+    var cat = new Sprite({x: 300, y: 300, w: 40, h: 65, originX: 40, originY: 65, img: img, fps: 10});
+
+    cat.draw(cxt);
+
+
+    left.onclick = function () {
+        cat.swtch(1);
+    }
+    right.onclick = function () {
+        cat.swtch(2);
+    }
+    top_1.onclick = function () {
+        cat.swtch(3);
+    }
+    bottow.onclick = function () {
+        cat.swtch(4);
+    }
+
+
+
+//    console.log("-----");
+//    console.log(cat);
+
+    //    this.x = option.x || 10;
+    //    this.y = option.y || 10;
+    //
+    //    this.w = option.w || 10;
+    //    this.h = option.h || 10;
+    //    this.img = option.img|| null;
+    //    this.fps = option.fps||1000;
+    //
+    //    this.indexDir = 0;
+    //    this.originX  = option.originX || 0;
+    //    this.originY  = option.originY || 0;
+</script>
+</body>
+</html>

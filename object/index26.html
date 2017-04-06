@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>继承</title>
+</head>
+<body>
+<script>
+    function Person() {
+        this.name = "王五";
+        this.age = 54;
+    }
+
+    Person.prototype = {
+        show:function () {
+            console.log("我是人类");
+        },
+        hihiwo:32
+    };
+
+
+    var Student = function () {
+        Person.call(this,arguments);
+        this.hi = "海海";
+    }
+
+    Student.prototype = new Person();
+    console.log(Student.prototype.__proto__ === Person.prototype);
+
+    Student.prototype.gaoshi = function () {
+        console.log("搞事情");
+    }
+
+
+
+    var str  = new Student();
+
+    console.log(str.name);
+    console.log(str.age);
+    console.log(str.hi);
+    str.show();
+    str.gaoshi();
+
+    var p1 = new Person();
+    p1.pp = 32;
+    p1.hihiwo = 43;
+    console.log(p1.__proto__ === Person.prototype);
+    var p3= p1;
+    console.log(p1.pp);
+    console.log(p1.hihiwo);
+    console.log(p3.pp);
+    console.log(p3.hihiwo);
+    var p2 = new Person();
+    console.log(p2.pp);
+</script>
+</body>
+</html>

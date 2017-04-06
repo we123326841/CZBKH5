@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="bower_components/konva/konva.js"></script>
+    <script src="Progress.js"></script>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            /*overflow: hidden;*/
+        }
+        .div1{
+            /*line-height: 1.375;*/
+            line-height: 200%;
+            font-size: 17px;
+            background-color: #00a786;
+        }
+    </style>
+</head>
+<body>
+<div id="container"></div>
+<div class="div1">的我</div>
+<script>
+    var stage = new Konva.Stage({
+        container:"container",
+//        x: 0,
+//        y: 0,
+        width:window.innerWidth,
+        height:window.innerHeight
+
+            }
+    );
+
+    var layer = new Konva.Layer();
+
+    stage.add(layer);
+
+    var centerY =  stage.height()/2;
+    var maxWidth = stage.width()*3/4;
+    var pro = new Progress({
+        x:stage.width()*1/8,
+        y:centerY,
+        w:maxWidth,
+        h:stage.height()/12,
+        opacity:.4,
+        stroke:"blue",
+        strokeWidth:6,
+        fill:"yellow"
+
+
+    });
+
+
+
+    pro.addGroupToLayer(layer);
+
+    layer.draw();
+
+
+
+
+</script>
+</body>
+</html>

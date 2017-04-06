@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文字绘制</title>
+</head>
+<body>
+<canvas id="canvasid"></canvas>
+</body>
+
+
+<script>
+    var canvas = document.querySelector("#canvasid");
+    canvas.width = 900;
+    canvas.height = 600;
+    canvas.style.border = "1px solid #000";
+
+    var cxt = canvas.getContext("2d");
+    cxt.beginPath();
+    cxt.moveTo(450,0);
+    cxt.lineTo(450,600);
+    cxt.strokeStyle = "green";
+
+
+
+    cxt.moveTo(0,300);
+    cxt.lineTo(900,300);
+
+    cxt.stroke();
+
+
+    cxt.font = '20px "微软雅黑"';
+    cxt.fillStyle = "red";
+    cxt.textBaseline = "top";
+    cxt.fillText("text-topg",200,300);
+
+
+
+
+
+    cxt.textBaseline = "middle";
+    cxt.fillText("text-middleg",300,300);
+
+
+    cxt.textBaseline = "bottom";
+    cxt.fillText("text-bottomg",500,300);
+
+    cxt.textBaseline = "alphabetic";
+    cxt.fillText("text-moreng",630,300);
+
+
+
+//    cxt.textBaseline = "alphabetic";
+    cxt.textAlign = "end";
+    cxt.fillText("text-end",450,400);
+
+
+    cxt.textAlign = "right";
+    cxt.fillText("text-right",450,430);
+
+    cxt.textAlign = "left";
+    cxt.fillText("text-left",450,460);
+
+    cxt.textAlign = "start";
+    cxt.fillText("text-start",450,490);
+
+    cxt.textAlign = "center";
+    cxt.fillText("text-center",450,520);
+
+
+
+</script>
+</html>

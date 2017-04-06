@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvas-id"></canvas>
+
+<script>
+
+
+    var canvasid = document.querySelector("#canvas-id");
+    canvasid.width = 600;
+    canvasid.height = 600;
+    canvasid.style.border = "1px solid black";
+    var cxt = canvasid.getContext("2d");
+
+//    cxt.lineTo(200,200);
+//    cxt.lineTo(300,300);
+//    cxt.stroke();
+
+
+    var x0 = 100;
+    var y0 = 400;
+    var arrowWidth = 10;
+    var maxHeight = 300;
+    cxt.moveTo(x0,y0);
+    cxt.lineTo(500,400);
+    cxt.lineTo(500-arrowWidth,400-arrowWidth);
+    cxt.moveTo(500,400);
+    cxt.lineTo(500-arrowWidth,400+arrowWidth);
+    cxt.strokeStyle = "blue";
+    cxt.stroke();
+    cxt.beginPath();
+    cxt.moveTo(x0,y0);
+    cxt.lineTo(100,0);
+    cxt.lineTo(100-arrowWidth,arrowWidth);
+    cxt.moveTo(100,0);
+    cxt.lineTo(100+arrowWidth,arrowWidth);
+    cxt.strokeStyle = "orange";
+    cxt.stroke();
+
+    var data = [.4,.5 , .8 , .7];
+    var unit_x = 400/(data.length+1);
+    console.log(unit_x);
+    cxt.beginPath();
+    for(var i = 0 ;i <data.length ; i++){
+
+        var height = maxHeight*data[i];
+        console.log(height);
+
+        cxt.lineTo(x0+unit_x*(i+1),y0-height);
+
+    }
+    cxt.strokeStyle  = "green";
+    cxt.stroke();
+
+
+
+</script>
+</body>
+</html>

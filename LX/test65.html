@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<button id="btn"></button>-->
+
+
+<script>
+//    var btn = document.getElementById("btn");
+//    if(btn){
+//        btn.onclick = function () {
+//            alert("彪子");
+//        }
+//    }
+
+
+    function Cat(op) {
+
+//        this.initValue = function (opotion) {
+//            this.age = opotion.age;
+//            this.name = opotion.name;
+//        }
+        this.initValue(op);
+
+        this.show = function () {
+            console.log(this.age+"/"+this.name);
+        }
+    }
+
+//    Cat.prototype.initValue = function (opotion) {
+//        this.age = opotion.age;
+//            this.name = opotion.name;
+//    }
+
+    Cat.prototype = {
+        initValue : function (opotion) {
+                    this.age = opotion.age;
+            this.name = opotion.name;
+        }
+    };
+
+
+
+
+
+    var cat = new Cat({name:"王浩",age:19});
+
+    cat.show();
+</script>
+</body>
+</html>

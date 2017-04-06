@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Cat() {
+        this.name = "玩奥";
+        this.show = function () {
+            console.log(this);
+            return this;
+        }
+    }
+
+    Cat.prototype = {
+      pei:function () {
+          console.log(this);
+          return this;
+      }
+    };
+
+    function Mo() {
+
+    }
+
+
+    var cat = new Cat();
+    cat.name = "哈哈";
+   var v1 =cat.show();
+    var v2 = cat.show.call(cat);
+    console.log(v1 === v2);
+    var m = new Mo();
+    Cat.prototype.show = function () {
+        return 89;
+    };
+    Cat.prototype.pei = function () {
+        return 890;
+    }
+    Cat.prototype.name = "忽忽";
+    console.log("-----");
+//    console.log(cat.show());
+    console.log(cat.name);
+    console.log(cat.pei());
+
+
+    //    console.log(Cat.prototype.pei() ===Cat.prototype);
+//    console.log(Cat.prototype);
+
+
+//    var obj = {name:"Wanghao",shah:function () {
+//        console.log(this);
+//        return this;
+//    }}
+//
+//    console.log(obj.shah() === obj);
+
+
+
+    function Pp() {
+            
+    }
+
+    var s = new Pp();
+    console.log(s.__proto__ === Pp.prototype);
+    Pp.prototype = {};
+
+
+    console.log(s.__proto__ === Pp.prototype);
+</script>
+</body>
+</html>

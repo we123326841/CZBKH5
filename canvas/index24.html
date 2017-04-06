@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="bower_components/konva/konva.js"></script>
+    <script src="CircleTest.js"></script>
+</head>
+<body>
+<div id="container"></div>
+
+<script>
+    var stage = new Konva.Stage({
+        container: "container",
+        width: window.innerWidth,
+        height: window.innerHeight
+    });
+
+    var layer = new Konva.Layer();
+
+    stage.add(layer);
+
+    var innerRadius = 252 / 2;
+    var outerRadius = 220;
+
+    var centerX = stage.width() / 2;
+    var centerY = stage.height() / 2;
+    var innerCircle = new Konva.Circle({
+                x: centerX,
+                y: centerY,
+                radius: innerRadius,
+                stroke: '#E1E1E1',
+                strokeWidth: 4,
+                dash: [10, 4]
+
+            }
+    );
+    layer.add(innerCircle);
+
+
+    var outterCircle = new Konva.Circle({
+                x: centerX,
+                y: centerY,
+                radius: outerRadius,
+                stroke: '#E1E1E1',
+                strokeWidth: 4,
+                dash: [10, 4]
+
+            }
+    );
+
+
+    //    this.x = opotion.x,
+    //            this.y = opotion.y,
+    //            this.innerRadius = opotion.innerRadius || 10,
+    //            this.outerRadius = opotion.outerRadius || 20,
+    //            this.ringstroke = opotion.ringstroke || "black",
+    //            this.fill = opotion.fill || "red",
+    //            this.angleDeg = opotion.angleDeg||0,
+    //            this.text = opotion.text||"你妹"
+
+
+    var circleCenter = new CircleText({
+        x: centerX,
+        y: centerY,
+        innerRadius: 132 / 2,
+        outerRadius: 180 / 2,
+        fill: "RGB(95,100,135)",
+        ringstroke:"#e1e1e1",
+        opacity:.5,
+        align:"center"
+    });
+
+    circleCenter.groupAddtoLayer(layer);
+
+    layer.add(outterCircle);
+
+    layer.draw();
+
+
+
+
+    var animationLayer = new Konva.Layer();
+    stage.add(animationLayer);
+
+    var groupInner = new Konva.Group({
+        x:centerX,
+        y:centerY
+    });
+    var circleCssText = new CircleText({
+        x:innerRadius*Math.cos(-60*Math.PI/180),
+        y:innerRadius*Math.sin(-60*Math.PI/180),
+        innerRadius:30,
+        outerRadius:40,
+        fill:"RGB(250,167,54)",
+        ringstroke:"#e1e1e1",
+        opacity:.5,
+        align:"center",
+        text:"css3"
+    });
+
+    circleCssText.groupAddtoLayer(groupInner);
+
+
+
+
+    var circleHtmlText = new CircleText({
+        x:innerRadius*Math.cos(160*Math.PI/180),
+        y:innerRadius*Math.sin(160*Math.PI/180),
+        innerRadius:30,
+        outerRadius:40,
+        fill:"RGB(246,202,212)",
+        ringstroke:"#e1e1e1",
+        opacity:.5,
+        align:"center",
+        text:"html5"
+    });
+
+    circleHtmlText.groupAddtoLayer(groupInner);
+
+    animationLayer.add(groupInner);
+
+
+
+    var groupOuter = new Konva.Group({
+        x:centerX,
+        y:centerY
+    });
+
+
+
+    var circleJsText = new CircleText({
+        x:outerRadius*Math.cos(90*Math.PI/180),
+        y:outerRadius*Math.sin(90*Math.PI/180),
+        innerRadius:30,
+        outerRadius:40,
+        fill:"RGB(149,187,245)",
+        ringstroke:"#e1e1e1",
+        opacity:.5,
+        align:"center",
+        text:"js"
+    });
+
+    circleJsText.groupAddtoLayer(groupOuter);
+    animationLayer.add(groupOuter);
+
+    animationLayer.draw();
+
+    var degftp = 60;
+    var anim = new Konva.Animation(function (frame) {
+//        console.log(frame.time);
+//        console.log(frame.timeDiff);
+//        console.log(frame.frameRate);
+            var deg = frame.timeDiff*degftp/1000;
+        groupInner.rotate(deg);
+        groupInner.getChildren().each(function (circel,index) {
+                circel.rotate(-deg);
+        });
+        groupOuter.rotate(-deg);
+        groupOuter.getChildren().each(function (circel,index) {
+            circel.rotate(deg);
+        });
+
+
+    },animationLayer);
+
+
+    animationLayer.on("mouseover" ,function () {
+        degftp = 6;
+    });
+
+    animationLayer.on("mouseout" ,function () {
+        degftp = 60;
+    });
+    anim.start();
+
+
+
+
+
+    //    var centerCircel = new Konva.Circle({
+    //        x: centerX,
+    //        y: centerY,
+    //        radius: 132 / 2,
+    //        fill: "#525A82"
+    //    });
+    //    layer.add(centerCircel);
+    //
+    //    var ringC = new Konva.Ring({
+    //        x: centerX,
+    //        y: centerY,
+    //        innerRadius: 132 / 2,
+    //        outerRadius: 180 / 2,
+    //        fill: "#E1E1E1",
+    //        opacity: .5
+    //    });
+    //    layer.add(ringC);
+    //
+    //    var centerText = new Konva.Text({
+    //        x: centerX - 180/2,
+    //        y: centerY - 9,
+    //        width:180,
+    //        fontSize: 18,
+    //        fontFamily: "微软雅黑",
+    //        align: "center",
+    //
+    //        text: 'Web全站',
+    //
+    //        fill: 'green'
+    //    });
+    //
+    //
+    //    layer.add(centerText);
+    //
+    //    layer.draw();
+    //
+    //
+    //    var animationLayer = new Konva.Layer();
+    //    stage.add(animationLayer);
+    //
+    //    var ax = centerX + Math.cos(-60*Math.PI/180)*innerRadius;
+    //    var ay = centerY + Math.sin(-60*Math.PI/180)*innerRadius;
+    //    var circleAnimation1  = new Konva.Circle({
+    //        x:ax,
+    //        y:ay,
+    //        radius:30,
+    //        fill:"#FABB48",
+    //        opacity:.7
+    //    });
+    //    animationLayer.add(circleAnimation1);
+    //
+    //    animationLayer.draw();
+
+
+
+
+</script>
+</body>
+</html>

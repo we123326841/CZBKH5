@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function  Ppip() {
+        this.name = "张三";
+
+    }
+
+
+    Ppip.prototype = {
+        name :"李四",
+        human : {
+            age:"32",
+            sex :"男"
+        },
+        hha:98
+    };
+
+
+    var p = new Ppip();
+    var p2 = new Ppip();
+    console.log(p.name);
+
+    p.human.age = 45;
+    p.hha = 90;
+    console.log(p.hha);
+    console.log(p2.hha);
+    console.log("-----");
+    console.log(p2.name);
+
+    console.log(p.human.age);
+    console.log(p2.human.age);
+
+    p.human = {
+        pp:90
+    }
+
+console.log("========");
+    console.log(p.human.age);
+    console.log(p2.human.age);
+
+
+</script>
+</body>
+</html>

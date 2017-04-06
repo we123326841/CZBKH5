@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person(name,age) {
+        this.name = name;
+        this.age = age;
+    }
+
+
+    Person.prototype = {
+        show:function () {
+            console.log("父类persosn");
+            console.log(this);
+        }
+    };
+
+    function Student(name,age,sex) {
+        Person.apply(this,arguments);
+        this.sex = sex;
+    }
+
+
+    Student.prototype = new Person();
+
+    Student.prototype.pay = function () {
+        console.log("我要花钱");
+        console.log(this);
+    }
+
+
+    var s = new Student("王浩",12,"男");
+    s.show();
+
+
+
+
+
+</script>
+</body>
+</html>

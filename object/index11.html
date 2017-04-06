@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+var a = {x:2};
+var b = a;
+
+console.log(b.x);
+
+a.x = 32;
+console.log(b.x);
+    a = {x:89};
+console.log(b.x);
+    a.x = 123;
+console.log(b.x);
+
+    var str1 = "谁谁谁";
+    var str2 = str1;
+    console.log(str2);
+    str1 = "opp";
+console.log(str1);
+console.log(str2);
+
+    var str = ["啊","哦"];
+    var str1 = str;
+    console.log(str[0]);
+    console.log(str1[0]);
+    str1[0] = "怕";
+console.log(str[0]);
+console.log(str1[0]);
+
+</script>
+</body>
+</html>

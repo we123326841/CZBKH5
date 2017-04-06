@@ -1,0 +1,56 @@
+@width:400px;
+@height:300px;
+@font_size:12px;
+@mainColor:#fff;
+
+div {
+  width:@width;
+  height:@height;
+  font-size:@font_size;
+  color:@mainColor
+}
+
+
+//这里是一些简单的LESS语法
+
+/*lixi*/
+@Mywidth:1000px;
+@mainColor:#000;
+.container{
+  width:1000px;
+  background-color:#fff;
+  .row{
+    width:Mywidth;
+    height:10px;
+    div{
+      boorder-left:1px solid @mainColor;
+      > a {
+        color:red;
+        &:hover {
+          color:green
+        }
+
+      }
+
+    }
+  }
+
+}
+
+
+.mycorners(@radius: 5px) {
+  -moz-border-radius : @radius;
+  -webkit-border-radius: @radius;
+  border-radius: @radius;
+}
+
+
+
+#header{
+  .mycorners;
+}
+
+
+#footer{
+  .mycorners(20px);
+}

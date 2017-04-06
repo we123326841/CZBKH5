@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="base2.js"></script>
+    <script src="simplejavascriptinheritance.js"></script>
+</head>
+<body>
+<script>
+//    var Aanimal = Base.extend({
+//        constructor: function (name) {
+//            this.name = name;
+//        },
+//        name: "王浩",
+//        say: function () {
+//            console.log(this.name);
+//        }
+//    });
+//
+//    var ani = new Aanimal("的我");
+//    ani.say();
+//    Aanimal.prototype.name = "鸡巴";
+//    ani.say();
+
+    var Person = Class.extend({
+        init: function(name){
+//            this.name = name;
+        },
+        name:"王浩",
+        say: function(){
+            console.log(this.name);
+        }
+    });
+
+    var p = new Person();
+    p.say();
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Cat() {
+        this.age = 10;
+        this.name = "王浩";
+
+    }
+
+//    Cat.prototype.show = function () {
+//        console.log(this.name+"/"+this.age);
+//    }
+
+
+    Cat.prototype = {
+        show:function () {
+            console.log(this.name+"/"+this.age);
+        }
+    };
+
+
+
+    var cat = new Cat();
+    cat.show();
+    console.log(cat.age);
+    cat.age = 32;
+    cat.show();
+
+
+    var obj = {age:10,name:"王浩"};
+    console.log(obj.age);
+    console.log(obj.name);
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Demo() {
+        this.name = "张三";
+        this.show=function(sum1,sum2) {
+            console.log(this);
+            return sum1+sum2;
+        }
+    }
+
+
+    function H() {
+        this.name = "王浩";
+    }
+
+
+    var demo = new Demo();
+    console.log(demo);
+    var h = new H();
+    console.log(demo.show.call(h,4,5));
+    console.log(demo.show.apply(h,[7,10]));
+
+    console.log(typeof Math);
+    console.log(Math.max(5,7,1,80));
+    console.log(Math.max.call(null,46,7));//相当于window在调用
+    console.log(Math.max.apply(null,[46,76]));
+    console.log("========");
+    var arr = [1,4,5,7];
+    var arr1 = [56,43,66];
+//    arr.push(67,543,2,4);
+//    Array.prototype.push.call(arr,arr1);
+//    Array.prototype.push.apply(arr,arr1);
+    console.log(arr);
+
+//    String
+
+
+
+
+</script>
+</body>
+</html>

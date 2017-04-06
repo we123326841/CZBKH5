@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var str = "的的打我打我";
+    String.prototype.length = 5;
+    String.prototype.substring = function (index) {
+        return "jibamao"+index;
+    }
+
+    console.log(str.substring(2));
+
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="bower_components/konva/konva.js"></script>
+    <script src="Pie.js"></script>
+</head>
+<body>
+<div id="container"></div>
+
+<script>
+    var data = [
+        { name: "前端", value: .25, color: '#e0e'  },
+        { name: "php",  value: .2,  color: 'orange'},
+        { name: "UI",	value: .3,	color: 'blue'  },
+        { name: "C++",	value: .05,	color: 'green' },
+        { name: "游戏",	value: .1,	color: 'purple'},
+        { name: "Java",	value: .1,	color: 'red'   }
+    ];
+
+    var stage = new Konva.Stage({
+        container:"container",
+        width : window.innerWidth,
+        height: window.innerHeight
+    });
+
+    var layer = new Konva.Layer();
+    stage.add(layer);
+    var centerX = stage.width()/2;
+    var centerY = stage.height()/2;
+    var pie = new Pie({
+        x:centerX,
+        y:centerY,
+        data:data,
+        stroke:"#e1e1e1",
+        radius:100
+    });
+
+    pie.groupAddtoLayer(layer);
+
+    layer.draw();
+
+    pie.startAnimation();
+
+
+
+</script>
+</body>
+</html>

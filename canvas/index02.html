@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvasid">
+
+</canvas>
+
+
+<script>
+    //    var a = function (ss) {
+    //        console.log(ss);
+    //    }
+    //
+    //    a("dwq");
+    //
+    //    (function (sss) {
+    //        console.log(sss);
+    //    }(78));
+    //
+    //(function (rr) {
+    //    console.log(rr);
+    //    })(34);
+    //
+    //    function demo(w) {
+    //        console.log(w);
+    //    }
+    //
+    //    demo(98);
+    //
+    //    var ss  =demo;
+    //
+    //    ss(67);
+    (function () {
+        var canvas = document.querySelector("#canvasid");
+        var width = 600 , height = 600;
+        canvas.width = width;
+        canvas.height = height;
+        canvas.style.border = "1px solid black";
+        var cxt = canvas.getContext("2d");
+        cxt.lineWidth = 1;
+        var rectWidth = 10;
+        var rectHeight = 10;
+        for(var i = 0 ; i < width/rectWidth ; i++){
+            cxt.moveTo(0,rectHeight*i);
+            cxt.lineTo(width,rectHeight*i);
+
+            cxt.moveTo(rectWidth*i,0);
+            cxt.lineTo(rectWidth*i,height);
+        }
+
+        cxt.stroke();
+    }());
+
+</script>
+</body>
+</html>

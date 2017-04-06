@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvasid"></canvas>
+</body>
+
+<script>
+    var canvas =document.querySelector("#canvasid");
+    canvas.width = 600;
+    canvas.height = 600;
+    canvas.style.border = "1px solid black";
+    var cxt = canvas.getContext("2d");
+
+    cxt.moveTo(100,100);
+    cxt.lineTo(200,100);
+    cxt.lineTo(200,200);
+    cxt.closePath();
+    cxt.strokeStyle = "red";
+    cxt.stroke();
+
+    cxt.clearRect(0,0,600,600);
+
+    cxt.beginPath();
+    cxt.moveTo(300,300);
+    cxt.lineTo(400,300);
+    cxt.lineTo(400,400);
+    cxt.closePath();
+    cxt.strokeStyle = "yellow";
+    cxt.stroke();
+
+
+//    cxt.fillStyle = "red";
+//    cxt.fill();
+</script>
+</html>

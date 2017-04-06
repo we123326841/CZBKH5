@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Demo() {
+        this.name = "忽忽";
+    }
+
+
+    var de = new Demo();
+
+    console.log(typeof  de);
+    console.log(de.name);
+
+
+
+    var o = {
+        Show: function () {
+            this.age = 20;
+            this.name = "张三";
+        }
+    }
+
+
+    var oo = new o.Show();
+    console.log(typeof oo);
+    console.log(o.Show.prototype  === oo.__proto__);
+    console.log(oo.age);
+    console.log(oo.name);
+    console.log([1,2,4] instanceof Array);
+    console.log([1,2,4] instanceof Object);
+    var s = new Array();
+    console.log(s instanceof Array);
+</script>
+</body>
+</html>

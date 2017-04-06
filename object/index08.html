@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据绑定的三种方式</title>
+    <script src="Itcast.js"></script>
+    <script src="../ajax/phpapi/template.js"></script>
+    <script src="Itcast.js"></script>
+</head>
+<body>
+<div>
+    <div id="spanid"></div>
+    <button id="btn1">回退</button>
+    撒
+</div>
+
+<script id="allen" type="text/html">
+    <h1>欢迎{{name}}来到魔兽世界,你是{{type}}</h1>
+</script>
+
+
+
+<script>
+    var data = {name:"王浩",type:"金牌会员"};
+
+
+//    第一种方式 简单的数据绑定
+//   var span = document.getElementById("spanid");
+//    span.innerHTML = "<h1>欢迎"+data.name+"来到魔兽世界,你是"+data.type+"</h1>";
+
+    //第二种方式 formatString
+//    var $ = new $$();
+//    var span = document.getElementById("spanid");
+//   span.innerHTML = $.formateString("<h1>欢迎@(name)来到魔兽世界,你是@(type)</h1>",data)
+
+//    第三种方式 arttemplate 模板模式 (其实原理跟formatString是一模一样的核心都是字符串替换replace 只是比较复杂)
+//    var span = document.getElementById("spanid");
+//        var html= template("allen",data);
+//    span.innerHTML = html;
+
+//    第四种方式 arttemplate
+
+    var span = document.getElementById("spanid");
+    var str = "<h1>欢迎{{name}}来到魔兽世界,你是{{type}}</h1>";
+//    var render= template.compile(str);
+//    span.innerHTML =   render(data);
+    span.innerHTML = $$$.bindRender(str,data);
+
+    var btn1 = document.getElementById("btn1");
+    btn1.onclick = function () {
+//        window.history.back();
+        window.history.go(-1);
+    }
+
+    console.log(window.location.search);
+
+</script>
+</body>
+</html>

@@ -1,8 +1,8 @@
 <?php
 
 
-echo '<div>嘻嘻嘻</div>'
-
+//echo '<div>嘻嘻嘻</div>'
+echo '123';
 //$username = $_GET['username'];
 
 //$password = $_GET['password'];

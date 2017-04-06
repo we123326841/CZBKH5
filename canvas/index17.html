@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="RotateRect.js"></script>
+</head>
+<body>
+<canvas id="canvasid"></canvas>
+<script>
+    var canvasid = document.getElementById("canvasid");
+
+    canvasid.width = 600;
+    canvasid.height = 600;
+    canvasid.style.border = "1px solid black";
+
+    var cxt = canvasid.getContext("2d");
+        var x = 0
+        var rotateRect = new RotateRect({x:x,y:100,rotate:0});
+    rotateRect.render(cxt);
+    cxt.clearRect(0,0,canvasid.width,canvasid.height);
+    rotateRect.x = 200;
+    rotateRect.render(cxt);
+//    setInterval(function () {
+//        cxt.clearRect(0,0,canvasid.width,canvasid.height);
+//        x++;
+//        rotateRect.x = x;
+//        rotateRect.render(cxt);
+//    },10);
+    </script>
+</body>
+</html>

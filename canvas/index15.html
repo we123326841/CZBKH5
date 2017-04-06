@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvasid"></canvas>
+<script>
+    var canvasid = document.getElementById("canvasid");
+
+    canvasid.width = 600;
+    canvasid.height = 600;
+    canvasid.style.border = "1px solid black";
+
+    var cxt = canvasid.getContext("2d");
+//    cxt.fillStyle = "rgba(255,0,0,.9)";
+//    cxt.shadowColor = "yellow";
+//    cxt.shadowOffsetX = 10;
+//    cxt.shadowOffsetY = 10;
+//    cxt.shadowBlur = 30;
+//
+//    cxt.fillRect(400, 400, 300, 300);
+//
+//     var gra=cxt.createLinearGradient(0,0,300,0);
+//    gra.addColorStop(0,"black");
+//    gra.addColorStop(0.5,"red");
+//    gra.addColorStop(1,"blue");
+//    cxt.fillStyle = gra;
+//    cxt.fillRect(0,0,300,300);
+
+    var gra =  cxt.createRadialGradient(300,300,100,300,300,200);
+    gra.addColorStop(0,"black");
+    gra.addColorStop(.4,"red");
+    gra.addColorStop(1,"yellow");
+    cxt.fillStyle = gra;
+    cxt.fillRect(100,100,500,500);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //    var a  ;
+    //    a.b = 2;
+    //    console.log(a.b);
+
+    //    demo();
+    //    function demo() {
+    //        console.log(12);
+    //    }
+
+
+    //    ds();
+    //    var ds = function () {
+    //        console.log(123);
+    //    }
+
+
+    function Product() {
+        this.name = "鸡巴";
+        this.price = 1000;
+//        Object.defineProperty(this, "price", {
+//            get: function () {
+//                return this.price;
+//            },
+//            set: function (value) {
+//
+//                    this.price = value + 20;
+//            }
+//        });
+//
+//        Object.defineProperty(this, "name", {
+//            value: 50000,
+//            writable: true,
+//        });
+
+        this.haha = function () {
+            console.log(this.price);
+        }
+
+        var that = this;
+        function demo3() {
+            console.log(this);
+            console.log(that);
+        }
+
+
+        this.initjiba = function () {
+            demo3();
+        }
+    }
+
+
+//    Product.prototype.show = function () {
+//        console.log(this);
+//    };
+
+//    Product.prototype.name = "哈哈";
+
+
+
+//    Product.prototype.show();
+    console.log(Product.prototype);
+
+//Maximum call stack size exceeded
+    var pr = new Product();
+
+    console.log("--------");
+
+    console.log(pr.constructor);
+    console.log(Product);
+    console.log(Product.prototype.constructor);
+    console.log(Product.prototype.constructor === Product);
+    console.log(pr.constructor === Product);
+    console.log("--------");
+
+
+    pr.haha();
+    console.log(pr);
+
+    pr.initjiba();
+
+    console.log({});
+
+//   var w = new Function("","","");
+
+
+
+
+
+
+
+
+//    pr.price = 123;
+//    console.log(pr.price);
+//    pr.show();
+//
+//    pr.name = "的";
+//    console.log(pr.name);
+
+    console.log(Object);
+
+    console.log(typeof  Product);
+    var  s = function () {
+
+    }
+    console.log(typeof s);
+    var f3 = new Function('str','console.log(str)');
+    console.log(typeof f3);
+</script>
+</body>
+</html>

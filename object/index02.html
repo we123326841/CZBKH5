@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    console.log(toString.call(123));
+    console.log(toString.call("123"));
+    console.log(toString.call(undefined));
+    console.log(toString.call(true));
+    console.log(toString.call({}));
+    console.log(toString.call([]));
+    console.log(toString.call(function () {
+        
+    }));
+
+
+    console.log("-------------");
+    console.log(typeof undefined);
+    console.log(typeof null);
+    console.log(typeof true);
+    console.log(typeof 123);
+    console.log(typeof "abc");
+    console.log(typeof function () {
+
+    });
+    console.log(typeof {});
+    console.log(typeof []);
+    console.log(typeof unKnownVariable);
+
+
+    console.log("===========");
+//    console.log({}.toString());
+
+    var arr = [];
+    var date = new Date();
+    console.log(typeof date);
+    function demo() {
+
+    }
+    console.log(arr instanceof Array);
+    console.log(date instanceof Date);
+    console.log(demo instanceof Function);
+</script>
+</body>
+</html>

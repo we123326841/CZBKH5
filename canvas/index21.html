@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="bower_components/konva/konva.js"></script>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+
+            overflow: hidden;
+            /*position: absolute;*/
+        }
+    </style>
+</head>
+<body>
+<div id="container"></div>
+<script>
+    var stage = new Konva.Stage({
+        container: "container",
+        width: window.innerWidth/2,
+        height: window.innerHeight/2
+    });
+
+    var layer = new Konva.Layer();
+    stage.add(layer);
+
+    var centerY = stage.height() / 2;
+    var centerX = stage.width() / 2;
+    var x = stage.width() / 8;
+    var maxWidth = stage.width() * 3 / 4;
+    var y = centerY;
+    var height = stage.height() / 12;
+
+
+    var rect = new Konva.Rect({
+        x: x,
+        y: y,
+        width: 100,
+        height: height,
+        opacity: .1,
+        fill: "red",
+        cornerRadius: height / 2,
+
+
+    });
+    layer.add(rect);
+
+    var rectOut = new Konva.Rect({
+        x: x,
+        y: y,
+        width: maxWidth,
+        height: height,
+        opacity: .5,
+        stroke: "yellow",
+        strokeWidth: 6,
+        cornerRadius: height / 2
+    });
+
+    layer.add(rectOut);
+
+
+    layer.draw();
+
+
+//    var imageIndex = 0;
+
+//    var imgs = ["1.png", "2.png"];
+//    for (var i = 0; i < imgs.length; i++) {
+//
+//        var img = new Image();
+//        img.src = imgs[i];
+////        img.onload = function () {
+//            sleep(1000);
+//        console.log(i);
+//        imageIndex++;
+//            rect.to({width: maxWidth * (imageIndex / imgs.length), duration: 1.4});
+////        }
+//    }
+
+
+//    function sleep(numberMillis) {
+//        var now = new Date();
+//        var exitTime = now.getTime() + numberMillis;
+//        while (true) {
+//            now = new Date();
+//            if (now.getTime() > exitTime)
+//                return;
+//        }
+//    }
+
+        rect.to({
+            width:maxWidth,
+            opacity:1.0,
+            duration:1.4,
+            easing:Konva.Easings.StrongEaseInOut
+
+
+        });
+
+
+</script>
+</body>
+</html>

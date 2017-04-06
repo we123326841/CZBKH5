@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>Title</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+    </style>
+    <script src="bower_components/konva/konva.js"></script>
+    <script src="HistogramChart.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<script>
+    var data = [
+        {name: '前端', value: '.8', color: 'green'},
+        {name: 'PHP', value: '.3', color: 'blue'},
+        {name: 'Java', value: '.7', color: 'red'},
+        {name: 'UI', value: '.9', color: 'orange'},
+        {name: 'IOS', value: '.4', color: 'purple'},
+        {name: 'Android', value: '.9', color: 'pink'}
+    ];
+
+    var stage = new Konva.Stage({
+        container: "container",
+        width: window.innerWidth,
+        height: window.innerHeight
+    });
+
+    var x = stage.width() / 8;
+    var y = stage.height() * 3 / 4;
+    var maxWidth = stage.width() * 3 / 4;
+
+    var maxHeight = stage.height()/ 2;
+
+    var layer = new Konva.Layer();
+    stage.add(layer);
+
+    var histogram = new HistogramChart({
+        x:x,
+        y:y,
+        w:maxWidth,
+        h:maxHeight,
+        data:data
+    });
+
+    histogram.groupAddtoLayer(layer);
+
+
+    layer.draw();
+
+
+    stage.on("contentClick",function () {
+        histogram.startAnimate();
+    });
+
+
+
+
+
+</script>
+</body>
+</html>

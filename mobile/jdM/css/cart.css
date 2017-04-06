@@ -1,0 +1,352 @@
+.jd-cart{
+    margin-bottom: 57px;
+}
+/*提示*/
+
+.cart-tip{
+    background-color: #fff;
+    border-bottom: 1px solid RGB(217,217,217);
+}
+.cart-tip .cart-tip-title{
+    margin: 0 auto;
+    /*display:inline-block;*/
+    width: 240px;
+
+    font-size: 12px;
+    color: RGB(71,71,71);
+    line-height: 35px;
+    text-align: center;
+    position: relative;
+
+}
+
+.cart-tip .cart-tip-title::after{
+    content: "";
+    display: inline-block;
+    background: url("../images/safe_icon.png");
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 7.5px;
+}
+
+/*购物车*/
+
+.jd-cart-product{
+    min-width: 300px;
+    border-top: 1px solid RGB(217,217,217);
+    margin-top: 10px;
+    background-color: #fff;
+    /*height: 100px;*/
+    
+}
+
+/*购物车标题*/
+.jd-cart-product-title{
+    height: 35px;
+    border-bottom: 1px solid RGB(217,217,217);
+    position: relative;
+
+}
+
+.jd-cart-product-title .jd-checked{
+    margin-top: 8.5px;
+    margin-left: 10px;
+
+}
+
+.jd-cart-product-title .jd-zying{
+    display: inline-block;
+    height: 20px;
+    /*margin-top: 7.5px;*/
+    position: absolute;
+    left: 40px;
+    top: 7.5px;
+    line-height: 20px;
+    font-size: 0px;
+
+
+}
+
+.jd-cart-product-title .jd-zying .jd-cart-logo{
+    width: 15px;
+
+
+
+
+}
+.jd-cart-product-title .jd-zying span{
+    margin-left: 10px;
+    font-size: 12px;
+    /*display: inline-block;*/
+    /*height: 40px;*/
+    vertical-align: middle;
+}
+
+.jd-cart-product-title p{
+    float: right;
+    padding-right: 10px;
+    color: red;
+    line-height: 35px;
+    font-size: 13px;
+}
+
+
+/*购物车主体*/
+
+.jd-cart-product{
+    color: RGB(38,38,38);
+    font-weight: 200;
+}
+
+.jd-cart-product-content{
+    color: RGB(38,38,38);
+    position: relative;
+    border-bottom: 1px solid RGB(217,217,217);
+}
+
+.jd-cart-product-content .content-pic{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+
+}
+
+.jd-cart-product-content .jd-checked{
+
+    margin-top: 35px;
+    margin-left: 10px;
+
+}
+
+.jd-cart-product-content .cart-imgbox{
+    display: inline-block;
+    margin-left: 5px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+
+    /*float: left;*/
+    /*left: ;*/
+}
+
+.jd-cart-product-content .cart-imgbox img{
+    width: 78px;
+    height: 78px;
+}
+
+
+.jd-cart-product-content .jd-product-content-right{
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.jd-cart-product-content .jd-product-content-right h2{
+    font-size: 12px;
+    display: inline-block;
+    height: 32px;
+    font-weight: 200;
+    color: RGB(38,38,38);
+}
+
+.jd-cart-product-content .jd-cart-product-content-wenzi{
+    width:100%;
+    padding-left: 90px;
+    overflow: hidden;
+
+}
+
+.jd-cart-product-content .jd-cart-product-content-wenzi .price{
+    padding-bottom: 5px;
+}
+
+.jd-cart-product-content .jd-cart-product-content-wenzi .jd-cart-option span{
+    border: 1px solid RGB(217,217,217);
+    width: 30px;
+    height: 20px;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+}
+
+.jd-cart-product-content .jd-cart-product-content-wenzi input{
+    border-top: 1px solid RGB(217,217,217);
+    border-bottom: 1px solid RGB(217,217,217);
+    float: left;
+    height: 20px;
+    width: 40px;
+}
+
+
+.jd-cart-product-content .lajilou{
+    float: right;
+    position: relative;
+    width: 18px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.jd-cart-product-content .lajilou a{
+    display: block;
+    /*position: absolute;*/
+    font-size: 0px;
+
+}
+
+.jd-cart-product-content .lajilou a.delete-bot{
+    position: absolute;
+    top: 0px;
+    /*width: 18px;*/
+    /*height: 18px;*/
+}
+
+.jd-cart-product-content .lajilou a.delete-top{
+    /*position: absolute;*/
+    /*top: -5px;*/
+    /*width: 18px;*/
+    /*height: 4px;*/
+}
+
+
+
+.jd-cart-product-content .jiajian{
+    float: left;
+}
+
+
+
+.jd-cart-product-content  .lajilou  .delete-bot img{
+    width: 18px;
+}
+
+.jd-cart-product-content  .lajilou .delete-top img{
+    width: 18px;
+}
+
+
+/*结算*/
+.jd-cart-amount{
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 57px;
+    background-color: RGBA(0,0,0,.7);
+}
+
+.jd-cart-footer-checkedbox{
+    width: 80px;
+    height: 100%;
+    float: left;
+    line-height: 57px;
+
+
+}
+
+.jd-cart-footer-checkedbox .jd-checked{
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
+
+.jd-footer-quanxuan{
+    padding-left: 30px;
+}
+
+.jd-cart-footer-amount{
+
+ padding-left: 80px;
+    padding-right: 20px;
+    height: 100%;
+
+
+}
+
+.jd-cart-footer-amount .footer-heji{
+   line-height: 30px;
+}
+
+.jd-cart-footer-amount .footer-fanxian{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.jd-cart-amount .jd-cart-footer-jiesuan{
+    height: 100%;
+    width: 120px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: RGB(235,58,66);
+    line-height: 57px;
+    text-align: center;
+}
+
+.jd-cart-amount .jd-cart-footer-jiesuan a{
+    display: block;
+    color: white;
+    height: 100%;
+}
+
+
+/*提示框*/
+.jd-cart-dialog{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: RGBA(0,0,0,.4);
+    z-index: 2;
+    text-align: center;
+    display: none;
+}
+
+.jd-cart-dialog .jd-cart-dialog-box{
+    margin: 0 auto;
+    width: 85%;
+    background-color: #fff;
+    border-radius: 4px;
+    color: RGB(100,100,100);
+
+}
+
+.jd-cart-dialog .jd-cart-dialog-box .dialog-text{
+    padding: 25px 0px;
+    margin: 0px 10px;
+    border-bottom: 1px solid RGB(217,217,217);
+
+}
+
+.jd-cart-dialog .dialog-button{
+
+    padding: 10px 10px;
+
+}
+
+
+.jd-cart-dialog .dialog-button .dialog-cancel{
+    display: inline-block;
+    border: 1px solid  RGB(217,217,217);
+    border-radius: 4px;
+    width: 45%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.jd-cart-dialog .dialog-button .dialog-submit{
+    display: inline-block;
+    /*border: 1px solid  RGB(217,217,217);*/
+    border-radius: 4px;
+    width: 45%;
+    height: 30px;
+    color: white;
+    background-color: RGB(235,58,66);
+    line-height: 30px;
+}

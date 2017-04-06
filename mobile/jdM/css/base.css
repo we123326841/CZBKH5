@@ -1,0 +1,147 @@
+/*基础样式,公有样式*/
+
+*,::before,::after{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent; /*清楚点击的默认高亮效果*/
+}
+
+body{
+    font-size: 14px;
+    font-family: "microsoft yahei",sans-serif;/*第二个是手机的一个默认字体*/
+    color: #000;
+    background-color: #f5f5f5;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000;;
+}
+
+
+ul{
+    list-style:none;
+
+}
+
+.left-float{
+    float:left;
+}
+
+.right-float{
+    float: right;
+}
+
+
+input,textarea{
+    border: none;
+    resize: none;
+    outline:none;
+    -webkit-appearance: none;
+}
+
+img{
+    vertical-align: middle;
+
+}
+
+.clearfix::before,.clearfix::after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+}
+
+
+[class^="icon-"]{
+    background:url("../images/sprites.png");
+    background-size: 200px 200px;
+}
+
+
+/*头部*/
+/*头部*/
+.category-header{
+    background : url("../images/header-bg.png") repeat;
+    background-size: 1px 45px;
+    height: 45px;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid RGB(217,217,217);
+}
+
+.category-header .icon-back{
+    background-position: -20px 0px;
+    display: block;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+
+.category-header .icon-choice{
+    display: block;
+    height:100%;
+    width: 45px;
+    padding: 12px;
+    background-position:-60px 0 ;
+    background-origin: content-box;
+    background-clip: content-box;
+    position: absolute;
+    right: 5px;
+    top:0px;
+
+}
+
+.cart-title{
+    line-height: 45px;
+    text-align: center;
+}
+
+.jd-checked{
+    width: 20px;
+    height: 20px;
+    background: url("../images/shop-icon.png");
+    display: inline-block;
+    background-position: 25px 0px;
+    background-size: 50px 100px;
+}
+
+.jd-checked[checked]{
+    background-position: 0px 0px;
+}
+
+@keyframes allenframe{
+    0%{
+        opacity: 1.0;
+        transform: translateY(-200px);
+        -webkit-transform: translateY(-200px);
+    }
+
+    50%{
+        opacity: 0.5;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+    }
+
+    95%{
+        opacity: 1.0;
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+    }
+
+    100%{
+        opacity: 1.0;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+    }
+}
+
+.my-allen-animation{
+    animation: allenframe 0.3s ease 0s;
+}

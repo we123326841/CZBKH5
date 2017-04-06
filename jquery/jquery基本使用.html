@@ -23,12 +23,38 @@
 //        demo(13,function () {
 //            alert("你妈隔壁");
 //        });
-        
+//window.alert(123);
+//        console.log(this);
+//        console.log(window);
+
         $(document).ready(function () {
             $("#divid").click(function () {
-                $("#divid").hide();
+//                $("#divid").hide();
+//              this.innerHTML = "呵呵";
+                $(this).html("哈哈");
             });
-        })
+         //   window.alert("什么");
+
+        });
+
+function demo() {
+
+}
+
+console.log(demo);
+
+
+var obj = {a:12,one:function () {
+            alert(1222);
+            console.log(this);
+        }};
+
+        console.log(obj.a);
+        console.log(this);
+        obj.one();
+
+console.log(typeof $("#divid"));
+console.log($("#divid") instanceof  Array);
     </script>
 </head>
 <body>

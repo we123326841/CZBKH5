@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="base.js"></script>
+</head>
+<body>
+<script>
+    var Person = Class.extend({
+        init:function (name) {
+            this.name = name;
+        },
+
+        dance:function () {
+            alert('跳舞');
+        }
+    });
+
+
+    var Student = Person.extend({
+        init:function (name) {
+            this._super(false);
+        },
+
+        dance:function () {
+            this._super();
+            alert("唱歌");
+        },
+
+        swingSword:function () {
+            alert("嘿嘿,我有翘臀");
+        }
+
+
+    });
+
+    var s = new Student("王浩");
+    s.dance();
+    console.log(s);
+
+</script>
+</body>
+</html>

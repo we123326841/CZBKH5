@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画布学习</title>
+    <style>
+        /*canvas{*/
+            /*width: 2000px;*/
+            /*height: 2000px;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<!--<canvas width="500" height="500" id="canvas-id"></canvas>-->
+<canvas id="canvas-id"></canvas>
+
+
+<script>
+    document.getElementById("canvas-id").style.backgroundColor = "orange";
+    var canvas = document.getElementById("canvas-id");
+//    canvas.style.backgroundColor = "red";
+
+    canvas.width = 500;
+    canvas.height = 500;
+    var context = canvas.getContext("2d");
+    context.lineWidth = 8;
+    context.moveTo(100,100);
+    context.lineTo(200,100);
+    context.lineTo(100,200);
+    context.closePath();
+    context.fillStyle = "yellow";
+    context.fill();
+
+    context.strokeStyle= "blue";
+
+    context.stroke();
+
+
+
+
+</script>
+
+</body>
+</html>

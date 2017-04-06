@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/xingzuo.css" rel="stylesheet"/>
+    <script src="../jquery/jquery-1.11.1.js"></script>
+    <script src="../ajax/phpapi/template.js"></script>
+    <script src="Itcast.js"></script>
+    <script src="baiduDemo.js"></script>
+
+</head>
+<body>
+<img class="logo" width="270" src="baidu/logo_white.png" alt="">
+<p class="links">
+    <a href="http://news.baidu.com" target="_blank">–¬Œ≈</a>
+    <a href="http://www.baidu.com" target="_blank">Õ¯“≥</a>
+    <a href="http://tieba.baidu.com" target="_blank">Ã˘∞…</a>
+    <a href="http://zhidao.baidu.com" target="_blank">÷™µ¿</a>
+    <a href="http://music.baidu.com" target="_blank">“Ù¿÷</a>
+    <a href="http://image.baidu.com" target="_blank">Õº∆¨</a>
+    <a href="http://v.baidu.com" target="_blank"> ”∆µ</a>
+    <a href="http://map.baidu.com" target="_blank">µÿÕº</a>
+    <a href="http://baike.baidu.com" target="_blank">∞Ÿø∆</a>
+    <a href="http://wenku.baidu.com" target="_blank">Œƒø‚</a>
+    <a href="http://www.baidu.com/more/" target="_blank">∏¸∂‡&gt;&gt;</a>
+</p>
+<div class="search">
+    <input type="text">
+    <button>∞Ÿ∂»“ªœ¬</button>
+</div>
+<div class="container">
+    <div class="menu">
+        <span>µº∫Ω</span>
+        <span>“Ù¿÷</span>
+        <span>–¬Œ≈</span>
+        <span class="choose">–«◊˘</span>
+    </div>
+    <div class="card">
+        <div class="xingzuo">
+
+
+        </div>
+    </div>
+</div>
+
+<script>
+    for(var i = 0 ;i<data.length;i++){
+        var item = new BaiduXingzuo(data[i],i);
+
+    }
+</script>
+</body>
+</html>

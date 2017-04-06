@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>Title</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+    </style>
+    <script src="bower_components/konva/konva.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<script>
+    var data = [
+        {name: '前端', value: '.8', color: 'green'},
+        {name: 'PHP', value: '.3', color: 'blue'},
+        {name: 'Java', value: '.7', color: 'red'},
+        {name: 'UI', value: '.9', color: 'orange'},
+        {name: 'IOS', value: '.4', color: 'purple'},
+        {name: 'Android', value: '.9', color: 'pink'}
+    ];
+
+    var stage = new Konva.Stage({
+        container: "container",
+        width: window.innerWidth,
+        height: window.innerHeight
+    });
+
+    var x = stage.width() / 8;
+    var y = stage.height() * 3 / 4;
+    var maxWidth = stage.width() * 3 / 4;
+
+    var maxHeight = stage.height()/ 2;
+
+    var layer = new Konva.Layer();
+    stage.add(layer);
+    var line = new Konva.Line({
+      points: [x, y,x+maxWidth,y], stroke: 'green'
+    });
+    layer.add(line);
+
+
+    var rectWidth = maxWidth / data.length;
+
+    data.forEach(function (item, index) {
+        console.log(item.name);
+        console.log(y-item.value*maxWidth);
+      var rect = new Konva.Rect({
+            x:x+(1/4+index)*rectWidth,
+            y:y-item.value*maxHeight,
+            width:rectWidth/2,
+            height:item.value*maxHeight,
+            fill:item.color,
+            opacity:.5,
+            cornerRadius:6,
+            name:"Rect"
+        });
+        layer.add(rect);
+
+
+        var text = new Konva.Text({
+            fontFamily:"微软雅黑",
+            fontSize:17,
+            text:item.value*100+"%",
+            fill:item.color,
+            align:"center",
+            width:rectWidth,
+
+            x:x+index*rectWidth,
+            y:y-item.value*maxHeight-17,
+            name:"contentText"
+
+        });
+        layer.add(text);
+        var group = new Konva.Group({
+            x:x+(1/4+index)*rectWidth,
+            y:y
+        });
+        var textbottow = new Konva.Text({
+            fontFamily:"微软雅黑",
+            fontSize:17,
+            text:item.name,
+            fill:item.color,
+            align:"left",
+//            width:rectWidth, 宽度不设置是自适应
+
+            x:0,
+            y:0,
+
+
+        });
+        group.add(textbottow);
+        group.rotate(10);
+        layer.add(group);
+
+    });
+
+
+
+
+    layer.draw();
+
+
+    stage.on("contentClick",function () {
+        layer.find("Rect").each(function (item,index) {
+//            console.log(item);
+                item.y(y);
+                item.height(0);
+                item.to(
+                        {
+                            y:y-data[index].value*maxHeight,
+
+                            height:data[index].value*maxHeight,
+                            duration:1.0
+                        }
+                );
+
+        });
+
+        layer.find(".contentText").each(function (item,index) {
+            console.log(item);
+            item.y(y-17);
+            item.height(0);
+            item.to(
+                    {
+                        y:y-data[index].value*maxHeight - 17,
+
+
+                        duration:1.0
+                    }
+            );
+
+        });
+        
+    });
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

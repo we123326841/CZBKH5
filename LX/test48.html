@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
     <style>
         .div1{
             width: 100px;
@@ -25,9 +26,31 @@
         }
     </style>
 </head>
+
+<!--<script>-->
+    <!--demo();-->
+    <!--console.log(i);-->
+<!--</script>-->
+
+
+
 <body>
-<div class="div1"></div>
+<div class="div1" id="div1id">打我打我</div>
 <div class="div2"></div>
 <div class="div3"></div>
+
+<script>
+    function demo() {
+        console.log("鸡巴毛");
+    };
+    var i = 12;
+    var d = document.getElementById("div1iddsd");
+    if(d) {
+        d.onclick = function () {
+            alert("哈哈");
+        }
+    }
+</script>
 </body>
+
 </html>

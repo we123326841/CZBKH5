@@ -1,106 +1,245 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/canvas/index03.html" line="14" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8c5fba60-aa05-4603-bfe2-54cc116e6247" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/ShapeofYouEd.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/fonts/wanghao.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/fonts/wanghao.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/images/1487900955.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/webdings.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/font/MiFie-Web-Font.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/font/MiFie-Web-Font.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/font/MiFie-Web-Font.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/img/c_06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/img/slide_01_2000x410.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/img/slide_01_640x340.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/img/slide_02_2000x410.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/img/slide_02_640x340.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/img/slide_03_2000x410.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/img/slide_03_640x340.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/img/slide_04_2000x410.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/img/slide_04_640x340.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/fonts/wanghao.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index38.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index38.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index39.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index40.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index41.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index41.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index42.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index43.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index44.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test35.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test36.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test37.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test38.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test39.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test40.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test41.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test42.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test43.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test44.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test45.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test46.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test47.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test48.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index12.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index13.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index13.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index133.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index14.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index14.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index14.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index144.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index15.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index16.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index16.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index17.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index18.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index19.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index20.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/index21.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/jquery-1.11.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/phpapi/citycode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/phpapi/cityweather.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/phpapi/template-native-debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/phpapi/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/phpapi/weather.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/template-native.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/viewport/01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/font/MiFie-Web-Font.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/html5shiv/html5shiv-printshiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/html5shiv/html5shiv-printshiv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/html5shiv/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/html5shiv/html5shiv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/jquery/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/respond/respond.matchmedia.addListener.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/respond/respond.matchmedia.addListener.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/respond/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/weijinsuo/lib/respond/respond.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/bb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/bh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DMMKasim.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DMMScoutNPC.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DMMban.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DMMbanScout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DMMbshuai.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DMMbshuaiScout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DMMoldofficer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DMMoldoman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DMMoprator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DMMoprator2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DMRredwolf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DTGF-Psmusic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DTGF-Serenade.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DTGF-parasol.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/DTGF-parasolScout2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/NPC-edekillangle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/NPC-hunter_F-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/NPC-hunter_M-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/NPC-hunter_M-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/NPC1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/NPC2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/NPC3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/NPC4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/NPC5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/NPCrabbitbaby-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/NPCrabbitbaby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/TANK-G14D.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/TANK-IFV.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/TANK-M1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/TANK-SDDR_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/TANK-landrover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/hg-armystandardcamo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/士兵(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/士兵.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/html5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/lbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/lightb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/lightr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/magnifier.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/mw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/nom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/sherlock.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/tb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/th.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/yesm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/category.html___jb_tmp___" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/banner_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/banner_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/buy-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/buy-pro1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/cp1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/cp2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/cp3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/cp4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/cp5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/cp6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/delete_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/delete_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/detail01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/detail02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/focus-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/header-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/icon-updown-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/l1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/l2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/l3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/l4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/l5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/l6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/l7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/l8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/nav0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/nav1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/nav2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/nav3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/nav4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/nav5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/nav6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/nav7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/none.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/nv-fy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/safe_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/scroll-to-top-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/seckill-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/seckill_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/shop-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/images/sprits_btm_new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/baidu/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/baidu/football.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/baidu/logo_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/baidu/menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/baidu/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/baidu/news.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/baidu/xingzuo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/img/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/img/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/img/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/img/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/img/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/img/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/img/arrow_ie6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/xingzuo/xingzuo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index60.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index67.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index67.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/index68.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test49.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test50.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test51.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test52.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test53.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test54.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test55.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test56.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test57.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test58.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test59.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test61.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test62.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test64.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test65.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test66.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/CircleTest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/HistogramChart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/ItcastScence.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/ItcastScence1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/Pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/Progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/RotateRect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/Sprite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/梦金属混音-角色人物-素材说明.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/imgs/gameImgs/爱给网 - 专业游戏素材下载网站.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index08.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index09.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index19.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index21.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index22.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index23.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index24.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index25.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index26.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index27.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index28.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index29.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index30.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/cart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/css/cart.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/css/category.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/js/cart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/js/category.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/jdM/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/Itcast.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/baiduDemo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/base2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/css/xingzuo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index08.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index09.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index19.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index21.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index22.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index23.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index24.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index25.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index26.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index27.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/index28.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/simplejavascriptinheritance.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LX/test34.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LX/test34.html" afterPath="$PROJECT_DIR$/LX/test34.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/index80.html" afterPath="$PROJECT_DIR$/JS/index80.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LX/index34.html" afterPath="$PROJECT_DIR$/LX/index34.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LX/test41.html" afterPath="$PROJECT_DIR$/LX/test41.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LX/test42.html" afterPath="$PROJECT_DIR$/LX/test42.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LX/test46.html" afterPath="$PROJECT_DIR$/LX/test46.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LX/test48.html" afterPath="$PROJECT_DIR$/LX/test48.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/check.php" afterPath="$PROJECT_DIR$/ajax/check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery/jquery基本使用.html" afterPath="$PROJECT_DIR$/jquery/jquery基本使用.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/viewport/01.html" afterPath="$PROJECT_DIR$/mobile/viewport/01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/weijinsuo/css/main.css" afterPath="$PROJECT_DIR$/mobile/weijinsuo/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/weijinsuo/index.html" afterPath="$PROJECT_DIR$/mobile/weijinsuo/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/weijinsuo/js/main.js" afterPath="$PROJECT_DIR$/mobile/weijinsuo/js/main.js" />
     </list>
     <ignored path="CZBKH5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,98 +261,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index58.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tx/index58.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index57.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tx/index57.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test47.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LX/test47.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test46.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LX/test46.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index56.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tx/index56.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test48.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LX/test48.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/weijinsuo/index.html">
+      <file leaf-file-name="index27.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/index27.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/css/bootstrap.css">
+      <file leaf-file-name="index28.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/index28.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5514">
-              <caret line="626" column="1" selection-start-line="626" selection-start-column="1" selection-end-line="626" selection-end-column="1" />
+            <state relative-caret-position="290">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index60.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tx/index60.html">
+      <file leaf-file-name="葸娟霞简历.html" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/葸娟霞简历.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="157">
+              <caret line="400" column="23" selection-start-line="400" selection-start-column="23" selection-end-line="400" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index59.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tx/index59.html">
+      <file leaf-file-name="base2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/base2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="74" column="49" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/base.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -244,57 +333,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ajax/index14.js" />
-        <option value="$PROJECT_DIR$/ajax/index15.html" />
-        <option value="$PROJECT_DIR$/ajax/index14.txt" />
-        <option value="$PROJECT_DIR$/ajax/index16.php" />
-        <option value="$PROJECT_DIR$/ajax/index16.html" />
-        <option value="$PROJECT_DIR$/ajax/index13.html" />
-        <option value="$PROJECT_DIR$/ajax/index14.html" />
-        <option value="$PROJECT_DIR$/ajax/index12.html" />
-        <option value="$PROJECT_DIR$/ajax/phpapi/weather.php" />
-        <option value="$PROJECT_DIR$/ajax/phpapi/cityinfo.php" />
-        <option value="$PROJECT_DIR$/ajax/phpapi/citycode.php" />
-        <option value="$PROJECT_DIR$/ajax/phpapi/template.js" />
-        <option value="$PROJECT_DIR$/ajax/phpapi/cityweather.html" />
-        <option value="$PROJECT_DIR$/LX/images/index38.html" />
-        <option value="$PROJECT_DIR$/ajax/index17.html" />
-        <option value="$PROJECT_DIR$/ajax/index13.php" />
-        <option value="$PROJECT_DIR$/LX/index40.html" />
-        <option value="$PROJECT_DIR$/ajax/index18.html" />
-        <option value="$PROJECT_DIR$/ajax/index38.php" />
+        <option value="$PROJECT_DIR$/canvas/index28.html" />
+        <option value="$PROJECT_DIR$/canvas/Pie.js" />
+        <option value="$PROJECT_DIR$/canvas/ItcastScence.js" />
+        <option value="$PROJECT_DIR$/canvas/HistogramChart.js" />
+        <option value="$PROJECT_DIR$/canvas/index30.html" />
+        <option value="$PROJECT_DIR$/canvas/ItcastScence1.js" />
+        <option value="$PROJECT_DIR$/canvas/index29.html" />
+        <option value="$PROJECT_DIR$/LX/index67.js" />
+        <option value="$PROJECT_DIR$/canvas/index68.js" />
+        <option value="$PROJECT_DIR$/LX/index67.html" />
+        <option value="$PROJECT_DIR$/object/index02.html" />
+        <option value="$PROJECT_DIR$/object/index03.html" />
+        <option value="$PROJECT_DIR$/object/index01.html" />
+        <option value="$PROJECT_DIR$/object/index04.html" />
+        <option value="$PROJECT_DIR$/object/index05.html" />
+        <option value="$PROJECT_DIR$/object/index06.html" />
+        <option value="$PROJECT_DIR$/object/index07.html" />
+        <option value="$PROJECT_DIR$/object/index09.html" />
+        <option value="$PROJECT_DIR$/object/index10.html" />
+        <option value="$PROJECT_DIR$/object/index11.html" />
+        <option value="$PROJECT_DIR$/object/index13.html" />
+        <option value="$PROJECT_DIR$/object/index14.html" />
+        <option value="$PROJECT_DIR$/object/base2.js" />
+        <option value="$PROJECT_DIR$/object/index15.html" />
+        <option value="$PROJECT_DIR$/object/index17.html" />
+        <option value="$PROJECT_DIR$/object/index12.html" />
+        <option value="$PROJECT_DIR$/object/index16.html" />
+        <option value="$PROJECT_DIR$/object/index08.html" />
+        <option value="$PROJECT_DIR$/object/baiduDemo.js" />
+        <option value="$PROJECT_DIR$/object/detail.html" />
+        <option value="$PROJECT_DIR$/object/index18.html" />
+        <option value="$PROJECT_DIR$/object/index19.html" />
+        <option value="$PROJECT_DIR$/object/index20.html" />
+        <option value="$PROJECT_DIR$/object/index22.html" />
+        <option value="$PROJECT_DIR$/object/index23.html" />
+        <option value="/cores/index.html" />
+        <option value="$PROJECT_DIR$/../propaganda/index.html" />
+        <option value="$PROJECT_DIR$/ajax/index07.html" />
         <option value="$PROJECT_DIR$/ajax/index19.html" />
-        <option value="$PROJECT_DIR$/LX/index38.html" />
-        <option value="$PROJECT_DIR$/LX/index39.html" />
-        <option value="$PROJECT_DIR$/LX/index41.php" />
-        <option value="$PROJECT_DIR$/LX/images/index42.html" />
-        <option value="$PROJECT_DIR$/LX/index42.html" />
-        <option value="$PROJECT_DIR$/ajax/index133.php" />
-        <option value="$PROJECT_DIR$/LX/index41.html" />
-        <option value="$PROJECT_DIR$/LX/index43.html" />
-        <option value="$PROJECT_DIR$/LX/index44.html" />
-        <option value="$PROJECT_DIR$/LX/test38.html" />
-        <option value="$PROJECT_DIR$/ajax/index20.html" />
-        <option value="$USER_HOME$/wanqiucai2.html" />
-        <option value="$PROJECT_DIR$/ajax/index21.html" />
-        <option value="$PROJECT_DIR$/mobile/weijinsuo/js/main.js" />
-        <option value="$PROJECT_DIR$/LX/test40.html" />
-        <option value="$PROJECT_DIR$/LX/test41.html" />
-        <option value="$PROJECT_DIR$/LX/test42.html" />
-        <option value="$PROJECT_DIR$/mobile/viewport/01.html" />
-        <option value="$PROJECT_DIR$/LX/test39.html" />
-        <option value="$PROJECT_DIR$/LX/test43.html" />
-        <option value="$PROJECT_DIR$/LX/test44.html" />
-        <option value="$PROJECT_DIR$/LX/test45.html" />
-        <option value="$PROJECT_DIR$/LX/test47.html" />
-        <option value="$PROJECT_DIR$/mobile/weijinsuo/index.html" />
-        <option value="$PROJECT_DIR$/mobile/weijinsuo/css/main.css" />
-        <option value="$PROJECT_DIR$/LX/test48.html" />
-        <option value="$USER_HOME$/test34.html" />
-        <option value="$PROJECT_DIR$/LX/unuser.html" />
-        <option value="$PROJECT_DIR$/LX/test34.html" />
-        <option value="$PROJECT_DIR$/LX/index34.html" />
-        <option value="$PROJECT_DIR$/LX/test46.html" />
+        <option value="$PROJECT_DIR$/jquery/jquery基本使用.html" />
+        <option value="$PROJECT_DIR$/ajax/check.php" />
+        <option value="$PROJECT_DIR$/object/Itcast.js" />
+        <option value="$PROJECT_DIR$/ajax/index04.html" />
+        <option value="$PROJECT_DIR$/ajax/data.json" />
+        <option value="$PROJECT_DIR$/object/index21.html" />
+        <option value="$PROJECT_DIR$/object/index25.html" />
+        <option value="$PROJECT_DIR$/object/index26.html" />
+        <option value="$PROJECT_DIR$/object/index24.html" />
+        <option value="$PROJECT_DIR$/object/index27.html" />
+        <option value="$PROJECT_DIR$/object/index28.html" />
+        <option value="$USER_HOME$/Downloads/葸娟霞简历.html" />
       </list>
     </option>
   </component>
@@ -312,9 +401,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="344" />
-    <option name="y" value="246" />
-    <option name="width" value="1280" />
+    <option name="x" value="-1" />
+    <option name="y" value="23" />
+    <option name="width" value="1124" />
     <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -342,7 +431,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -372,31 +460,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CZBKH5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CZBKH5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LX" />
+              <option name="myItemId" value="object" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -405,7 +480,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/propaganda" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/wanghao/Documents/CZBKH5/LX/test30.html&#10;你&#9;null&#9;null&#10;div&#9;null&#9;null&#10;leader&#9;null&#9;null&#10;olc&#9;null&#9;null&#10;jiao&#9;null&#9;null&#10;tw&#9;null&#9;null&#10;images/001&#9;FILE&#9;file:///Users/allen/Documents/CZBKH5/tx/images/0001.jpg&#10;001&#9;FILE&#9;file:///Users/allen/Documents/CZBKH5/tx/images/0001.jpg&#10;inde&#9;FILE&#9;file:///Users/allen/Documents/CZBKH5/CSS/CSSProject/images/indexmainbg.jpg" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="101" />
@@ -428,17 +503,17 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/LX" />
+      <recent name="$PROJECT_DIR$/canvas" />
+      <recent name="$PROJECT_DIR$/mobile/jdM/css" />
       <recent name="$PROJECT_DIR$/ajax" />
       <recent name="$PROJECT_DIR$/LX/images" />
-      <recent name="$PROJECT_DIR$/html5" />
-      <recent name="$PROJECT_DIR$/jquery" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/object" />
+      <recent name="$PROJECT_DIR$/ajax" />
+      <recent name="$PROJECT_DIR$/canvas" />
+      <recent name="$PROJECT_DIR$/mobile/jdM/images" />
       <recent name="$PROJECT_DIR$/LX" />
-      <recent name="$PROJECT_DIR$/mobile/weijinsuo/img" />
-      <recent name="$PROJECT_DIR$/mobile/weijinsuo/font" />
-      <recent name="$PROJECT_DIR$/mobile/weijinsuo/lib/respond" />
-      <recent name="$PROJECT_DIR$/mobile/weijinsuo/lib/html5shiv" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.jquery第三天滚动条.html">
@@ -743,25 +818,105 @@
       <workItem from="1488858546549" duration="9899000" />
       <workItem from="1488885087114" duration="10183000" />
       <workItem from="1488934233700" duration="1227000" />
-      <workItem from="1488935720044" duration="3154000" />
+      <workItem from="1488935720044" duration="10369000" />
+      <workItem from="1489026548565" duration="17605000" />
+      <workItem from="1489060875656" duration="9836000" />
+      <workItem from="1489107457894" duration="4911000" />
+      <workItem from="1489139556511" duration="975000" />
+      <workItem from="1489144734079" duration="3209000" />
+      <workItem from="1489192782612" duration="3730000" />
+      <workItem from="1489286099595" duration="9490000" />
+      <workItem from="1489329481906" duration="2195000" />
+      <workItem from="1489383286976" duration="620000" />
+      <workItem from="1489555966363" duration="9386000" />
+      <workItem from="1489579393100" duration="3824000" />
+      <workItem from="1489645201256" duration="8461000" />
+      <workItem from="1489663886921" duration="7791000" />
+      <workItem from="1489717134103" duration="7825000" />
+      <workItem from="1489757021494" duration="5998000" />
+      <workItem from="1489815346555" duration="22189000" />
+      <workItem from="1489895960047" duration="6440000" />
+      <workItem from="1489930022040" duration="4808000" />
+      <workItem from="1489971379651" duration="944000" />
+      <workItem from="1489993717670" duration="516000" />
+      <workItem from="1490002962228" duration="13000" />
+      <workItem from="1490016355775" duration="705000" />
+      <workItem from="1490079711785" duration="2673000" />
+      <workItem from="1490084259625" duration="769000" />
+      <workItem from="1490097854902" duration="5633000" />
+      <workItem from="1490112432769" duration="864000" />
+      <workItem from="1490144397465" duration="480000" />
+      <workItem from="1490147468288" duration="12016000" />
+      <workItem from="1490180959205" duration="134000" />
+      <workItem from="1490190315977" duration="4195000" />
+      <workItem from="1490233614978" duration="3787000" />
+      <workItem from="1490269024586" duration="490000" />
+      <workItem from="1490271660987" duration="8847000" />
+      <workItem from="1490320545564" duration="14902000" />
+      <workItem from="1490354690648" duration="4502000" />
+      <workItem from="1490407500019" duration="32231000" />
+      <workItem from="1490463292753" duration="877000" />
+      <workItem from="1490501957695" duration="9526000" />
+      <workItem from="1490523253334" duration="7397000" />
+      <workItem from="1490576322737" duration="3975000" />
+      <workItem from="1490595279238" duration="6714000" />
+      <workItem from="1490616096026" duration="3032000" />
+      <workItem from="1490623420199" duration="2002000" />
+      <workItem from="1490662517225" duration="9154000" />
+      <workItem from="1490700863416" duration="12418000" />
+      <workItem from="1490757296703" duration="4796000" />
+      <workItem from="1490779513413" duration="4916000" />
+      <workItem from="1490791532597" duration="382000" />
+      <workItem from="1490791954443" duration="8000" />
+      <workItem from="1490793552700" duration="4543000" />
+      <workItem from="1490803753424" duration="132000" />
+      <workItem from="1490835593152" duration="19566000" />
+      <workItem from="1490873215880" duration="6408000" />
+      <workItem from="1490938703398" duration="6781000" />
+      <workItem from="1490961405047" duration="14048000" />
+      <workItem from="1490976396036" duration="151000" />
+      <workItem from="1491008260106" duration="1792000" />
+      <workItem from="1491010142018" duration="6926000" />
+      <workItem from="1491036876459" duration="2339000" />
+      <workItem from="1491052934263" duration="1706000" />
+      <workItem from="1491119094691" duration="1742000" />
+      <workItem from="1491122620756" duration="1169000" />
+      <workItem from="1491145714610" duration="3841000" />
+      <workItem from="1491186122494" duration="810000" />
+      <workItem from="1491186956859" duration="1655000" />
+      <workItem from="1491201969696" duration="6194000" />
+      <workItem from="1491220395248" duration="3586000" />
+      <workItem from="1491280182134" duration="2137000" />
+      <workItem from="1491285288043" duration="2510000" />
+      <workItem from="1491293979570" duration="1847000" />
+      <workItem from="1491296711239" duration="4465000" />
+      <workItem from="1491304401751" duration="458000" />
+      <workItem from="1491306770872" duration="64000" />
+      <workItem from="1491306877722" duration="504000" />
+      <workItem from="1491311603712" duration="466000" />
+      <workItem from="1491354275538" duration="18391000" />
+      <workItem from="1491390648061" duration="5478000" />
+      <workItem from="1491439986338" duration="6100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1094912000" />
+    <option name="totallyTimeSpent" value="1516127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="344" y="246" width="1280" height="734" extended-state="0" />
+    <frame x="-1" y="23" width="1124" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2859412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21486855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24932003" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -770,13 +925,11 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="62" y="144" width="1080" height="515" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -800,7 +953,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -809,299 +962,385 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ajax/index10.html">
+    <entry file="file://$PROJECT_DIR$/ajax/index17.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-656">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/index11.html">
+    <entry file="file://$PROJECT_DIR$/ajax/index04.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/index12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-836">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/index13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/index14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/index03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/index05.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/index9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/index11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/index20.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/index23.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-581">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/index25.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/index26.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/index27.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/index29.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test37.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test36.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test39.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test38.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/weijinsuo/lib/html5shiv/html5shiv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/weijinsuo/lib/html5shiv/html5shiv.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test42.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test41.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-626">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3598">
-          <caret line="801" column="44" selection-start-line="801" selection-start-column="44" selection-end-line="801" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/weijinsuo/img/c_06.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/weijinsuo/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/fonts/wanghao.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tx/index34.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test43.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test44.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/weijinsuo/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+        <state relative-caret-position="195">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test45.html">
+    <entry file="file://$PROJECT_DIR$/ajax/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/test34.html" />
-    <entry file="file://$USER_HOME$/Desktop/test34.html" />
-    <entry file="file://$PROJECT_DIR$/LX/unuser.html" />
-    <entry file="file://$PROJECT_DIR$/LX/images/bg3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/ajax/index21.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test35.html">
+    <entry file="file://$PROJECT_DIR$/ajax/index20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/Itcast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery基本使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LX/images/bg1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/viewport/01.html">
+    <entry file="file://$PROJECT_DIR$/object/index25.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="83" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="83" />
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test34.html">
+    <entry file="file://$PROJECT_DIR$/object/index23.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="53" />
+        <state relative-caret-position="524">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index22.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index21.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index19.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index09.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-930">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-370">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-955">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test66.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test65.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test64.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/index68.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/index67.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/index67.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/index60.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LX/index34.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="-4615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/weijinsuo/index.html">
+    <entry file="file://$PROJECT_DIR$/LX/test41.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/test42.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/index12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index24.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index26.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/index27.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/weijinsuo/lib/bootstrap/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/object/base2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5514">
-          <caret line="626" column="1" selection-start-line="626" selection-start-column="1" selection-end-line="626" selection-end-column="1" />
+        <state relative-caret-position="137">
+          <caret line="74" column="49" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tx/index60.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tx/index59.html">
+    <entry file="file://$PROJECT_DIR$/object/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1109,50 +1348,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tx/index58.html">
+    <entry file="file://$PROJECT_DIR$/object/index28.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="290">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tx/index57.html">
+    <entry file="file://$USER_HOME$/Downloads/葸娟霞简历.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tx/index56.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test48.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test47.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/test46.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="157">
+          <caret line="400" column="23" selection-start-line="400" selection-start-column="23" selection-end-line="400" selection-end-column="23" />
           <folding />
         </state>
       </provider>
