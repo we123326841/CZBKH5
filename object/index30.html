@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>不支持重载</title>
+</head>
+<body>
+<script>
+    function Add(a,b) {
+        return a+b;
+    }
+
+    function Add(a,b,c) {
+        alert("NIYA DE ");
+        return a+b+c;
+    }
+
+    alert(Add(2,4));
+    alert(Add(2,4,4));
+    
+    function S() {
+
+    }
+
+    S.prototype=  {
+        show:function () {
+            alert("有毛病");
+        }
+    }
+
+    function P() {
+        S.call(this,arguments);
+    }
+
+    P.prototype = new S();
+//
+//    P.prototype.show = function () {
+//        alert("鸡巴毛");
+//    }
+
+
+    var p = new P();
+    p.show();
+
+
+    console.log(p["show"]);
+    console.log(Add);
+</script>
+</body>
+</html>
