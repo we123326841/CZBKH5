@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Itcast.js"></script>
+    <style>
+        .div1{
+            width: 200px;
+            height: 200px;
+            background-color: #ff3757;
+        }
+
+        .div2{
+            width: 100px;
+            height: 100px;
+            background-color: #1b78f6;
+        }
+    </style>
+</head>
+<body>
+<button id ="btn">复制</button>
+<a id="aid" href="http://www.baidu.com">百度</a>
+<div id="d1" class="div1">
+    <div id="d2" class="div2"></div>
+    </div>
+
+
+
+<div id="div1">
+    <p>什么</p>
+    <p>什么</p>
+    <p>什么</p>
+    <p>什么</p>
+</div>
+
+<script>
+
+    $$$.id("div1").onclick = function (e) {
+        console.log(e.target);
+    }
+
+
+    $$$.attr("div1","name","品牌");
+
+//    $$$.click("aid",function () {
+//       console.log("什么鬼");
+//        $$$.preventDefault();
+//    });
+//
+//    $$$.click("d1",function (e) {
+//        console.log("d1");
+//        console.log($$$.getTarget(e));
+//
+//    });
+//    $$$.click("d2",function (e) {
+//        console.log("d2");
+////        $$$.stopPropagation(e);
+//    });
+//
+//    $$$.delegate("div1","onclick","p",function () {
+//        this.style.backgroundColor = "red";
+//    })
+//
+//    $$$("btn",function () {
+//
+//    })
+
+</script>
+</body>
+</html>

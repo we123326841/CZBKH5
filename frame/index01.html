@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery/jquery-1.11.1.js"></script>
+    <style>
+        .div1{
+            width: 200px;
+            height: 200px;
+            background-color: #ff3757;
+        }
+
+        .div2{
+            width: 100px;
+            height: 100px;
+            background-color: #1b78f6;
+        }
+    </style>
+</head>
+<body>
+<div class="div1">
+    <div class="div2"></div>
+</div>
+
+
+<script>
+//     document.getElementsByClassName("div1")[0].onclick = function () {
+//         alert("div1");
+//     };
+//     document.getElementsByClassName("div2")[0].onclick = function () {
+//         alert("div2");
+//     };
+//
+//     document.body.onclick = function () {
+//         alert("body");
+//     };
+
+//     $(".div1").on("click",function () {
+//         alert("div1");
+//     });
+//     $(".div2").on("click",function () {
+//         alert("div2");
+//     });
+//捕获
+     document.getElementsByClassName("div1")[0].addEventListener("click",function () {
+         alert("div1");
+     },true);
+
+     document.getElementsByClassName("div2")[0].addEventListener("click",function () {
+         alert("div2");
+     },true);
+
+</script>
+</body>
+</html>

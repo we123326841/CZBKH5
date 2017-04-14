@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*body{*/
+            /*padding: 0px;*/
+            /*margin: 0px;*/
+            /*width: 100%;*/
+            /*height: 100%;*/
+            /*position: absolute;*/
+
+        /*}*/
+        #div1{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            position: absolute;
+
+        }
+
+
+        #div2{
+            height: 100px;
+            width: 100px;
+            background-color: greenyellow;
+            top: 200px;
+            position: absolute;
+
+        }
+    </style>
+</head>
+<body>
+<button id="btn">呵呵</button>
+<div id="div1">的阿达</div>
+<div id="div2">的阿达</div>
+
+
+<script>
+    var btn = document.getElementById("btn");
+    var div1  =  document.getElementById("div1");
+    var div2  =  document.getElementById("div2");
+
+    btn.onclick  = function () {
+        var timer;
+        var juli = 200;
+        var baif = 0;
+        var leftju = div1.offsetLeft;
+        var now = new Date();
+       timer = setInterval(function () {
+           if (baif >=1){
+               stop();
+               div1.style["left"] ="200px"
+               div1.style["width"] ="200px"
+               div1.style["height"]="200px"
+               div2.style["left"] ="200px"
+               div2.style["width"] ="200px"
+               div2.style["height"]="200px"
+           }else {
+              var tween = getTween();
+               console.log(tween);
+               baif = tween / 5000;
+               div1.style["left"] =leftju + baif * juli + "px";
+               div1.style["width"] =leftju + baif * juli + "px";
+               div1.style["height"] =leftju + baif * juli + "px";
+               div2.style["left"] =leftju + baif * juli + "px";
+               div2.style["width"] =leftju + baif * juli + "px";
+               div2.style["height"] =leftju + baif * juli + "px";
+           }
+        },30);
+
+        function stop() {
+            clearInterval(timer);
+        }
+
+        function getTween() {
+            var pass = new Date();
+            var tween = pass - now;
+            return tween;
+        }
+    }
+</script>
+</body>
+</html>

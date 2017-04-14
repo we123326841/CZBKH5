@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Itcast.js"></script>
+    <style>
+        div {
+            background-color: yellow;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<div id="div1"></div>
+<script>
+    $$$.hover("div1", function (e) {
+//        this.style.backgroundColor = "red";
+//        console.log(e);
+//        console.log(window.event===e);
+        $$$.getTarget(e).style.backgroundColor = "red";
+    }, function (e) {
+        $$$.getTarget(e).style.backgroundColor = "green";
+    });
+
+    //    console.log(window.event);
+    //微软用法
+//    var btn = document.getElementById("div1");
+//    btn.attachEvent("onclick",function () {
+//        window.event.srcElement
+//    });
+</script>
+</body>
+</html>

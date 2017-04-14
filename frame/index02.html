@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../ajax/jquery-1.11.1.js"></script>
+</head>
+<body>
+<button id="name"></button>
+
+<div id="div1">
+    <p>什么</p>
+    <p>什么</p>
+    <p>什么</p>
+    <p>什么</p>
+</div>
+<script>
+    function a() {
+
+    }
+//
+//    function c() {
+//
+//    }
+//    a.show =function () {
+//        alert("你妹");
+//    }
+//
+    var b = null;
+    console.log(b);
+    b = a;
+    console.log(b);
+    //
+//    console.log(b===a);
+//    console.log(c===a);
+//    b.show();
+//
+//    var p = new a();
+//    var j = p;
+//    console.log(j ===p);
+
+//    console.log(document.getElementById("name").onclick);
+//  document.getElementById("name").onclick = function () {
+//      console.log("a");
+//  }
+//  document.getElementById("name").onclick = function () {
+//      console.log("b");
+//  }
+
+    document.getElementById("name").addEventListener("click",function () {
+        console.log("a");
+    },false);
+
+    var f2 = function () {
+        console.log("b");
+    }
+    document.getElementById("name").addEventListener("click",f2,false);
+
+
+    document.getElementById("name").removeEventListener("click",f2);
+
+    $("#div1").on("click","p",function () {
+       this.style.backgroundColor = "red";
+    });
+</script>
+</body>
+</html>

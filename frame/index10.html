@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-color: #00a786;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+<button id="btn"></button>
+<div id="div1"></div>
+<script>
+    document.getElementById("btn").onclick = demo;
+     var div1 = document.getElementById("div1");
+console.log(div1.offsetLeft);
+    var speed = 10
+
+            function demo(e) {
+                console.log(e);
+
+                setInterval(function () {
+                    div1.style.left = div1.offsetLeft + speed + "px";
+                },1000);
+            }
+
+//    function A() {
+//        this.name = "我们";
+//        this.age  = null;
+//    }
+//
+//    var a = new A();
+//
+//    console.log(a.age);
+//    console.log(a.ewe);
+
+</script>
+</body>
+</html>

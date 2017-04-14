@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Demo() {
+        this.name="张三";
+        this.age=19;
+    }
+
+
+    Demo.prototype = {
+        show:"呵呵"
+    }
+
+    console.log(Demo.prototype.__proto__ === Object.prototype);
+    Demo.prototype.__proto__ =  {JI:"DW"};
+
+
+    var demo = new Demo();
+
+    for(var i in demo){
+        console.log(i);
+    }
+
+
+    function li() {
+        if(arguments.length >0){
+            alert(arguments[0]);
+        }
+        console.log(arguments.callee.length);
+    }
+
+
+    li("sa");
+    var ni;
+    if(ni.ho){
+        alert("hehe");
+        alert(ni.ho);
+    }else{
+        alert("huhu");
+        alert(ni.ho);
+
+    }
+</script>
+</body>
+</html>
