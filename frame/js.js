@@ -11,7 +11,7 @@
 var http = require('http');
 
 var server = http.createServer(function (request,response) {
-    console.log("什么鸡巴");
+    console.log(request.url);
     response.writeHead(200,{'Content-Type':'text/html','key':'value1'});
     response.write('<h1>wwww</h1>');
     response.end();
