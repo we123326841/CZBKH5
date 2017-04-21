@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="idid"></div>
+<script>
+    var sa = 321;
+    console.log(window.sa);
+    (function (a) {
+        console.log(a)
+//        var sa = 321;
+//        console.log(window.sa);
+    })(32);
+
+//这种方式写是最好的
+    (function (d) {
+       var ddd=  d.getElementById("idid");
+    })(document);
+    !function (s) {
+        console.log(s);
+    }(32);
+    +function (s) {
+        console.log(s);
+    }(332);
+
+
+
+</script>
+</body>
+</html>

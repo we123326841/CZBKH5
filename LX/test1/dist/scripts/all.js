@@ -1,1 +1,1 @@
-var a=21;console.log(1111);
+var wafwa=21;!function(o){console.log(21)}(),console.log(1111);
