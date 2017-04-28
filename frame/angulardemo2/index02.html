@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="app">
+
+<div  ng-controller="myvc1">
+    <button  ng-click="show1()">按钮1</button>
+</div>
+<div  ng-controller="myvc2">
+    <button ng-click="show2()">按钮2</button>
+</div>
+
+
+
+
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    var app1 = angular.module("app1",[]);
+    app1.controller("myvc1",function ($scope) {
+        $scope.show1 = function () {
+            console.log(111);
+        };
+    });
+
+
+
+    var app2 = angular.module("app2",[]);
+    app2.controller("myvc2",function ($scope) {
+        $scope.show2 = function () {
+            console.log(222);
+        };
+    });
+
+
+//    angular.bootstrap(document.querySelector('[ng-app="app2"]'),['app2']);
+
+    var  myapp = angular.module("app",["app1","app2"]);
+
+</script>
+</body>
+</html>

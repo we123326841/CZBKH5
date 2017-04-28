@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body ng-app="myapp">
+<btn>什么</btn>
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    var myapp = angular.module('myapp',[]);
+    myapp.directive('btn',[function () {
+        return{
+            transclude:true,
+            replace:true,
+            template:'<button class="btn btn-primary" ng-transclude></button>'
+        };
+    }]);
+</script>
+</body>
+</html>

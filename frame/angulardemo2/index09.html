@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .red{
+            color: red;
+        }
+
+        .green{
+            color: green;
+        }
+    </style>
+</head>
+<body ng-app="app">
+<input type="text" ng-model="student"/>
+<ul ng-controller="myvc">
+    <li ng-repeat="item in data track by $index" ng-class="{red:item.startsWith(student)}">{{item}}</li>
+</ul>
+
+
+
+
+
+
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    String.prototype.startsWith=function(str){
+        var reg=new RegExp("^"+str);
+        return reg.test(this);
+    }
+    var app = angular.module("app",[]);
+    app.controller("myvc",function ($scope) {
+        $scope.data = ["三张","李四","王五","赵六","赵六"];
+
+//        for(var i = 1; i < 10; i++){
+//            $scope.data[$scope.data.length] = {
+//                id:i,
+//                name:"赵武"+i,
+//                age:10 + i
+//            };
+//        }
+    });
+
+
+</script>
+</body>
+</html>

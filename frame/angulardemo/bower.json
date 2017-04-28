@@ -1,0 +1,21 @@
+{
+  "name": "angulardemo",
+  "homepage": "https://github.com/we123326841/CZBKH5",
+  "authors": [
+    "we123326841"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "jquery": "^3.2.1"
+  }
+}

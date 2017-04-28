@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="myapp" ng-controller="myvc">
+
+<div>{{true | checkmark:2}}</div>
+<input ng-model="weight" type="text"/>
+<div>{{weight | weight}}</div>
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    var myapp = angular.module("myapp",[]);
+    myapp.controller("myvc",function ($scope) {
+
+    });
+
+
+    
+    myapp.filter('checkmark',function () {
+        return function (input,style) {
+            console.log(input);
+            console.log(style);
+            switch (style){
+                case 1 :
+                    return "还你妈隔壁";
+                    break;
+                case 2:
+                    return "还你妈个毛";
+                    break;
+            }
+        }
+    }).filter('weight',function () {
+        return function (input) {
+            if (input < 200){
+                return "你太瘦了";
+            }else {
+                return "你太胖了";
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="app">
+<div ng-view></div>
+<ul>
+    <li><a href="#/a">A</a></li>
+    <li><a href="#/b">B</a></li>
+    <li><a href="#/c">C</a></li>
+</ul>
+
+<script src="../frame/angulardemo/bower_components/angular/angular.js"></script>
+<script src="../frame/angulardemo2/todomvc-app-template/node_modules/angular-route/angular-route.js"></script>
+<script>
+    var app = angular.module("app", ['ngRoute']);
+    app.config(['$routeProvider',function ($routeProvider) {
+        console.log("aaaa");
+        $routeProvider
+                .when('/a',{
+                    controller:'Acontroller',
+                    templateUrl:'../frame/angulardemo2/todomvc-app-template/views/a.html'
+                })
+                .when('/b',{
+                    controller:'Bcontroller',
+                    templateUrl:'../frame/angulardemo2/todomvc-app-template/views/a.html'
+                })
+                .when('/c',{
+                    controller:'Ccontroller',
+                    templateUrl:'../frame/angulardemo2/todomvc-app-template/views/a.html'
+                })
+                .otherwise(
+                        {
+                            redirectTo:'/a'
+                        }
+                );
+
+    }]);
+
+    app.controller('Acontroller',['$scope',function ($scope) {
+        console.log("bbbb");
+
+        $scope.title = "这他妈的是A控制器";
+    }]);
+    app.controller('Bcontroller',['$scope',function ($scope) {
+        $scope.title = "这他妈的是B控制器";
+    }]);
+    app.controller('Ccontroller',['$scope',function ($scope) {
+        $scope.title = "这他妈的是C控制器";
+    }])
+</script>
+</body>
+</html>
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<title>路由模块使用</title>-->
+<!--</head>-->
+
+<!--<body ng-app="app">-->
+<!--<ul>-->
+<!--<li><a href="#/a">A</a></li>-->
+<!--<li><a href="#/b">B</a></li>-->
+<!--<li><a href="#/c">C</a></li>-->
+<!--</ul>-->
+<!--<div ng-view></div>-->
+<!--<script src="../bower_components/angular/angular.js"></script>-->
+<!--<script src="node_modules/angular-route/angular-route.js"></script>-->
+<!--&lt;!&ndash;<script id="a_tmpl" type="text/ng-template">&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash; 只有type="text/javascript"的script节点才会被当做JS执行 &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash; script中的内容就算不能执行，也不可以显示在界面上 &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;<h1>{{title}}</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;</script>&ndash;&gt;-->
+<!--<script>-->
+<!--var app = angular.module('app', ['ngRoute']);-->
+<!--app.config(['$routeProvider', function($routeProvider) {-->
+<!--console.log("bbb");-->
+<!--$routeProvider-->
+<!--// 某一类特定地址-->
+
+<!--.when('/a', {-->
+<!--controller: 'AController',-->
+<!--templateUrl: './views/a.html'-->
+<!--})-->
+<!--.when('/b', {-->
+<!--controller: 'BController',-->
+<!--templateUrl: './views/b.html'-->
+<!--})-->
+<!--.when('/c', {-->
+<!--controller: 'CController',-->
+<!--templateUrl: './views/c.html'-->
+<!--})-->
+<!--// 别的请求-->
+<!--.otherwise({-->
+<!--// 跳转到一个地址-->
+<!--redirectTo: '/a'-->
+<!--});-->
+<!--}]);-->
+
+<!--app.controller('AController', ['$scope', function($scope ) {-->
+<!--console.log("aaa");-->
+<!--$scope.title = '这是A控制器';-->
+<!--}]);-->
+<!--app.controller('BController', ['$scope', function($scope ) {-->
+<!--$scope.title = '这是B控制器';-->
+<!--}]);-->
+<!--app.controller('CController', ['$scope', function($scope ) {-->
+<!--$scope.title = '这是C控制器';-->
+<!--}]);-->
+
+
+<!--app.controller('CController', ['$scope', function($scope) {-->
+<!--$scope.title = '这是C控制器';-->
+<!--}]);-->
+<!--</script>-->
+<!--</body>-->
+
+<!--</html>-->

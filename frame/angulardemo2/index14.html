@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body ng-app="myapp" ng-controller="demovc">
+<!--<div breadcrumb></div>-->
+<breadcrumb data="{{pathData}}"></breadcrumb>
+<breadcrumb data="{{pathData1}}"></breadcrumb>
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    var myapp = angular.module('myapp',[]);
+    myapp.controller("demovc",function ($scope) {
+        $scope.pathData = {"home":"#","itcast":"#","itheima":"#","bbs":"#"};
+        $scope.pathData1 = {"pp":"#","ww":"#","ee":"#","rr":"#"};
+    });
+    myapp.directive('breadcrumb',[function () {
+        return{
+            //E:element A:attribute
+            scope:{
+
+            },
+            restrict:'E',
+            templateUrl:'breadcrumb.html',
+            replace:true,
+            link:function (scope,element,attributes) {
+
+             scope.data = JSON.parse(attributes.data);
+            }
+        };
+    }]);
+</script>
+</body>
+</html>

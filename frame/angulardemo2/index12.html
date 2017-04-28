@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body ng-app="myapp">
+<btn primary="true" bg block></btn>
+<script src="bower_components/angular/angular.js"></script>
+<script>
+   var myapp = angular.module('myapp',[]);
+    myapp.directive('btn',[function () {
+        return{
+            scope:{
+                primary:'@',
+                lg:'@',
+                block:'@',
+            },
+            template:'<button class="btn {{primary==\'true\'?\'btn-primary\':\'\'}}">button</button>'
+        }
+    }]);
+</script>
+</body>
+</html>

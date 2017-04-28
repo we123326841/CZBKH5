@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="myapp" ng-controller="myvc">
+<input type="text" ng-model="search">
+<ul>
+    <!--<li ng-repeat="todo in todos | filter:search" >-->
+    <li ng-repeat="todo in todos | filter:{name:'张三'}" >
+        <div>{{todo.id}}</div>
+        <div>{{todo.name}}</div>
+        <div>{{todo.age}}</div>
+    </li>
+</ul>
+
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    var myapp = angular.module("myapp", []);
+    myapp.controller("myvc", function ($scope) {
+        $scope.search = "什么鬼";
+        $scope.todos = [{
+            id: 1,
+            pp:"鸡巴",
+            name: "张三",
+            age: 10
+        },
+            {
+                id: 2,
+                name: "张鸡巴",
+                age: 10
+            },
+            {
+                id: 3,
+                name: "张蝻子",
+                age: 10
+            }];
+    });
+</script>
+</body>
+</html>

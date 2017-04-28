@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="myapp" ng-controller="mynv">
+
+<div>{{1032134 | currency}}</div>
+
+<div>{{128842321321 | date:'fullDate'}}</div>
+<input type="text"  ng-model="json.name"/>
+<div>{{json}}</div>
+<div>{{json | json}}</div>
+<pre>{{json}}</pre>
+<pre>{{json | json}}</pre>//默认是4个
+<pre>{{json | json:8}}</pre>
+
+
+
+<p>{{"nameproexixixi" | limitTo:2:5}}</p>
+<p>{{text}}</p>
+<p>{{3.141592681032| number:20}}</p>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="angular-locale_zh-cn.js"></script>
+
+<script>
+    var myapp = angular.module("myapp",[]);
+    myapp.controller("mynv",['$scope','$filter',function ($scope,$filter) {
+        $scope.json = {
+            name:"浩爹",
+            show:{id:1,time:"中午"},
+            lists:[{id:1,time:"中午"},{id:1,time:"中午"},{id:1,time:"中午"}]
+
+        };
+
+
+        $scope.text = $filter("limitTo")("婊子养的东西字",2,3);
+    }]);
+    
+</script>
+</body>
+</html>

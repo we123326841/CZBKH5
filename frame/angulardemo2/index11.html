@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-app="myapp">
+<my-button></my-button>
+
+
+
+
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    var myapp = angular.module("myapp",[]);
+    myapp.directive('myButton',[function () {
+        return{
+        template:'<input type="button" value="itcast" class="btn btn-lg btn-primary btn-block"/>'};
+    }]);
+</script>
+</body>
+</html>

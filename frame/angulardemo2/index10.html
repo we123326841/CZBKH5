@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app>
+
+<select ng-model="selected">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select>
+
+
+<div ng-switch="selected">
+    <div ng-switch-when="1">
+        1
+    </div>
+
+    <div ng-switch-when="2">
+        2
+    </div>
+
+    <div ng-switch-when="3">
+        3
+    </div>
+
+    <div ng-switch-default="">
+        什么都没有选
+    </div>
+</div>
+
+
+
+
+<input type="checkbox" ng-checked="true"/>
+<input type="checkbox" ng-model="false"/>
+
+
+
+<input type="checkbox" ng-model="selecthh"/>
+
+
+<input type="checkbox" ng-checked="selecthh"/>
+<input type="checkbox" ng-checked="selecthh"/>
+<input type="checkbox" ng-checked="selecthh"/>
+<input type="checkbox" ng-checked="selecthh"/>
+
+<input type="checkbox" ng-model="selecthh"/>
+<input type="checkbox" ng-model="selecthh"/>
+<input type="checkbox" ng-model="selecthh"/>
+<input type="checkbox" ng-model="selecthh"/>
+
+
+<script src="bower_components/angular/angular.js"></script>
+</body>
+</html>

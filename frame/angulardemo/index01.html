@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+</head>
+<body id="bodyyy" ng-app ng-init="user.name='哈哈'">
+<h1>angular实现双向数据绑定allen</h1>
+<input type="text" placeholder="请输入内容" ng-model="user.name"/>
+<p><strong>{{user.name}}</strong></p>
+<script src="bower_components/angular/angular.js"></script>
+
+
+
+<script>
+    if(typeof($("#bodyyy").attr("ng-app"))=="undefined"){
+        alert("不含有");
+    }else{
+        alert("含有");
+    }
+
+    function St() {
+
+    }
+
+
+    var s = new St();
+
+    function N() {
+
+    }
+
+
+
+    N.prototype = new St();
+    var n = new N();
+    console.log(s.__proto__ === St.prototype);
+    console.log(s.__proto__.__proto__ === Object.prototype);
+
+    console.log(n.__proto__ === N.prototype);
+    console.log(n.__proto__.__proto__ === St.prototype);
+    console.log(n.__proto__.__proto__.__proto__ === Object.prototype);
+</script>
+</body>
+</html>

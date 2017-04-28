@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+</head>
+<body id="bodyyy" ng-app="myapp" ng-controller="mycontro">
+<button id="btn" ng-click=show()></button>
+<h1>angular实现双向数据绑定allen</h1>
+<input type="text" placeholder="请输入内容" ng-model="user.name"/>
+<p><strong>{{user.name}}</strong></p>
+<script src="bower_components/angular/angular.js"></script>
+
+
+<script>
+    var app = angular.module("myapp",[]);
+    app.controller("mycontro",["$scope",function (a) {
+        console.log(a);
+        a.user = {};
+        a.show = function () {
+            console.log(a.user);
+            a.user.name = "什么鸡巴";
+        }
+        a.user.name  = "xiaoming";
+    }])
+</script>
+</body>
+</html>

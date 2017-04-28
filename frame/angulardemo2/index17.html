@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn"></button>
+<script>
+    var btn = document.getElementById("btn");
+    btn.onclick = function () {
+        d.name = "鸡巴";
+    }
+    function Demo() {
+        this.name = "张三"
+    }
+
+
+
+    var d =new Demo();
+    console.log(d.name);
+
+</script>
+</body>
+</html>

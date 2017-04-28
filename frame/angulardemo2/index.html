@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{'那么'}}
+
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    String.prototype.startWith=function(str){
+        var reg=new RegExp("^"+str);
+        return reg.test(this);
+    }
+    console.log("sasa".startWith("s"));
+</script>
+</body>
+</html>
