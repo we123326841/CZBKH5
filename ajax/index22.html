@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="index22.js"></script>
+</head>
+<body>
+<div id="divid"></div>
+<script>
+
+    var divid = document.getElementById("divid");
+    $jsonp("http://api.douban.com/v2/movie/in_theaters",
+            {count:2,
+             start:5},
+            function (data) {
+        console.log("data==="+data);
+                divid.innerHTML = JSON.stringify(data);
+    });
+
+
+    function dddd(data) {
+        console.log("哈哈");
+//        data();
+        window.data1();
+    }
+
+    function data1() {alert("哦哦");
+    }
+    window.dddd(data1);
+</script>
+</body>
+</html>

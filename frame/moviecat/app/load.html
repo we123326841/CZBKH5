@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+	function $script(loadStr,callback) {
+		var scriptEle = document.createElement("script");
+		scriptEle.src = loadStr;
+		document.head.appendChild(scriptEle);
+		scriptEle.addEventListener("load",function () {
+			callback();
+		});
+	}
+
+
+
+	$script("test.js",function () {
+		console.log("加载完毕");
+	})
+	console.log("什么什么");
+
+
+
+</script>
+</body>
+</html>

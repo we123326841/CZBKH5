@@ -1,0 +1,223 @@
+{
+  "count": 3,
+  "start": 5,
+  "total": 17,
+  "subjects": [
+	{
+	  "rating": {
+		"max": 10,
+		"average": 6.5,
+		"stars": "35",
+		"min": 0
+	  },
+	  "genres": [
+		"喜剧",
+		"动画",
+		"奇幻"
+	  ],
+	  "title": "蓝精灵：寻找神秘村",
+	  "casts": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1040983/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/414.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/414.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/414.jpg"
+		  },
+		  "name": "黛米·洛瓦托",
+		  "id": "1040983"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1004593/",
+		  "avatars": {
+			"small": "http://img3.doubanio.com/img/celebrity/small/9747.jpg",
+			"large": "http://img3.doubanio.com/img/celebrity/large/9747.jpg",
+			"medium": "http://img3.doubanio.com/img/celebrity/medium/9747.jpg"
+		  },
+		  "name": "雷恩·威尔森",
+		  "id": "1004593"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1013768/",
+		  "avatars": {
+			"small": "http://img3.doubanio.com/img/celebrity/small/57068.jpg",
+			"large": "http://img3.doubanio.com/img/celebrity/large/57068.jpg",
+			"medium": "http://img3.doubanio.com/img/celebrity/medium/57068.jpg"
+		  },
+		  "name": "乔·曼根尼罗",
+		  "id": "1013768"
+		}
+	  ],
+	  "collect_count": 4076,
+	  "original_title": "Smurfs: The Lost Village",
+	  "subtype": "movie",
+	  "directors": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1014327/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/1359185145.13.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/1359185145.13.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/1359185145.13.jpg"
+		  },
+		  "name": "凯利·阿斯博瑞",
+		  "id": "1014327"
+		}
+	  ],
+	  "year": "2017",
+	  "images": {
+		"small": "http://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2443742358.jpg",
+		"large": "http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2443742358.jpg",
+		"medium": "http://img3.doubanio.com/view/movie_poster_cover/spst/public/p2443742358.jpg"
+	  },
+	  "alt": "https://movie.douban.com/subject/19899718/",
+	  "id": "19899718"
+	},
+	{
+	  "rating": {
+		"max": 10,
+		"average": 5.4,
+		"stars": "30",
+		"min": 0
+	  },
+	  "genres": [
+		"喜剧",
+		"爱情"
+	  ],
+	  "title": "傲娇与偏见",
+	  "casts": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1325127/",
+		  "avatars": {
+			"small": "http://img3.doubanio.com/img/celebrity/small/1444793414.16.jpg",
+			"large": "http://img3.doubanio.com/img/celebrity/large/1444793414.16.jpg",
+			"medium": "http://img3.doubanio.com/img/celebrity/medium/1444793414.16.jpg"
+		  },
+		  "name": "迪丽热巴",
+		  "id": "1325127"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1326059/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/1464489389.73.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/1464489389.73.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/1464489389.73.jpg"
+		  },
+		  "name": "张云龙",
+		  "id": "1326059"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1337794/",
+		  "avatars": {
+			"small": "http://img3.doubanio.com/img/celebrity/small/1425738424.28.jpg",
+			"large": "http://img3.doubanio.com/img/celebrity/large/1425738424.28.jpg",
+			"medium": "http://img3.doubanio.com/img/celebrity/medium/1425738424.28.jpg"
+		  },
+		  "name": "高伟光",
+		  "id": "1337794"
+		}
+	  ],
+	  "collect_count": 7355,
+	  "original_title": "傲娇与偏见",
+	  "subtype": "movie",
+	  "directors": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1321164/",
+		  "avatars": {
+			"small": "http://img3.doubanio.com/img/celebrity/small/50186.jpg",
+			"large": "http://img3.doubanio.com/img/celebrity/large/50186.jpg",
+			"medium": "http://img3.doubanio.com/img/celebrity/medium/50186.jpg"
+		  },
+		  "name": "李海蜀",
+		  "id": "1321164"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1321340/",
+		  "avatars": {
+			"small": "http://img3.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+			"large": "http://img7.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+			"medium": "http://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+		  },
+		  "name": "黄彦威",
+		  "id": "1321340"
+		}
+	  ],
+	  "year": "2017",
+	  "images": {
+		"small": "http://img7.doubanio.com/view/movie_poster_cover/ipst/public/p2455810613.jpg",
+		"large": "http://img7.doubanio.com/view/movie_poster_cover/lpst/public/p2455810613.jpg",
+		"medium": "http://img7.doubanio.com/view/movie_poster_cover/spst/public/p2455810613.jpg"
+	  },
+	  "alt": "https://movie.douban.com/subject/26644002/",
+	  "id": "26644002"
+	},
+	{
+	  "rating": {
+		"max": 10,
+		"average": 0,
+		"stars": "00",
+		"min": 0
+	  },
+	  "genres": [
+		"惊悚",
+		"恐怖"
+	  ],
+	  "title": "午夜惊魂路",
+	  "casts": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1359998/",
+		  "avatars": {
+			"small": "http://img3.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+			"large": "http://img7.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+			"medium": "http://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+		  },
+		  "name": "曾帅",
+		  "id": "1359998"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1323524/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/1450200716.95.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/1450200716.95.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/1450200716.95.jpg"
+		  },
+		  "name": "王良",
+		  "id": "1323524"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1353664/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/1451208264.72.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/1451208264.72.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/1451208264.72.jpg"
+		  },
+		  "name": "苗青",
+		  "id": "1353664"
+		}
+	  ],
+	  "collect_count": 52,
+	  "original_title": "午夜惊魂路",
+	  "subtype": "movie",
+	  "directors": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1323524/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/1450200716.95.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/1450200716.95.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/1450200716.95.jpg"
+		  },
+		  "name": "王良",
+		  "id": "1323524"
+		}
+	  ],
+	  "year": "2017",
+	  "images": {
+		"small": "http://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2455927078.jpg",
+		"large": "http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2455927078.jpg",
+		"medium": "http://img3.doubanio.com/view/movie_poster_cover/spst/public/p2455927078.jpg"
+	  },
+	  "alt": "https://movie.douban.com/subject/26895979/",
+	  "id": "26895979"
+	}
+  ],
+  "title": "正在上映的电影-北京"
+}

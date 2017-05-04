@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function he(a,callback) {
+            console.log(a);
+            window.callbbback = callback;
+        };
+
+        he("name",function () {
+            console.log("我是回调");
+        })
+
+        console.log("你神经病");
+
+        callbbback();
+
+
+        alert(he.toString());
+
+
+
+        var getFnName = function(callee){
+            var _callee = callee.toString().replace(/[\s\?]*/g,""),
+                    comb = _callee.length >= 50 ? 50 :_callee.length;
+            _callee = _callee.substring(0,comb);
+            var name = _callee.match(/^function([^\(]+?)\(/);
+            if(name && name[1]){
+                return name[1];
+            }
+            var caller = callee.caller,
+                    _caller = caller.toString().replace(/[\s\?]*/g,"");
+            var last = _caller.indexOf(_callee),
+                    str = _caller.substring(last-30,last);
+            name = str.match(/var([^\=]+?)\=/);
+            if(name && name[1]){
+                return name[1];
+            }
+            return "anonymous"
+        };
+
+
+        function  ee(){
+            //+++++++++++++++++++++++++++++++++
+            var fnname =getFnName(arguments.callee)
+            //+++++++++++++++++++++++++++++++++
+            alert(fnname)
+        };
+        ee();
+
+
+
+        var test = function(a, b, c) {
+            return a + b + c;
+        };
+
+        function getParameterNames(fn) {
+            if(typeof fn !== 'function') return [];
+            var COMMENTS = /((\/\/.*$)|(\/\*[\s\S]*?\*\/))/mg;
+            var code = fn.toString().replace(COMMENTS, '');
+            var result = code.slice(code.indexOf('(') + 1, code.indexOf(')'))
+                    .match(/([^\s,]+)/g);
+            return result === null
+                    ? []
+                    : result;
+        }
+        console.log(getParameterNames(test)); // ['a', 'b', 'c']
+
+
+
+
+    </script>
+</body>
+</html>
