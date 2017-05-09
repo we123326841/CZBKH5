@@ -1,0 +1,42 @@
+<ion-view view-title="Chats">
+  <ion-content>
+    <!--<ion-list>-->
+    <!--<ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">-->
+    <!--<img ng-src="{{chat.face}}">-->
+    <!--<h2>{{chat.name}}</h2>-->
+    <!--<p>{{chat.lastText}}</p>-->
+    <!--<i class="icon ion-chevron-right icon-accessory"></i>-->
+
+    <!--<ion-option-button class="button-assertive" ng-click="remove(chat)">-->
+    <!--Delete-->
+    <!--</ion-option-button>-->
+    <!--</ion-item>-->
+    <!--</ion-list>-->
+    <h1>{{namess}}</h1>
+    <ion-toggle ng-model="namess">开关那妞</ion-toggle>
+  <h1>{{ischoice.choice}}</h1>
+    <ion-radio ng-repeat="radiom in radios" ng-value="radiom" ng-model="ischoice.choice">{{radiom}}</ion-radio>
+    <ion-radio>1</ion-radio>
+    <ion-radio>2</ion-radio>
+    <ion-radio>3</ion-radio>
+    <ion-list show-delete="true" show-reorder="true">
+      <ion-item>1
+        <ion-option-button class="assertive-bg">删除</ion-option-button>
+        <ion-option-button class="assertive-bg">修改</ion-option-button>
+        <ion-delete-button>哈哈</ion-delete-button>
+        <ion-reorder-button>飒飒</ion-reorder-button>
+      </ion-item>
+
+      <ion-item>
+        <ion-checkbox ng-repeat="item in checkboxs" ng-model="item.isc">{{item.name}}</ion-checkbox>
+        <ion-checkbox ng-checked="true">2</ion-checkbox>
+        <ion-checkbox>3</ion-checkbox>
+        <ion-checkbox>4</ion-checkbox>
+      </ion-item>
+      <ion-item>
+
+      </ion-item>
+      <ion-item>4</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

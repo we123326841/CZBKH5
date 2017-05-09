@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="t1"/>
+<select id="sele">
+    <option value="+">加</option>
+    <option value="-">减</option>
+    <option value="*">乘</option>
+    <option value="/">除</option>
+</select>
+<input type="text" id="t2"/>
+<span>=</span>
+<input type="text" id="t3"/>
+<input type="submit" id="sub"/>
+
+<script>
+    //    var j = 32;
+    //    var p= (function (k) {
+    //        console.log("呵呵"+k);
+    //        return 124;
+    //    })(j);
+    //
+    //
+    //   console.log(p);
+
+
+    (function (document) {
+        var t1 = document.getElementById("t1");
+        var t2 = document.getElementById("t2");
+        var t3 = document.getElementById("t3");
+        var sele = document.getElementById("sele");
+        var sub = document.getElementById("sub");
+
+        sub.onclick = function () {
+            console.log(sele.value);
+            switch (sele.value) {
+                case "+":
+                    t3.value = calue.add(t1.value, t2.value);
+                    break;
+                case "-":
+                    t3.value = calue.subtract(t1.value, t2.value);
+                    break;
+                case "*":
+                    t3.value = calue.multiply(t1.value, t2.value);
+                    break;
+                case "/":
+                    t3.value = calue.divide(t1.value, t2.value);
+                    break;
+            }
+        };
+
+
+       var calue = (function () {
+            function add(a, b) {
+                return parseFloat(a) + parseFloat(b);
+            }
+
+            function subtract(a, b) {
+                return parseFloat(a) - parseFloat(b);
+            }
+
+            function multiply(a, b) {
+                return parseFloat(a) * parseFloat(b);
+            }
+
+            function divide(a, b) {
+                return parseFloat(a) / parseFloat(b);
+            }
+
+            return {
+                add: add,
+                subtract: subtract,
+                multiply: multiply,
+                divide: divide
+            }
+
+        })();
+
+
+    })(document);
+
+
+</script>
+</body>
+</html>

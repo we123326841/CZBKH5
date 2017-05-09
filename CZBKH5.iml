@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/LX/myproject/myApp/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/LX/myproject/myApp_sidemenu/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/LX/myproject/shoppingMall/platforms" />
+    </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

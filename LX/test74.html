@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/seajs/dist/sea.js"></script>
+</head>
+<body>
+
+<input type="text"  id="t1"/>
+<select id="sele">
+    <option value="+">加</option>
+    <option value="-">减</option>
+    <option value="*">乘</option>
+    <option value="/">除</option>
+</select>
+<input type="text"  id="t2"/>
+<span>=</span>
+<input type="text"  id="t3"/>
+<input type="submit" id="sub"/>
+ <script>
+     seajs.use('./test74.js',function (calue) {
+         console.log(calue);
+
+
+         var t1 = document.getElementById("t1");
+         var t2 = document.getElementById("t2");
+         var t3 = document.getElementById("t3");
+         var sele = document.getElementById("sele");
+         var sub = document.getElementById("sub");
+
+         sub.onclick = function () {
+             console.log(sele.value);
+             switch (sele.value) {
+                 case "+":
+                     t3.value = calue.add(t1.value, t2.value);
+                     break;
+                 case "-":
+                     t3.value = calue.subtract(t1.value, t2.value);
+                     break;
+                 case "*":
+                     t3.value = calue.multiply(t1.value, t2.value);
+                     break;
+                 case "/":
+                     t3.value = calue.divide(t1.value, t2.value);
+                     break;
+             }
+         };
+
+     });
+ </script>
+</body>
+</html>
