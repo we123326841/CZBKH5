@@ -4,488 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/canvas/index03.html" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c5fba60-aa05-4603-bfe2-54cc116e6247" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/img/ionic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/img/adam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/img/ben.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/img/ionic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/img/max.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/img/mike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/img/perry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/icon/drawable-hdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/icon/drawable-ldpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/icon/drawable-mdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/icon/drawable-xhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/icon/drawable-xxhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/icon/drawable-xxxhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-land-hdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-land-ldpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-land-mdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-land-xhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-land-xxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-land-xxxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-port-hdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-port-ldpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-port-mdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-port-xhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-port-xxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-40@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-50@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-60@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-60@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-72@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-76@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-small@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon-small@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/icon/icon@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/splash/Default-568h@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/splash/Default-667h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/splash/Default-736h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/splash/Default-Landscape-736h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/splash/Default-Landscape@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/splash/Default-Landscape~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/splash/Default-Portrait@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/splash/Default-Portrait~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/splash/Default@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/ios/splash/Default~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/resources/splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/adam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/ben.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/cart/buy-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/cart/buy-pro1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/banner_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/header-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nanz1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nanz2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nanz3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nanz4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nanz5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nanz6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nanz7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nanz8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nanz9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/category/nz9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/common/bg960@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/common/bg@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/common/focus-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/common/header-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/common/safe_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/common/shop-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/common/sprites.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/common/sprits_btm_new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/details/detail01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/goodsList/goods1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/goodsList/goods2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/goodsList/goods3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/goodsList/goods4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/goodsList/goods5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/goodsList/goods6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/goodsList/goods7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/goodsList/goods8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/goodsList/goods9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/guidePage/guide1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/guidePage/guide2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/guidePage/guide3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/guidePage/xiangdao1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/guidePage/xiangdao2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/guidePage/xiangdao3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/cp1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/cp2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/cp3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-ad-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-ad-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-ad-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-ad-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-ad-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-ad-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-headerSlide-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-headerSlide-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-headerSlide-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-headerSlide-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-headerSlide-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-theme-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-theme-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-theme-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/home-toutiao.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/nav0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/nav1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/nav2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/nav3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/nav4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/nav5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/nav6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/nav7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/scroll-to-top-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/seckill-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/seckill_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/home/sprites.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/ionic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/max.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/mike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/img/perry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/.idea/myApp_sidemenu.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/hooks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/hooks/after_prepare/010_add_platform_class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/ionic.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/scss/ionic.app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/css/ionic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/css/ionic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/angular-ui/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/angular/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/angular/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/angular/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/angular/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/angular/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/angular/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/ionic-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/ionic-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/ionic.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/ionic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/js/ionic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_action-sheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_backdrop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_button-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_checkbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_items.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_loading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_platform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_radio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_refresher.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_slide-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_slides.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_spinner.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_toggle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_util.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/ionic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/scss/ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/lib/ionic/version.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/templates/browse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/templates/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/templates/playlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/templates/playlists.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_sidemenu/www/templates/search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/.idea/myApp_tabs.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/hooks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/hooks/after_prepare/010_add_platform_class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/ionic.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/scss/ionic.app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/css/ionic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/css/ionic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/angular-ui/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/angular/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/angular/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/angular/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/angular/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/angular/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/angular/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/ionic-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/ionic-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/ionic.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/ionic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/js/ionic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_action-sheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_backdrop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_button-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_checkbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_items.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_loading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_platform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_radio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_refresher.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_slide-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_slides.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_spinner.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_toggle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_util.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/ionic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/scss/ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/lib/ionic/version.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/templates/chat-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/templates/tab-account.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/templates/tab-chats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/templates/tab-dash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/myApp_tabs/www/templates/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/.idea/shoppingMall.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/hooks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/hooks/after_prepare/010_add_platform_class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/ionic.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/scss/ionic.app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/account/account.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/account/account_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/account/account_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/account/account_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/canvas/canvas.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/canvas/canvas_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/canvas/canvas_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/canvas/canvas_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/cart/cart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/cart/cart_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/cart/cart_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/cart/cart_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/category/category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/category/category2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/category/category_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/category/category_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/category/category_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/common/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/common/indexdb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/details/details.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/details/details_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/details/details_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/details/details_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/goodsList/goodsList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/goodsList/goodsList_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/goodsList/goodsList_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/goodsList/goodsList_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/guidePage/guidePage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/guidePage/guidePage_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/guidePage/guidePage_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/guidePage/guidePage_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/home/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/home/home_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/home/home_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/home/home_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/login/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/login/login_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/login/login_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/login/login_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/search/search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/search/search_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/search/search_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/search/search_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/tab/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/tab/tabs_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/tab/tabs_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/css/account/account.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/css/cart/cart.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/css/category/category.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/css/details/details.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/css/goodsList/goodsList.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/css/guidePage/guidePage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/css/home/home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/css/login/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/css/ionic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/css/ionic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/angular-ui/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/angular/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/angular/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/angular/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/angular/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/angular/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/angular/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/ionic-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/ionic-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/ionic.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/ionic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/js/ionic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_action-sheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_backdrop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_button-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_checkbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_items.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_loading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_platform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_radio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_refresher.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_slide-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_slides.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_spinner.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_toggle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_util.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/ionic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/scss/ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/lib/ionic/version.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/templates/chat-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/templates/tab-account.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/templates/tab-chats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/myproject/shoppingMall/www/templates/tab-dash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/pagein.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test71.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test72.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test73.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test74.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test74.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test75.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test75.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LX/test799.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CZBKH5.iml" afterPath="$PROJECT_DIR$/CZBKH5.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LX/test70.html" afterPath="$PROJECT_DIR$/LX/test70.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/index16.html" afterPath="$PROJECT_DIR$/frame/index16.html" />
-    </list>
+    <list default="true" id="8c5fba60-aa05-4603-bfe2-54cc116e6247" name="Default" comment="" />
     <ignored path="CZBKH5.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -539,11 +58,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test799.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test799.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LX/test799.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="route.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-315">
+              <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -559,26 +98,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/category/category.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="51" column="168" selection-start-line="51" selection-start-column="168" selection-end-line="51" selection-end-column="168" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/category/category2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -589,21 +108,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="global.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/global.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="category_route.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/category/category_route.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category_service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/category/category_service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -744,6 +265,116 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CZBKH5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CZBKH5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CZBKH5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CZBKH5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CZBKH5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CZBKH5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CZBKH5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CZBKH5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CZBKH5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CZBKH5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CZBKH5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1224,18 +855,18 @@
       <workItem from="1493955073884" duration="10689000" />
       <workItem from="1494030956236" duration="4357000" />
       <workItem from="1494208137560" duration="13339000" />
-      <workItem from="1494293341130" duration="9462000" />
+      <workItem from="1494293341130" duration="10499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1741952000" />
+    <option name="totallyTimeSpent" value="1742989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="116" width="1262" height="731" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21756648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21756648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1369,16 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1708">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1554,14 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1620,14 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/areas/home/home_controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1640,14 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -1715,6 +1312,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/myproject/shoppingMall/www/js/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
           <folding />
         </state>
       </provider>
