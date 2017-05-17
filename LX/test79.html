@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<!--<font style="font-size: 80px">你麻痹</font>-->
+<div>
+    <span>我问问</span>
+</div>
+<script>
+   var obj = {date:new Date()};
+   var obj1 = {date:function () {
+       return new Date();
+   }};
+
+   setInterval(function () {
+       console.log(obj1.date().getTime());
+       console.log(obj.date.getTime());
+   },1000);
+
+</script>
+</body>
+</html>

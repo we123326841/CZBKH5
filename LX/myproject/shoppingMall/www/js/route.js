@@ -8,7 +8,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
- angular.module('route', ['tabs.route','guidePage.route','home.route','category.route'])
+ angular.module('route', ['tabs.route','guidePage.route','home.route','category.route','goodsList.route','details.route'])
    .config(function($stateProvider, $urlRouterProvider) {
 
      // Ionic uses AngularUI Router which uses the concept of states
@@ -62,6 +62,6 @@
        // });
 
      // if none of the above states are matched, use this as the fallback
-     $urlRouterProvider.otherwise('/tab/home');
+     $urlRouterProvider.otherwise('/guidePage');
 
    });

@@ -4,8 +4,8 @@
  功  能：商品详细页面
  ******************************************************/
 angular.module('APT.details.controller', [])
-  .controller('DetailsCtrl', ['$scope', '$ionicHistory','$state','$stateParams','IndexdbJs',
-    function ($scope, $ionicHistory,$state,$stateParams,IndexdbJs) {
+  .controller('DetailsCtrl', ['$scope', '$ionicHistory','$state','$stateParams',
+    function ($scope, $ionicHistory,$state,$stateParams) {
 
     $scope.$on('$ionicView.enter', function (e) {
     });
@@ -43,29 +43,29 @@ angular.module('APT.details.controller', [])
       /**
      *加入购物车方法
      */
-    $scope.func_addToCart=function(){
-
-      //Todo:这的逻辑是选中的加入购入车,不是直接修改
-      // 设置编号
-      $scope.obj_goodsDetailInfo.goodsId= $scope.obj_goodsInfo.goodsId+ $scope.obj_goodsDetailInfo.color+ $scope.obj_goodsDetailInfo.size;
-      // 将用户选择信息存入indexdb中
-      IndexdbJs.update("cart",$scope.obj_goodsDetailInfo,function(e){
-        // 数据保存成功，购物车数量增加
-        if($scope.obj_cartCount.count){
-          $scope.obj_cartCount.count= parseInt($scope.obj_cartCount.count)+parseInt($scope.obj_goodsDetailInfo.number);
-          localStorage["cartCount"]=$scope.obj_cartCount.count;
-          // 异步的绑定需要手动调用
-          $scope.$digest();
-        }
-        else{
-          $scope.obj_cartCount.count=$scope.obj_goodsDetailInfo.number;
-          localStorage["cartCount"]=$scope.obj_cartCount.count;
-          $scope.$digest();
-        }
-      },function(e){
-        console.log(e);
-      })
-    };
+    // $scope.func_addToCart=function(){
+    //
+    //   //Todo:这的逻辑是选中的加入购入车,不是直接修改
+    //   // 设置编号
+    //   $scope.obj_goodsDetailInfo.goodsId= $scope.obj_goodsInfo.goodsId+ $scope.obj_goodsDetailInfo.color+ $scope.obj_goodsDetailInfo.size;
+    //   // 将用户选择信息存入indexdb中
+    //   IndexdbJs.update("cart",$scope.obj_goodsDetailInfo,function(e){
+    //     // 数据保存成功，购物车数量增加
+    //     if($scope.obj_cartCount.count){
+    //       $scope.obj_cartCount.count= parseInt($scope.obj_cartCount.count)+parseInt($scope.obj_goodsDetailInfo.number);
+    //       localStorage["cartCount"]=$scope.obj_cartCount.count;
+    //       // 异步的绑定需要手动调用
+    //       $scope.$digest();
+    //     }
+    //     else{
+    //       $scope.obj_cartCount.count=$scope.obj_goodsDetailInfo.number;
+    //       localStorage["cartCount"]=$scope.obj_cartCount.count;
+    //       $scope.$digest();
+    //     }
+    //   },function(e){
+    //     console.log(e);
+    //   })
+    // };
 
       // 数量加1
       $scope.jia1=function(){

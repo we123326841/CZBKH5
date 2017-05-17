@@ -13,3 +13,6 @@ function CCCat() {
         console.log(this);
     }
 }
+
+var cc = new CCCat();
+console.log(cc);

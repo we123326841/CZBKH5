@@ -1,0 +1,8 @@
+CACHE MANIFEST
+# version 1.0.4
+
+CACHE:
+  html初次尝试13.html
+
+NETWORK:
+  *

@@ -5,7 +5,7 @@ angular.module('category.route', ['APT.category.controller'])
         url: '/category',
         views: {
           'tab-category': {
-            templateUrl: 'areas/category/category2.html',
+            templateUrl: 'areas/category/category.html',
             controller: 'CategoryCtrl'
           }
         }

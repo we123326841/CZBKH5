@@ -28,7 +28,7 @@
               <span>热卖品类</span>
             </div>
             <div class="content-body">
-              <li class="content-body-list" ng-repeat="item in categoryDetailData" ui-sref="goodsList({typeNumber:1})">
+              <li class="content-body-list" ng-repeat="item in categoryDetailData" ui-sref="goodsList({typeNumber:{{item.typeNumber}}})">
                 <img image-lazy-src="{{item.src}}" alt="" image-lazy-loader="lines">
                 <span>{{item.name}}</span>
               </li>

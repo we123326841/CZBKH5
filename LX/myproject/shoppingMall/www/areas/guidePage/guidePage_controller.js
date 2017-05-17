@@ -1,4 +1,4 @@
-angular.module('guidePage.controller',[]).controller('GuidePageCtrl',function ($scope,GlobalVariable) {
+angular.module('guidePage.controller',[]).controller('GuidePageCtrl',function ($scope,GlobalVariable,$state) {
   console.log(GlobalVariable.SERVER_PATH);
   var guideSlide = new Swiper('#guideSlide', {
     pagination: '.swiper-pagination',
@@ -13,6 +13,11 @@ angular.module('guidePage.controller',[]).controller('GuidePageCtrl',function ($
       }
     }
   });
+
+
+  $scope.func_goHome = function () {
+    $state.go("tab.home");
+  }
 
 
 

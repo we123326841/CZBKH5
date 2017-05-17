@@ -26,7 +26,7 @@
     </div>
   </nav>
   <ion-content class="scroll-content">
-    <!-- 产品部分 -->
+    <!--&lt;!&ndash;&lt;!&ndash; 产品部分 &ndash;&gt;&ndash;&gt;-->
     <ion-refresher
       pulling-text="获取最新数据..."
       refreshing-text="刷新完毕"
@@ -54,7 +54,8 @@
     <div ng-hide="pms_isMoreItemsAvailable" style="text-align: center">
       <span>我去，地主家也没有余粮啊！</span>
     </div>
-    <ion-infinite-scroll on-infinite="func_loadMoreGoodsList()" distance="1%">
+    <ion-infinite-scroll ng-if="pms_isMoreItemsAvailable" on-infinite="func_loadMoreGoodsList()" distance="1%">
+    <!--<ion-infinite-scroll  on-infinite="func_loadMoreGoodsList()" distance="1%">-->
     </ion-infinite-scroll>
   </ion-content>
 </ion-view>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="#/a/dw">问问</a>
+<a href="#/打我的多哇/吊袜带无">bb</a>
+<label>鸡巴</label>
+<input type="text" id="hha"/>
+
+
+<script>
+    window.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
+    window.IDBTransaction = window.IDBTransaction || window.webkitIDBTransaction || window.msIDBTransaction;
+    window.IDBKeyRange = window.IDBKeyRange || window.webkitIDBKeyRange || window.msIDBKeyRange;
+    window.IDBCursor = window.IDBCursor || window.webkitIDBCursor || window.msIDBCursor;
+    var db = {
+        dbName: 'aptdb',
+        dbVersion: 2016, //用小数会四舍五入
+
+    };
+
+    var dbContent = window.indexedDB.open(db.dbName, db.dbVersion);
+    dbContent.onupgradeneeded = function () {
+        console.log("更新数据库");
+    };
+    dbContent.onsuccess = function () {
+        console.log("链接数据库成果");
+    };
+    dbContent.onerror = function () {
+        console.log("链接数据库失败");
+    };
+
+
+
+
+    function Demo() {
+        var i = 19;
+        function jiba() {
+            console.log(i);
+        }
+
+        return jiba;
+    }
+
+
+    var haha = Demo();
+
+    haha();
+    
+    
+    var obj = {
+        show:function () {
+            
+        }
+    }
+</script>
+</body>
+</html>

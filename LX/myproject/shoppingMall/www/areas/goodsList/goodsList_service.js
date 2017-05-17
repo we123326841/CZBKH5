@@ -1,20 +1,15 @@
-/******************************************************
- 创建人：石国庆       创建时间：2015.10.20
- 修改人：             修改时间：
- 功  能：商品列表服务
- ******************************************************/
-angular.module('APT.goodsList.service', [])
-  .factory('GoodsListFty', ['$http', '$q','GlobalVariable','$window', function ($http, $q,GlobalVariable,$window) {
+angular.module('goodsList.service', [])
+  .factory('GoodsListFty', function($http,$q) {
     return {
       // 刷新列表商品列表
-      refreshGoodsList: function (message) {
+      refreshGoodsList: function () {
         var obj_goodsListData = [
           {
             name: '澳贝琳 2015秋冬新款韩版修身显瘦中长款毛呢大衣女外套  8615  灰色 L',
             price: '198',
             haoping: '99',
             buy: '81',
-            productId:"1",
+            productId: "1",
             src: 'img/goodsList/goods1.jpg'
           },
           {
@@ -22,7 +17,7 @@ angular.module('APT.goodsList.service', [])
             price: '288',
             haoping: '100',
             buy: '253',
-            productId:"2",
+            productId: "2",
             src: 'img/goodsList/goods2.jpg'
           },
           {
@@ -30,7 +25,7 @@ angular.module('APT.goodsList.service', [])
             price: '269',
             haoping: '99',
             buy: '155',
-            productId:"3",
+            productId: "3",
             src: 'img/goodsList/goods3.jpg'
           },
           {
@@ -38,7 +33,7 @@ angular.module('APT.goodsList.service', [])
             price: '288',
             haoping: '100',
             buy: '733',
-            productId:"4",
+            productId: "4",
             src: 'img/goodsList/goods4.jpg'
           },
           {
@@ -46,7 +41,7 @@ angular.module('APT.goodsList.service', [])
             price: '289',
             haoping: '100',
             buy: '773',
-            productId:"5",
+            productId: "5",
             src: 'img/goodsList/goods5.jpg'
           },
           {
@@ -54,7 +49,7 @@ angular.module('APT.goodsList.service', [])
             price: '499',
             haoping: '100',
             buy: '6',
-            productId:"6",
+            productId: "6",
             src: 'img/goodsList/goods6.jpg'
           },
           {
@@ -62,7 +57,7 @@ angular.module('APT.goodsList.service', [])
             price: '229',
             haoping: '99',
             buy: '215',
-            productId:"7",
+            productId: "7",
             src: 'img/goodsList/goods7.jpg'
           },
           {
@@ -70,7 +65,7 @@ angular.module('APT.goodsList.service', [])
             price: '1323',
             haoping: '69',
             buy: '19',
-            productId:"8",
+            productId: "8",
             src: 'img/goodsList/goods8.jpg'
           },
           {
@@ -78,26 +73,18 @@ angular.module('APT.goodsList.service', [])
             price: '368',
             haoping: '69',
             buy: '28',
-            productId:"9",
+            productId: "9",
             src: 'img/goodsList/goods9.jpg'
           }
         ];
 
         var deferred = $q.defer();
         deferred.resolve(obj_goodsListData);
+        // deferred.reject("没有数据哦哈哈哈");
         return deferred.promise;
-
-        //var deferred = $q.defer();
-        //var url = Global.SERVER_PATH+"/WXPlatformServlet?method=mobileUserUndoTaskList&message="+message+"&loginName="+$window.localStorage['loginName']+"&platform="+Global.PLATFORM+"&module=bill&callback=JSON_CALLBACK";
-        //$http.jsonp(url).success(function (data, status, headers, config) {
-        //  deferred.resolve(data);
-        //}).error(function (data,status, headers, config) {
-        //  deferred.reject(data);
-        //});
-        //return deferred.promise;
       },
-      // 下拉加载更多列表商品列表
-      loadMoreGoodsList: function (message) {
+      //下拉加载更多列表商品列表
+      loadMoreGoodsList: function () {
         var obj_goodsListData = [
           {
             name: '澳贝琳 2015秋冬新款韩版修身显瘦中长款毛呢大衣女外套  8615  灰色 L',
@@ -167,15 +154,66 @@ angular.module('APT.goodsList.service', [])
         var deferred = $q.defer();
         deferred.resolve(obj_goodsListData);
         return deferred.promise;
+      },
+      testPromise:function(){
 
-        //var deferred = $q.defer();
-        //var url = Global.SERVER_PATH+"/WXPlatformServlet?method=mobileUserUndoTaskList&message="+message+"&loginName="+$window.localStorage['loginName']+"&platform="+Global.PLATFORM+"&module=bill&callback=JSON_CALLBACK";
-        //$http.jsonp(url).success(function (data, status, headers, config) {
-        //  deferred.resolve(data);
-        //}).error(function (data,status, headers, config) {
-        //  deferred.reject(data);
-        //});
-        //return deferred.promise;
+        console.log("5");
+        // 首先要定义一个延迟对象
+        var deferred = $q.defer();
+        // 模拟异步请求访问
+        setTimeout(function(){
+          console.log("6");
+          deferred.resolve("传智播客");
+        },10000);
+        // 返回promise对象
+        console.log(7);
+        return deferred.promise;
+      },
+      getAllData:function(){
+        console.log("这是getAllData方法");
+
+        // $http的get请求
+        $http.get("localhost:8081/areas/78").success(function(data,status,headers,config){
+
+          }).error(function(reason,status,headers,config){
+
+          });
+
+        // $http的post请求
+        $http.post("localhost:8081/areas",{typeNumber:10004}).success(function(data,status,headers,config){
+
+        }).error(function(reason,status,headers,config){
+
+        });
+
+        // $http的跨域请求访问
+        var obj={
+          a:1,
+          b:2
+        }
+        // 将对象转换成字符串
+        var pms=JSON.stringify(obj);
+        // 拼接数据请求访问地址
+        var url=Global.SERVER_PATH+"/areas?message=pms&callback=JSON_CALLBACK";
+        // 通过jsonp方式进行跨域访问
+        $http.jsonp(url).success(function(data,status,headers,config){
+
+        }).error(function(reason,status,headers,config){
+
+        });
+
+
+        // 普通jquery的写法
+        //$.get("localhost:8081/areas/78",function(result){
+        //
+        //})
+        //$.post("localhost:8081/areas/78",{},function(){
+        //
+        //})
+
+      },
+      deleteById:function(){
+        console.log("这是deleteById方法");
       }
-    }
-  }]);
+    };
+  });

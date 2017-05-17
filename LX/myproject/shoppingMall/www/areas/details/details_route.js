@@ -1,4 +1,4 @@
-angular.module('APT.details.route', ['APT.details.controller'])
+angular.module('details.route', ['APT.details.controller'])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('details', {
